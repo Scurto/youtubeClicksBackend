@@ -33,6 +33,7 @@ public class Controller {
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public void register(RegisterDto registerDto) {
-
+        System.out.println(registerDto.getEmail());
+        System.out.println(registerDto.getPassword());
     }
 }
