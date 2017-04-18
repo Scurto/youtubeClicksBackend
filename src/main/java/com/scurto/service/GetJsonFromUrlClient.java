@@ -1,7 +1,7 @@
-package com.service;
+package com.scurto.service;
 
-import com.model.SiteDto;
-import com.model.SitesDtoList;
+import com.scurto.model.SiteDto;
+import com.scurto.model.SitesDtoList;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.springframework.http.client.ClientHttpRequestFactory;

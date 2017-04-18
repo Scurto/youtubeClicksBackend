@@ -1,11 +1,12 @@
-package com.controller;
+package com.scurto.controller;
 
-import com.model.RegisterDto;
-import com.model.SiteDto;
-import com.model.TestModel;
-import com.service.MyService;
+import com.scurto.model.RegisterDto;
+import com.scurto.model.SiteDto;
+import com.scurto.model.TestModel;
+import com.scurto.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,10 +31,15 @@ public class Controller {
         return testService.getJsonFromUrl();
     }
 
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public void register(RegisterDto registerDto) {
-        System.out.println(registerDto.getEmail());
-        System.out.println(registerDto.getPassword());
+    public ResponseEntity register(@RequestBody RegisterDto registerDto) {
+        System.out.println(registerDto);
+
+        if (registerDto.getPassword().equals("1234")) {
+            return new ResponseEntity(HttpStatus.OK);
+        } else {
+            return new ResponseEntity(HttpStatus.BAD_REQUEST);
+        }
     }
 }

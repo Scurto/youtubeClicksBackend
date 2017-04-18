@@ -1,7 +1,7 @@
-package com.service;
+package com.scurto.service;
 
-import com.model.SiteDto;
-import com.model.TestModel;
+import com.scurto.model.SiteDto;
+import com.scurto.model.TestModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
