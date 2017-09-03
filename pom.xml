@@ -5,7 +5,7 @@
 
     <artifactId>spring-boot-web-thymeleaf</artifactId>
     <!--!!!!!!!!!!!!!!!!!!    IMPORTANT   !!!!!!!!!!!!!!!!!!!!-->
-    <!--<packaging>war</packaging>-->
+    <packaging>war</packaging>
     <name>Spring Boot Web Thymeleaf Example</name>
     <description>Spring Boot Web Thymeleaf Example</description>
     <url>https://www.mkyong.com</url>
