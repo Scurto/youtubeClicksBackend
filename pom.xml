@@ -3,12 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-web-thymeleaf</artifactId>
+    <artifactId>youTubeClicks</artifactId>
     <!--!!!!!!!!!!!!!!!!!!    IMPORTANT   !!!!!!!!!!!!!!!!!!!!-->
     <packaging>war</packaging>
-    <name>Spring Boot Web Thymeleaf Example</name>
-    <description>Spring Boot Web Thymeleaf Example</description>
-    <url>https://www.mkyong.com</url>
+    <name>youTubeClicks</name>
+    <description>youTubeClicks</description>
     <version>1.0</version>
 
     <parent>
