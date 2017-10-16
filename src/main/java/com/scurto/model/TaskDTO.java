@@ -13,6 +13,7 @@ public class TaskDTO implements Serializable {
     private String taskId;
     private String countOfReklama;
     private String countOfMove;
+    private String countOfVideo;
 
 
     public String getTaskId() {
@@ -37,5 +38,13 @@ public class TaskDTO implements Serializable {
 
     public void setCountOfMove(String countOfMove) {
         this.countOfMove = countOfMove;
+    }
+
+    public String getCountOfVideo() {
+        return countOfVideo;
+    }
+
+    public void setCountOfVideo(String countOfVideo) {
+        this.countOfVideo = countOfVideo;
     }
 }
