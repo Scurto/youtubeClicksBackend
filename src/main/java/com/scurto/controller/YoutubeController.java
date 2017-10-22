@@ -4,7 +4,10 @@ import com.scurto.model.TaskDTO;
 import com.scurto.model.TransferModel;
 import com.scurto.model.TransferReklamaModel;
 import com.scurto.model.Youtube;
+import com.scurto.model.YoutubeApiModel.PageInfo;
 import com.scurto.model.YoutubeApiModel.YoutubeVideoList;
+import com.scurto.model.YoutubeApiModel.YoutubeVideoModel;
+import com.scurto.model.YoutubeApiModel.YoutubeVideoModelId;
 import com.scurto.service.YoutubeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -68,6 +71,30 @@ public class YoutubeController {
         }
     }
 
+    @RequestMapping(value = "/getMixedList", method = RequestMethod.POST)
+    @ResponseBody
+    public TransferModel getReklamaListForShowWithVideo(@RequestBody TaskDTO taskDto) {
+        TransferModel transferModel = new TransferModel();
+        try {
+            YoutubeVideoList videoList = new YoutubeVideoList();
+            ArrayList<YoutubeVideoModel> items = new ArrayList<>();
+            for (String videoId : taskDto.getListOfVideo()) {
+                items.add(new YoutubeVideoModel("", new YoutubeVideoModelId("", videoId), ""));
+            }
+
+            videoList.setItems(items);
+            videoList.setPageInfo(new PageInfo(null, taskDto.getListOfVideo().size()));
+            ArrayList<String> prpearedVideoList = prepareVideoList(videoList, Integer.parseInt(taskDto.getCountOfVideo()));
+            ArrayList<TransferReklamaModel> youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove());
+            transferModel.setTransferReklamaModel(youtubeList);
+            transferModel.setTransferVideoModel(prpearedVideoList);
+
+            return transferModel;
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
     private ArrayList<String> prepareVideoList(YoutubeVideoList videoList, int listSize) {
         ArrayList<String> startVideoList = new ArrayList<>();
         ArrayList<String> prpearedVideoList = new ArrayList<>();
@@ -80,9 +107,10 @@ public class YoutubeController {
 
         Random rnd = new Random();
         for (int i = 0; i < listSize; i++) {
-            String unigKey = startVideoList.get(rnd.nextInt(startVideoList.size()));
-            startVideoList.remove(unigKey);
+            int anInt = rnd.nextInt(startVideoList.size()) + 1;
+            String unigKey = startVideoList.get(anInt);
             prpearedVideoList.add(unigKey);
+            startVideoList.remove(unigKey);
         }
 
         return prpearedVideoList;

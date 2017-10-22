@@ -1,6 +1,7 @@
 package com.scurto.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * Created by scurto on 13.10.2017.
@@ -14,6 +15,7 @@ public class TaskDTO implements Serializable {
     private String countOfReklama;
     private String countOfMove;
     private String countOfVideo;
+    private ArrayList<String> listOfVideo;
 
 
     public String getTaskId() {
@@ -46,5 +48,13 @@ public class TaskDTO implements Serializable {
 
     public void setCountOfVideo(String countOfVideo) {
         this.countOfVideo = countOfVideo;
+    }
+
+    public ArrayList<String> getListOfVideo() {
+        return listOfVideo;
+    }
+
+    public void setListOfVideo(ArrayList<String> listOfVideo) {
+        this.listOfVideo = listOfVideo;
     }
 }

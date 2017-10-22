@@ -9,6 +9,14 @@ public class YoutubeVideoModelId implements Serializable {
     private String kind;
     private String videoId;
 
+    public YoutubeVideoModelId() {
+    }
+
+    public YoutubeVideoModelId(String kind, String videoId) {
+        this.kind = kind;
+        this.videoId = videoId;
+    }
+
     public String getKind() {
         return kind;
     }

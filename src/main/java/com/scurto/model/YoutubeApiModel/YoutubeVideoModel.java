@@ -10,6 +10,15 @@ public class YoutubeVideoModel implements Serializable {
     private YoutubeVideoModelId id;
     private String kind;
 
+    public YoutubeVideoModel() {
+    }
+
+    public YoutubeVideoModel(String etag, YoutubeVideoModelId id, String kind) {
+        this.etag = etag;
+        this.id = id;
+        this.kind = kind;
+    }
+
     public String getEtag() {
         return etag;
     }

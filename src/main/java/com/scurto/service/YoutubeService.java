@@ -3,10 +3,13 @@ package com.scurto.service;
 import com.scurto.model.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -126,6 +129,23 @@ public class YoutubeService {
         }
 
         return stringSet;
+    }
+
+    public String getGclid() {
+        Document doc = null;
+        try {
+            doc = Jsoup.connect("http://www.googleadservices.com/pagead/aclk?sa=L&ai=CL5pYZBf5Vt7JDdHCzAaQ9rioBNPTpaAJi6fr1cwCwI23ARABII-3lydgpa6jhvwioAGl1PrMA8gBAqkCi1C4O9yRZD6oAwHIA8EEqgSGAU_QZb7yQmc68XRES43BmnFv7WwFuh2EO6yXlVPcp-CjYYmaJiLpDGT1Ez62ipR-tLpJMwkRX4ksXWfXHyrpWF6PJSGaDjOAWcp0fa9ms2HrI69PE4w9-ci_dYs4bfS15CAD88OaojTjVtSEa-acK4Bcht2KJ_6GSBaqn5jAiEkCRr-tujxYiAYBoAYCgAfDq4UzqAemvhvYBwE&num=1&cid=5GgQQtsb4HnWY7c17g9SpS51&sig=AOD64_2UG1wFu-Coo7ptfLnfD_RuF3I-pg&client=ca-pub-6591344393480072&adurl=http://www.amotutto.com.ua/maslo-olivkovoe-olio-di-oliva.html").get();
+//			http://www.googleadservices.com/pagead/aclk?sa=L&ai=CE3Ea0xH5VrvBMsLQWIbMi5gEh9C46wjP2J3IqgHZ2R4QASCPt5cnYKWuo4b8IqAB8ZDo0QPIAQSpAtuvLQjFc2Q-qAMBqgSJAU_QdforgDP693gblzap__W37VMG-P-6lyJJpludDxa-Sly2VejUppKx_sVlVzn2eneASTPem0i-3PiTBXuDCXfvCPs7WMQ7tXkwGbWA5PUG5g8dTCkDhjHNwK8mXmQInbxBaIcWy4wsNcrNNEHxgb7jV385InOFFx4xphpJ409zmpt7tcAtjONhiAYBoAYEgAf37pcuqAemvhvYBwA&num=1&cid=5GjuNJU5TeVzfh3jPSr5DtZ2&sig=AOD64_13YGsXGMFoT8tFggLncW46HsknqA&client=ca-pub-6591344393480072&adurl=http://oiler.com.ua/sto/
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String baseUri = doc.baseUri();
+        int index = baseUri.lastIndexOf("gclid=");
+        String gclid = baseUri.substring(index+6, baseUri.length());
+        System.out.println(baseUri);
+        System.out.println(gclid);
+        return gclid;
     }
 
 
