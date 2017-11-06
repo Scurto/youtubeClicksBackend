@@ -45,6 +45,18 @@ public class YoutubeService {
         return task;
     }
 
+    public String updateTask(Youtube taskForUpdate) {
+        Youtube task = getTaskById("18");
+        if (task == null) {
+            getSession().save(taskForUpdate);
+        } else {
+            task.setLastDate("23-10-2017");
+            task.setLastReklama(taskForUpdate.getLastReklama());
+            getSession().update(task);
+        }
+        return "";
+    }
+
     public List<Youtube> getReklamaListForRemove(String taskId) {
         List<Youtube> relatedTasks = new ArrayList<>();
         for (String relatedTaskId : getRelatedTasks(taskId)) {
@@ -72,7 +84,9 @@ public class YoutubeService {
         return relatedTasks;
     }
 
-    public ArrayList<TransferReklamaModel> prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove) {
+    public TransferReklamaModelWrapper prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove) {
+        TransferReklamaModelWrapper reklamaModelWrapper = new TransferReklamaModelWrapper();
+        
         int intCountOfReklama = Integer.parseInt(countOfReklama);
         int intCountOfMove = Integer.parseInt(countOfMove);
         ArrayList<String> allReklama = new ArrayList<>();
@@ -118,7 +132,10 @@ public class YoutubeService {
 
         }
 
-        return etalonReklamaForShow;
+        reklamaModelWrapper.setTransferReklamaModels(etalonReklamaForShow);
+        reklamaModelWrapper.setTransferReklamaKeys(prepareKeysValue(allReklama));
+
+        return reklamaModelWrapper;
     }
 
     public List<String> readReklamaFromTask(List<Youtube> list) {
@@ -150,17 +167,19 @@ public class YoutubeService {
 
 
 
-//    private static void prepareStringValueForDB(List<String> reklamaList) {
-//        StringBuilder stringBuilder = new StringBuilder();
-//        for (String s : reklamaList) {
-//            stringBuilder.append(s).append("/");
-//        }
-//
-//        if (stringBuilder.length() > 1) {
-//            stringBuilder.delete(stringBuilder.length() -1, stringBuilder.length());
-//            System.out.println("stringBuilder = " + stringBuilder);
-//        }
-//    }
+    private String prepareKeysValue(ArrayList<String> reklamaList) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String s : reklamaList) {
+            stringBuilder.append(s).append("/");
+        }
+
+        if (stringBuilder.length() > 1) {
+            stringBuilder.delete(stringBuilder.length() -1, stringBuilder.length());
+            System.out.println("stringBuilder = " + stringBuilder);
+        }
+
+        return stringBuilder.toString();
+    }
 //
 //
 //    public void workWithTimer() {

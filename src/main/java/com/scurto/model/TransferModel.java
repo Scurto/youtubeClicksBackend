@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class TransferModel {
     private ArrayList<TransferReklamaModel> transferReklamaModel;
     private ArrayList<String> transferVideoModel;
+    private String transferReklamaKeys;
 
     public ArrayList<TransferReklamaModel> getTransferReklamaModel() {
         return transferReklamaModel;
@@ -23,5 +24,13 @@ public class TransferModel {
 
     public void setTransferVideoModel(ArrayList<String> transferVideoModel) {
         this.transferVideoModel = transferVideoModel;
+    }
+
+    public String getTransferReklamaKeys() {
+        return transferReklamaKeys;
+    }
+
+    public void setTransferReklamaKeys(String transferReklamaKeys) {
+        this.transferReklamaKeys = transferReklamaKeys;
     }
 }

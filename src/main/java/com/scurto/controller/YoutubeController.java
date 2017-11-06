@@ -1,9 +1,6 @@
 package com.scurto.controller;
 
-import com.scurto.model.TaskDTO;
-import com.scurto.model.TransferModel;
-import com.scurto.model.TransferReklamaModel;
-import com.scurto.model.Youtube;
+import com.scurto.model.*;
 import com.scurto.model.YoutubeApiModel.PageInfo;
 import com.scurto.model.YoutubeApiModel.YoutubeVideoList;
 import com.scurto.model.YoutubeApiModel.YoutubeVideoModel;
@@ -60,10 +57,7 @@ public class YoutubeController {
         TransferModel transferModel = new TransferModel();
         try {
             YoutubeVideoList videoList = getYoutubeVideoList("");
-            ArrayList<String> prpearedVideoList = prepareVideoList(videoList, Integer.parseInt(taskDto.getCountOfVideo()));
-            ArrayList<TransferReklamaModel> youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove());
-            transferModel.setTransferReklamaModel(youtubeList);
-            transferModel.setTransferVideoModel(prpearedVideoList);
+            prepareTransferModel(taskDto, transferModel, videoList);
 
             return transferModel;
         } catch (Exception ex) {
@@ -84,15 +78,42 @@ public class YoutubeController {
 
             videoList.setItems(items);
             videoList.setPageInfo(new PageInfo(null, taskDto.getListOfVideo().size()));
-            ArrayList<String> prpearedVideoList = prepareVideoList(videoList, Integer.parseInt(taskDto.getCountOfVideo()));
-            ArrayList<TransferReklamaModel> youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove());
-            transferModel.setTransferReklamaModel(youtubeList);
-            transferModel.setTransferVideoModel(prpearedVideoList);
+            prepareTransferModel(taskDto, transferModel, videoList);
 
             return transferModel;
         } catch (Exception ex) {
             return null;
         }
+    }
+
+    @RequestMapping(value = "/getGClid", method = RequestMethod.GET)
+    public String getGClid() {
+        try {
+            return service.getGclid();
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    @RequestMapping(value = "/updateTask", method = RequestMethod.POST)
+    @ResponseBody
+    public String updateTask(@RequestBody TaskDTO taskDto) {
+        try {
+            System.out.println(taskDto.getTaskId());
+            System.out.println(taskDto.getLastReklama());
+            return "";
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+
+    private void prepareTransferModel(@RequestBody TaskDTO taskDto, TransferModel transferModel, YoutubeVideoList videoList) {
+        ArrayList<String> prpearedVideoList = prepareVideoList(videoList, Integer.parseInt(taskDto.getCountOfVideo()));
+        TransferReklamaModelWrapper youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove());
+        transferModel.setTransferReklamaModel(youtubeList.getTransferReklamaModels());
+        transferModel.setTransferVideoModel(prpearedVideoList);
+        transferModel.setTransferReklamaKeys(youtubeList.getTransferReklamaKeys());
     }
 
     private ArrayList<String> prepareVideoList(YoutubeVideoList videoList, int listSize) {

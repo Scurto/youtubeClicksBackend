@@ -16,6 +16,7 @@ public class TaskDTO implements Serializable {
     private String countOfMove;
     private String countOfVideo;
     private ArrayList<String> listOfVideo;
+    private String lastReklama;
 
 
     public String getTaskId() {
@@ -56,5 +57,13 @@ public class TaskDTO implements Serializable {
 
     public void setListOfVideo(ArrayList<String> listOfVideo) {
         this.listOfVideo = listOfVideo;
+    }
+
+    public String getLastReklama() {
+        return lastReklama;
+    }
+
+    public void setLastReklama(String lastReklama) {
+        this.lastReklama = lastReklama;
     }
 }

@@ -42,18 +42,18 @@ public class ReklamaStorage {
                 )
         ));
 
-        reklamaModels.put("test1", model(
-                "http://superhotel.kiev.ua/?gclid=",
-                "superhotel.kiev.ua",
+        reklamaModels.put("liquimoly.ua", model(
+                "https://liquimoly.ua/shop/?gclid=",
+                "liquimoly.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/rules/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/kvartiry/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/oteli/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/coord/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/reserve/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/ur/","")
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Motornye_masla",""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Prisadki",""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Avtokosmetika",""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Transmissionnye_masla",""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Smazki",""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Tehnologicheskie_zhidkosti","")
                 )
         ));
 
