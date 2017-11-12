@@ -1,8 +1,10 @@
 package com.scurto.service;
 
 import com.scurto.model.*;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +12,8 @@ import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 /**
@@ -45,15 +49,36 @@ public class YoutubeService {
         return task;
     }
 
-    public String updateTask(Youtube taskForUpdate) {
-        Youtube task = getTaskById("18");
-        if (task == null) {
-            getSession().save(taskForUpdate);
-        } else {
-            task.setLastDate("23-10-2017");
-            task.setLastReklama(taskForUpdate.getLastReklama());
-            getSession().update(task);
+    public String updateTask(String taskId, String lastReklama) {
+        Youtube task = (Youtube)getTaskById(taskId);
+        LocalDate today = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MM-yyyy");
+        String stringDate = today.format(formatter);
+        Session session = sessionFactory.openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+
+            if (task == null) {
+                task = new Youtube();
+                task.setTaskId(taskId);
+                task.setLastReklama(lastReklama);
+                task.setLastDate(stringDate);
+                session.save(task);
+            } else {
+                task.setLastDate(stringDate);
+                task.setLastReklama(lastReklama);
+                session.update(task);
+            }
+
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
         }
+
         return "";
     }
 
@@ -86,7 +111,7 @@ public class YoutubeService {
 
     public TransferReklamaModelWrapper prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove) {
         TransferReklamaModelWrapper reklamaModelWrapper = new TransferReklamaModelWrapper();
-        
+
         int intCountOfReklama = Integer.parseInt(countOfReklama);
         int intCountOfMove = Integer.parseInt(countOfMove);
         ArrayList<String> allReklama = new ArrayList<>();
@@ -141,8 +166,19 @@ public class YoutubeService {
     public List<String> readReklamaFromTask(List<Youtube> list) {
 
         List<String> stringSet = new ArrayList<>();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-M-yyyy");
+
         for (Youtube youtube : list) {
-            stringSet.addAll(Arrays.asList(youtube.getLastReklama().split("/")));
+            LocalDate lastTaskDate = LocalDate.parse(youtube.getLastDate(), formatter);
+            LocalDate minusDays = LocalDate.now().minusDays(2);
+
+//            System.out.println("1 " + lastTaskDate.isAfter(minusDays));
+//            System.out.println("2 " + lastTaskDate.isBefore(minusDays));
+//            System.out.println("3 " + lastTaskDate.isEqual(minusDays));
+//            boolean after = lastTaskDate.isAfter(minusDays);
+            if (lastTaskDate.isAfter(minusDays)) {
+                stringSet.addAll(Arrays.asList(youtube.getLastReklama().split("/")));
+            }
         }
 
         return stringSet;
@@ -152,7 +188,7 @@ public class YoutubeService {
         Document doc = null;
         try {
             doc = Jsoup.connect("http://www.googleadservices.com/pagead/aclk?sa=L&ai=CL5pYZBf5Vt7JDdHCzAaQ9rioBNPTpaAJi6fr1cwCwI23ARABII-3lydgpa6jhvwioAGl1PrMA8gBAqkCi1C4O9yRZD6oAwHIA8EEqgSGAU_QZb7yQmc68XRES43BmnFv7WwFuh2EO6yXlVPcp-CjYYmaJiLpDGT1Ez62ipR-tLpJMwkRX4ksXWfXHyrpWF6PJSGaDjOAWcp0fa9ms2HrI69PE4w9-ci_dYs4bfS15CAD88OaojTjVtSEa-acK4Bcht2KJ_6GSBaqn5jAiEkCRr-tujxYiAYBoAYCgAfDq4UzqAemvhvYBwE&num=1&cid=5GgQQtsb4HnWY7c17g9SpS51&sig=AOD64_2UG1wFu-Coo7ptfLnfD_RuF3I-pg&client=ca-pub-6591344393480072&adurl=http://www.amotutto.com.ua/maslo-olivkovoe-olio-di-oliva.html").get();
-//			http://www.googleadservices.com/pagead/aclk?sa=L&ai=CE3Ea0xH5VrvBMsLQWIbMi5gEh9C46wjP2J3IqgHZ2R4QASCPt5cnYKWuo4b8IqAB8ZDo0QPIAQSpAtuvLQjFc2Q-qAMBqgSJAU_QdforgDP693gblzap__W37VMG-P-6lyJJpludDxa-Sly2VejUppKx_sVlVzn2eneASTPem0i-3PiTBXuDCXfvCPs7WMQ7tXkwGbWA5PUG5g8dTCkDhjHNwK8mXmQInbxBaIcWy4wsNcrNNEHxgb7jV385InOFFx4xphpJ409zmpt7tcAtjONhiAYBoAYEgAf37pcuqAemvhvYBwA&num=1&cid=5GjuNJU5TeVzfh3jPSr5DtZ2&sig=AOD64_13YGsXGMFoT8tFggLncW46HsknqA&client=ca-pub-6591344393480072&adurl=http://oiler.com.ua/sto/
+//       http://www.googleadservices.com/pagead/aclk?sa=L&ai=CE3Ea0xH5VrvBMsLQWIbMi5gEh9C46wjP2J3IqgHZ2R4QASCPt5cnYKWuo4b8IqAB8ZDo0QPIAQSpAtuvLQjFc2Q-qAMBqgSJAU_QdforgDP693gblzap__W37VMG-P-6lyJJpludDxa-Sly2VejUppKx_sVlVzn2eneASTPem0i-3PiTBXuDCXfvCPs7WMQ7tXkwGbWA5PUG5g8dTCkDhjHNwK8mXmQInbxBaIcWy4wsNcrNNEHxgb7jV385InOFFx4xphpJ409zmpt7tcAtjONhiAYBoAYEgAf37pcuqAemvhvYBwA&num=1&cid=5GjuNJU5TeVzfh3jPSr5DtZ2&sig=AOD64_13YGsXGMFoT8tFggLncW46HsknqA&client=ca-pub-6591344393480072&adurl=http://oiler.com.ua/sto/
         } catch (IOException e) {
             e.printStackTrace();
         }

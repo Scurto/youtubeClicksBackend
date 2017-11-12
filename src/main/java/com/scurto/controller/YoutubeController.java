@@ -101,6 +101,8 @@ public class YoutubeController {
         try {
             System.out.println(taskDto.getTaskId());
             System.out.println(taskDto.getLastReklama());
+
+            service.updateTask(taskDto.getTaskId(), taskDto.getLastReklama());
             return "";
         } catch (Exception ex) {
             return null;
