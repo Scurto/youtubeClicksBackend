@@ -9,6 +9,7 @@ public class TransferModel {
     private ArrayList<TransferReklamaModel> transferReklamaModel;
     private ArrayList<String> transferVideoModel;
     private String transferReklamaKeys;
+    private String transferChanelId;
 
     public ArrayList<TransferReklamaModel> getTransferReklamaModel() {
         return transferReklamaModel;
@@ -32,5 +33,13 @@ public class TransferModel {
 
     public void setTransferReklamaKeys(String transferReklamaKeys) {
         this.transferReklamaKeys = transferReklamaKeys;
+    }
+
+    public String getTransferChanelId() {
+        return transferChanelId;
+    }
+
+    public void setTransferChanelId(String transferChanelId) {
+        this.transferChanelId = transferChanelId;
     }
 }

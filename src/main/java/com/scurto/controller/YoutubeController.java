@@ -1,10 +1,7 @@
 package com.scurto.controller;
 
 import com.scurto.model.*;
-import com.scurto.model.YoutubeApiModel.PageInfo;
-import com.scurto.model.YoutubeApiModel.YoutubeVideoList;
-import com.scurto.model.YoutubeApiModel.YoutubeVideoModel;
-import com.scurto.model.YoutubeApiModel.YoutubeVideoModelId;
+import com.scurto.model.YoutubeApiModel.*;
 import com.scurto.service.YoutubeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -56,7 +53,9 @@ public class YoutubeController {
     public TransferModel getReklamaListForShow(@RequestBody TaskDTO taskDto) {
         TransferModel transferModel = new TransferModel();
         try {
-            YoutubeVideoList videoList = getYoutubeVideoList("");
+            String chanelId = ChanelIdStorage.getChanelId(taskDto.getTaskId());
+            transferModel.setTransferChanelId(chanelId);
+            YoutubeVideoList videoList = getYoutubeVideoList(chanelId);
             prepareTransferModel(taskDto, transferModel, videoList);
 
             return transferModel;
@@ -70,6 +69,9 @@ public class YoutubeController {
     public TransferModel getReklamaListForShowWithVideo(@RequestBody TaskDTO taskDto) {
         TransferModel transferModel = new TransferModel();
         try {
+            String chanelId = ChanelIdStorage.getChanelId(taskDto.getTaskId());
+            transferModel.setTransferChanelId(chanelId);
+
             YoutubeVideoList videoList = new YoutubeVideoList();
             ArrayList<YoutubeVideoModel> items = new ArrayList<>();
             for (String videoId : taskDto.getListOfVideo()) {
@@ -141,15 +143,37 @@ public class YoutubeController {
 
     @RequestMapping(method=RequestMethod.GET)
     public @ResponseBody
-    YoutubeVideoList getYoutubeVideoList(String chanelId) {
-        String transactionUrl = "https://www.googleapis.com/youtube/v3/search";
-        chanelId = "UCJIbnmV8DdqOGEcl6hm-x8w";
+    YoutubeVideoList getYoutubeVideoList(String fullChanelId) {
+        String id = "";
+
+        String[] split = fullChanelId.split("/");
+        if (split[0].equalsIgnoreCase("user")) {
+            UriComponentsBuilder builder1 = UriComponentsBuilder
+                    .fromUriString("https://www.googleapis.com/youtube/v3/channels")
+                    // Add query parameter
+                    .queryParam("part", "contentDetails")
+                    .queryParam("forUsername", split[1])
+                    .queryParam("maxResults", "50")
+                    .queryParam("order", "date")
+                    .queryParam("key", "AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA");
+
+            RestTemplate restTemplate1 = new RestTemplate();
+            YoutubeVideoListByUserName youtubeVideoList1 = restTemplate1.getForObject(builder1.toUriString(), YoutubeVideoListByUserName.class);
+
+            if (youtubeVideoList1.getItems() != null && youtubeVideoList1.getItems().size() > 0) {
+                id = youtubeVideoList1.getItems().get(0).getId();
+            }
+        } else {
+            id = split[1];
+        }
+
+
         UriComponentsBuilder builder = UriComponentsBuilder
-                .fromUriString(transactionUrl)
+                .fromUriString("https://www.googleapis.com/youtube/v3/search")
                 // Add query parameter
                 .queryParam("part", "snippet")
-                .queryParam("channelId", chanelId)
-                .queryParam("maxResults", "50")
+                .queryParam("channelId", id)
+                .queryParam("maxResults", "20")
                 .queryParam("order", "date")
                 .queryParam("key", "AIzaSyD4uG1sdLHryZMwVDnUQBXXIdvGhAtGquA");
 
