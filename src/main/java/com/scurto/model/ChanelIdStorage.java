@@ -16,6 +16,8 @@ public class ChanelIdStorage {
             return "channel/UCJIbnmV8DdqOGEcl6hm-x8w";
         }  else if (taskId.equalsIgnoreCase("5")) {
             return "channel/UCJIbnmV8DdqOGEcl6hm-x8w";
+        }  else if (taskId.equalsIgnoreCase("327158")) {
+            return "user/dkdsl";
         }
         return "";
     }
