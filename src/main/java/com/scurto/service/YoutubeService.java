@@ -104,6 +104,9 @@ public class YoutubeService {
             relatedTasks.add("4");
         } else if (taskId.equalsIgnoreCase("5")) {
             relatedTasks.add("5");
+        } else if (taskId.equalsIgnoreCase("327158") || taskId.equalsIgnoreCase("437355")) {
+            relatedTasks.add("327158");
+            relatedTasks.add("437355");
         }
 
         return relatedTasks;
@@ -216,19 +219,5 @@ public class YoutubeService {
 
         return stringBuilder.toString();
     }
-//
-//
-//    public void workWithTimer() {
-//        LocalDate today = LocalDate.now();
-//        System.out.println("Current DateTime: " + today);
-//        String stringDate = today.toString();
-//        LocalDate parsedDate = LocalDate.parse(stringDate).minusDays(2);
-////        System.out.println("parsedDate: " + parsedDate.minusDays(2));
-//
-//        System.out.println("isAfter " + parsedDate.isAfter(parsedDate));
-//        System.out.println("isEqual " + parsedDate.isEqual(parsedDate));
-//        System.out.println("isAfter 2  " + today.isAfter(parsedDate));
-//    }
-
 
 }
