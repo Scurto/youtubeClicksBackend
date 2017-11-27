@@ -34,6 +34,17 @@ public class YoutubeController {
         }
     }
 
+    @RequestMapping(value = "/listAllTaskModel", method = RequestMethod.POST)
+    @ResponseBody
+    public ArrayList<TaskModel> getListYoutubeTasksId() {
+        try {
+            ArrayList<TaskModel> listYoutubeTasksId = ChanelIdStorage.getAllTaskModelArray(ChanelIdStorage.Mode.TASK_ID);
+            return listYoutubeTasksId;
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
 
     @RequestMapping(value = "/reklamaListForRemove")
     @ResponseBody

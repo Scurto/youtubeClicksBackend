@@ -107,6 +107,10 @@ public class YoutubeService {
         } else if (taskId.equalsIgnoreCase("327158") || taskId.equalsIgnoreCase("437355")) {
             relatedTasks.add("327158");
             relatedTasks.add("437355");
+        } else if (taskId.equalsIgnoreCase("437355")) {
+            relatedTasks.add("437355");
+        } else if (taskId.equalsIgnoreCase("1628076")) {
+            relatedTasks.add("1628076");
         }
 
         return relatedTasks;

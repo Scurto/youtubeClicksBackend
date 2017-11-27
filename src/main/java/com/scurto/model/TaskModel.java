@@ -11,6 +11,7 @@ public class TaskModel {
     private Integer reklamafreeze;
     private Integer videoFreeze;
     private String channelId;
+    private String strategy = "classic";
 
     public String getTaskId() {
         return taskId;
@@ -66,5 +67,13 @@ public class TaskModel {
 
     public void setCountMove(String countMove) {
         this.countMove = countMove;
+    }
+
+    public String getStrategy() {
+        return strategy;
+    }
+
+    public void setStrategy(String strategy) {
+        this.strategy = strategy;
     }
 }

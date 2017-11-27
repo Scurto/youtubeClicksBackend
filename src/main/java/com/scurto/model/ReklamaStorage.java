@@ -18,11 +18,11 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/infrastruktura-2/",""),
-                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/dokumentatsiya/",""),
-                        new SecondaryReklamaModel("http://novbud.com.ua/vyibrat-kvartiru/kommercheskaya-nedvizh-t/",""),
-                        new SecondaryReklamaModel("http://novbud.com.ua/vyibrat-kvartiru/prodazha-parkovok/",""),
-                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/o-zastroyshhike/","")
+                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/infrastruktura-2/", ""),
+                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/dokumentatsiya/", ""),
+                        new SecondaryReklamaModel("http://novbud.com.ua/vyibrat-kvartiru/kommercheskaya-nedvizh-t/", ""),
+                        new SecondaryReklamaModel("http://novbud.com.ua/vyibrat-kvartiru/prodazha-parkovok/", ""),
+                        new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/o-zastroyshhike/", "")
                 )
         ));
 
@@ -33,12 +33,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/rules/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/kvartiry/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/oteli/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/coord/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/reserve/",""),
-                        new SecondaryReklamaModel("http://superhotel.kiev.ua/ur/","")
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/rules/", ""),
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/kvartiry/", ""),
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/oteli/", ""),
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/coord/", ""),
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/reserve/", ""),
+                        new SecondaryReklamaModel("http://superhotel.kiev.ua/ur/", "")
                 )
         ));
 
@@ -48,12 +48,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Motornye_masla",""),
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Prisadki",""),
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Avtokosmetika",""),
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Transmissionnye_masla",""),
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Smazki",""),
-                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Tehnologicheskie_zhidkosti","")
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Motornye_masla", ""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Prisadki", ""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Avtokosmetika", ""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Transmissionnye_masla", ""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Smazki", ""),
+                        new SecondaryReklamaModel("https://liquimoly.ua/shop/Tehnologicheskie_zhidkosti", "")
                 )
         ));
 
@@ -63,12 +63,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/genplan.html",""),
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/kvartiry/5-ochered.html",""),
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/kotedzhi/",""),
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/gallery/",""),
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/tekh-usloviya.html",""),
-                        new SecondaryReklamaModel("https://mgorodok.com.ua/kontakty.html","")
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/genplan.html", ""),
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/kvartiry/5-ochered.html", ""),
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/kotedzhi/", ""),
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/gallery/", ""),
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/tekh-usloviya.html", ""),
+                        new SecondaryReklamaModel("https://mgorodok.com.ua/kontakty.html", "")
                 )
         ));
 
@@ -78,12 +78,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/contacts/",""),
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/methods/",""),
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/treat/",""),
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/trainers/",""),
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/vakansii/",""),
-                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/questions/","")
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/contacts/", ""),
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/methods/", ""),
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/treat/", ""),
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/trainers/", ""),
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/vakansii/", ""),
+                        new SecondaryReklamaModel("http://www.bubnovsky.com.ua/questions/", "")
                 )
         ));
 
@@ -93,12 +93,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/o-nas",""),
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/produktsiya",""),
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/kharakteristiki",""),
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/preimushchestva",""),
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/stekloplastikovaya-armatura-tsena",""),
-                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/galereya","")
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/o-nas", ""),
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/produktsiya", ""),
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/kharakteristiki", ""),
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/preimushchestva", ""),
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/stekloplastikovaya-armatura-tsena", ""),
+                        new SecondaryReklamaModel("http://stekloarmatura.com.ua/galereya", "")
                 )
         ));
 
@@ -108,12 +108,12 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("https://answear.ua/p/ona-4-k.html",""),
-                        new SecondaryReklamaModel("https://answear.ua/p/on-89-k.html",""),
-                        new SecondaryReklamaModel("https://answear.ua/p/obuv-204-k.html",""),
-                        new SecondaryReklamaModel("https://answear.ua/p/aksessuary-205-k.html",""),
-                        new SecondaryReklamaModel("https://answear.ua/brands-zhenskiye.html",""),
-                        new SecondaryReklamaModel("https://answear.ua/p/bk-6582-k.html","")
+                        new SecondaryReklamaModel("https://answear.ua/p/ona-4-k.html", ""),
+                        new SecondaryReklamaModel("https://answear.ua/p/on-89-k.html", ""),
+                        new SecondaryReklamaModel("https://answear.ua/p/obuv-204-k.html", ""),
+                        new SecondaryReklamaModel("https://answear.ua/p/aksessuary-205-k.html", ""),
+                        new SecondaryReklamaModel("https://answear.ua/brands-zhenskiye.html", ""),
+                        new SecondaryReklamaModel("https://answear.ua/p/bk-6582-k.html", "")
                 )
         ));
 
@@ -123,21 +123,125 @@ public class ReklamaStorage {
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://kobzov.ua/blog/",""),
-                        new SecondaryReklamaModel("http://kobzov.ua/faq/",""),
-                        new SecondaryReklamaModel("http://kobzov.ua/pro-tsyrk/",""),
-                        new SecondaryReklamaModel("http://kobzov.ua/contacts/",""),
-                        new SecondaryReklamaModel("http://kobzov.ua/kvytky/",""),
-                        new SecondaryReklamaModel("http://kobzov.ua/shows/cirk-recordiv/kyiv/#tickets","")
+                        new SecondaryReklamaModel("http://kobzov.ua/blog/", ""),
+                        new SecondaryReklamaModel("http://kobzov.ua/faq/", ""),
+                        new SecondaryReklamaModel("http://kobzov.ua/pro-tsyrk/", ""),
+                        new SecondaryReklamaModel("http://kobzov.ua/contacts/", ""),
+                        new SecondaryReklamaModel("http://kobzov.ua/kvytky/", ""),
+                        new SecondaryReklamaModel("http://kobzov.ua/shows/cirk-recordiv/kyiv/#tickets", "")
                 )
         ));
 
+        reklamaModels.put("grusha.ua", model(
+                "https://grusha.ua/catalog/zernovoy_kofe/?gclid=",
+                "grusha.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://grusha.ua/catalog/molotyy_kofe/", ""),
+                        new SecondaryReklamaModel("https://grusha.ua/catalog/monosorta/", ""),
+                        new SecondaryReklamaModel("https://grusha.ua/catalog/rastvorimyy_kofe/", ""),
+                        new SecondaryReklamaModel("https://grusha.ua/info/payment/", ""),
+                        new SecondaryReklamaModel("https://grusha.ua/info/delivery/", ""),
+                        new SecondaryReklamaModel("https://grusha.ua/contacts/stores/", "")
+                )
+        ));
+
+        reklamaModels.put("exist.ua", model(
+                "https://exist.ua/action-sale/?gclid=",
+                "exist.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://exist.ua/about/address.aspx", ""),
+                        new SecondaryReklamaModel("https://exist.ua/cat/TecDoc", ""),
+                        new SecondaryReklamaModel("https://exist.ua/Catalog/Goods/7", ""),
+                        new SecondaryReklamaModel("https://exist.ua/about/supplier.aspx", ""),
+                        new SecondaryReklamaModel("https://exist.ua/about/partners.aspx", ""),
+                        new SecondaryReklamaModel("https://exist.ua/about/opt/discount.aspx", "")
+                )
+        ));
+
+        reklamaModels.put("x-moda.ru", model(
+                "https://x-moda.ru/catalog?gclid=",
+                "x-moda.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://x-moda.ru/catalog/zhenschinam", ""),
+                        new SecondaryReklamaModel("https://x-moda.ru/catalog/muzhchinam", ""),
+                        new SecondaryReklamaModel("https://x-moda.ru/catalog/detyam", ""),
+                        new SecondaryReklamaModel("https://x-moda.ru/catalog/brendy", ""),
+                        new SecondaryReklamaModel("https://x-moda.ru/catalog/novinki", ""),
+                        new SecondaryReklamaModel("https://x-moda.ru/obrazy_ot_stilistov", "")
+                )
+        ));
+
+        reklamaModels.put("alser.ua", model(
+                "https://alser.ua/aktsii/?gclid=",
+                "alser.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://alser.ua/dokumenty/", ""),
+                        new SecondaryReklamaModel("https://alser.ua/kontakty/", ""),
+                        new SecondaryReklamaModel("https://alser.ua/vakansii/", ""),
+                        new SecondaryReklamaModel("https://alser.ua/otzyvy/", ""),
+                        new SecondaryReklamaModel("https://alser.ua/zhalyuzi/", ""),
+                        new SecondaryReklamaModel("https://alser.ua/shtory/", "")
+                )
+        ));
+
+        reklamaModels.put("fantastika-nn.ru", model(
+                "http://www.fantastika-nn.ru/news/event/?gclid=",
+                "fantastika-nn.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/magaziny/", ""),
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/kafe-i-restorany/", ""),
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/kinoteatr/", ""),
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/razvlecheniya/", ""),
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/uslugi/", ""),
+                        new SecondaryReklamaModel("http://www.fantastika-nn.ru/o-trts/", "")
+                )
+        ));
+
+        reklamaModels.put("rinza.ru", model(
+                "https://www.rinza.ru/?gclid=",
+                "rinza.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://www.rinza.ru/producty", ""),
+                        new SecondaryReklamaModel("https://www.rinza.ru/instrukciya", ""),
+                        new SecondaryReklamaModel("https://www.rinza.ru/symptomi", ""),
+                        new SecondaryReklamaModel("https://www.rinza.ru/lechenie-grippa-prostudi", ""),
+                        new SecondaryReklamaModel("https://www.rinza.ru/statji", ""),
+                        new SecondaryReklamaModel("https://www.rinza.ru/instrukciya/rinzasip-poroshki", "")
+                )
+        ));
+
+//        reklamaModels.put("kobzov.ua", model(
+//                "http://kobzov.ua/shows/cirk-recordiv/?gclid=",
+//                "kobzov.ua",
+//                Location.UA.getKey(),
+//                Type.REKLAMA.getKey(),
+//                createSecondaryReklama(
+//                        new SecondaryReklamaModel("",""),
+//                        new SecondaryReklamaModel("",""),
+//                        new SecondaryReklamaModel("",""),
+//                        new SecondaryReklamaModel("",""),
+//                        new SecondaryReklamaModel("",""),
+//                        new SecondaryReklamaModel("","")
+//                )
+//        ));
 
 
         return reklamaModels;
     }
 
-    private static ArrayList<SecondaryReklamaModel> createSecondaryReklama(SecondaryReklamaModel ... elements) {
+    private static ArrayList<SecondaryReklamaModel> createSecondaryReklama(SecondaryReklamaModel... elements) {
         ArrayList<SecondaryReklamaModel> list = new ArrayList<>();
         list.addAll(Arrays.asList(elements));
         return list;
@@ -145,6 +249,6 @@ public class ReklamaStorage {
 
     private static ReklamaModel model(String mainUrl, String id, String location, String type, ArrayList<SecondaryReklamaModel> list) {
 
-        return new ReklamaModel(mainUrl, id, location, type, "www."+id, list);
+        return new ReklamaModel(mainUrl, id, location, type, "www." + id, list);
     }
 }
