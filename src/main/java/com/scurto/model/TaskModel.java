@@ -8,7 +8,7 @@ public class TaskModel {
     private String countVideo;
     private String countReklama;
     private String countMove;
-    private Integer reklamafreeze;
+    private Integer reklamaFreeze;
     private Integer videoFreeze;
     private String channelId;
     private String strategy = "classic";
@@ -37,12 +37,12 @@ public class TaskModel {
         this.countReklama = countReklama;
     }
 
-    public Integer getReklamafreeze() {
-        return reklamafreeze;
+    public Integer getReklamaFreeze() {
+        return reklamaFreeze;
     }
 
-    public void setReklamafreeze(Integer reklamafreeze) {
-        this.reklamafreeze = reklamafreeze;
+    public void setReklamaFreeze(Integer reklamaFreeze) {
+        this.reklamaFreeze = reklamaFreeze;
     }
 
     public Integer getVideoFreeze() {

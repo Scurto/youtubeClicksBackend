@@ -38,7 +38,7 @@ public class YoutubeController {
     @ResponseBody
     public ArrayList<TaskModel> getListYoutubeTasksId() {
         try {
-            ArrayList<TaskModel> listYoutubeTasksId = ChanelIdStorage.getAllTaskModelArray(ChanelIdStorage.Mode.TASK_ID);
+            ArrayList<TaskModel> listYoutubeTasksId = ChanelIdStorage.getAllTaskModelArray();
             return listYoutubeTasksId;
         } catch (Exception ex) {
             return null;
@@ -102,6 +102,27 @@ public class YoutubeController {
     @RequestMapping(value = "/getGClid", method = RequestMethod.GET)
     public String getGClid() {
         try {
+            StringBuilder defUrl= new StringBuilder("www.defurl.com/");
+            Random rnd = new Random();
+
+            ArrayList<String> gclidUriAttributes = new ArrayList<>();
+            gclidUriAttributes.add("&utm_medium=gdn");
+            gclidUriAttributes.add("&utm_source=awo");
+            gclidUriAttributes.add("&utm_content=google");
+            gclidUriAttributes.add("&utm_term=" + rnd.nextInt(999999999));
+            gclidUriAttributes.add("&utm_campaign=PS_US_RMKT");
+            gclidUriAttributes.add("&utm_medium=display");
+            gclidUriAttributes.add("&promo=" + rnd.nextInt(999999999));
+
+            for (String uriAttribute : gclidUriAttributes) {
+                if (Math.round(Math.random()) > 0) {
+                    defUrl.append(uriAttribute);
+                }
+            }
+
+            defUrl.append("&gclid=");
+
+            System.out.println(defUrl);
             return service.getGclid();
         } catch (Exception ex) {
             return null;
@@ -135,7 +156,8 @@ public class YoutubeController {
         ArrayList<String> startVideoList = new ArrayList<>();
         ArrayList<String> prpearedVideoList = new ArrayList<>();
 
-        int size = (videoList.getPageInfo().getTotalResults() > 11 ? 12 : videoList.getItems().size());
+//        int size = (videoList.getPageInfo().getTotalResults() > 11 ? 12 : videoList.getItems().size());
+        int size = videoList.getItems().size();
 
         for(int i = 0; i < size; i++) {
             startVideoList.add(videoList.getItems().get(i).getId().getVideoId());

@@ -222,6 +222,54 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("hager.ua", model(
+                "http://www.hager.ua/produkciya/22123.htm?gclid=",
+                "hager.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.hager.ua/korisna-informaciya/novini/25967.htm", ""),
+                        new SecondaryReklamaModel("http://www.hager.ua/pro-kompaniyu/24123.htm", ""),
+                        new SecondaryReklamaModel("http://www.hager.ua/realizovani-proekti/21783.htm", ""),
+                        new SecondaryReklamaModel("http://www.hager.ua/kontakti/21744.htm", ""),
+                        new SecondaryReklamaModel("http://www.hager.ua/zavantazhennya/21903.htm", ""),
+                        new SecondaryReklamaModel("http://www.hager.ua/korisna-informaciya/21764.htm", "")
+                )
+        ));
+
+        reklamaModels.put("itea.ua", model(
+                "https://itea.ua/about-itea/?gclid=",
+                "itea.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://itea.ua/courses-itea/", ""),
+                        new SecondaryReklamaModel("https://itea.ua/corporate-education-schedule/", ""),
+                        new SecondaryReklamaModel("https://itea.ua/news/", ""),
+                        new SecondaryReklamaModel("https://itea.ua/premises-lease/", ""),
+                        new SecondaryReklamaModel("https://itea.ua/contacts/", ""),
+                        new SecondaryReklamaModel("https://itea.ua/consulting/", "")
+                )
+        ));
+
+        reklamaModels.put("hon.ru", model(
+                "http://www.hon.ru/?from=ad&gclid=",
+                "hon.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/st_petersburg_hotels/", ""),
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/services/", ""),
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/specials/", ""),
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/payment/", ""),
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/opinions/", ""),
+                        new SecondaryReklamaModel("http://www.hon.ru/ru/contact/", "")
+                )
+        ));
+
+//        lebedinyiy.com.ua
+//        ub-commercial.com.ua
+
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/?gclid=",
 //                "kobzov.ua",
