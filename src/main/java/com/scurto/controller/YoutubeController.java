@@ -102,15 +102,14 @@ public class YoutubeController {
     @RequestMapping(value = "/getGClid", method = RequestMethod.GET)
     public String getGClid() {
         try {
-            StringBuilder defUrl= new StringBuilder("www.defurl.com/");
             Random rnd = new Random();
+            StringBuilder defUrl= new StringBuilder("?utm_term=" + rnd.nextInt(999999999));
 
             ArrayList<String> gclidUriAttributes = new ArrayList<>();
             gclidUriAttributes.add("&utm_medium=gdn");
             gclidUriAttributes.add("&utm_source=awo");
             gclidUriAttributes.add("&utm_content=google");
-            gclidUriAttributes.add("&utm_term=" + rnd.nextInt(999999999));
-            gclidUriAttributes.add("&utm_campaign=PS_US_RMKT");
+            gclidUriAttributes.add("&utm_campaign=" + rnd.nextInt(999999999));
             gclidUriAttributes.add("&utm_medium=display");
             gclidUriAttributes.add("&promo=" + rnd.nextInt(999999999));
 
@@ -123,7 +122,8 @@ public class YoutubeController {
             defUrl.append("&gclid=");
 
             System.out.println(defUrl);
-            return service.getGclid();
+            return defUrl.toString();
+//            return service.getGclid();
         } catch (Exception ex) {
             return null;
         }

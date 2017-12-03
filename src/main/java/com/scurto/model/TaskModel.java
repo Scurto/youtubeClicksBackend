@@ -12,6 +12,7 @@ public class TaskModel {
     private Integer videoFreeze;
     private String channelId;
     private String strategy = "classic";
+    private String taskOwner;
 
     public String getTaskId() {
         return taskId;
@@ -75,5 +76,13 @@ public class TaskModel {
 
     public void setStrategy(String strategy) {
         this.strategy = strategy;
+    }
+
+    public String getTaskOwner() {
+        return taskOwner;
+    }
+
+    public void setTaskOwner(String taskOwner) {
+        this.taskOwner = taskOwner;
     }
 }

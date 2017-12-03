@@ -95,6 +95,18 @@ public class YoutubeService {
 
     public ArrayList<String> getRelatedTasks(String taskId) {
         ArrayList<String> relatedTasks = new ArrayList<>();
+        ArrayList<String> relatedTasks2 = new ArrayList<>();
+
+        HashMap<String, TaskModel> allTaskModel = ChanelIdStorage.getAllTaskModel();
+        TaskModel model = allTaskModel.get(taskId);
+        if (model != null) {
+            String taskOwner = model.getTaskOwner();
+            for (TaskModel taskModel : allTaskModel.values()) {
+                if (taskOwner.equalsIgnoreCase(taskModel.getTaskOwner())) {
+                    relatedTasks2.add(taskModel.getTaskId());
+                }
+            }
+        }
 
         if (taskId.equalsIgnoreCase("1") || taskId.equalsIgnoreCase("2")) {
             relatedTasks.add("1");
@@ -104,36 +116,39 @@ public class YoutubeService {
             relatedTasks.add("4");
         } else if (taskId.equalsIgnoreCase("5")) {
             relatedTasks.add("5");
-        } else if (taskId.equalsIgnoreCase("327158") || taskId.equalsIgnoreCase("437355") || taskId.equalsIgnoreCase("327160") || taskId.equalsIgnoreCase("327835")) {
-            relatedTasks.add("327158");
-            relatedTasks.add("437355");
-            relatedTasks.add("327160");
-            relatedTasks.add("327835");
-        } else if (taskId.equalsIgnoreCase("437355")) {
-            relatedTasks.add("437355");
-        } else if (taskId.equalsIgnoreCase("1628076")) {
-            relatedTasks.add("1628076");
-        } else if (taskId.equalsIgnoreCase("1641523")) {
-            relatedTasks.add("1641523");
-        } else if (taskId.equalsIgnoreCase("1685040") || taskId.equalsIgnoreCase("1685742")) {
-            relatedTasks.add("1685040");
-            relatedTasks.add("1685742");
-        } else if (taskId.equalsIgnoreCase("1597613")) {
-            relatedTasks.add("1597613");
-        } else if (taskId.equalsIgnoreCase("362698") || taskId.equalsIgnoreCase("677818")) {
+//        } else if (taskId.equalsIgnoreCase("327158") || taskId.equalsIgnoreCase("437355") || taskId.equalsIgnoreCase("327160") || taskId.equalsIgnoreCase("327835")) {
+//            relatedTasks.add("327158");
+//            relatedTasks.add("437355");
+//            relatedTasks.add("327160");
+//            relatedTasks.add("327835");
+//        }
+//        } else if (taskId.equalsIgnoreCase("1628076")) {
+//            relatedTasks.add("1628076");
+//        } else if (taskId.equalsIgnoreCase("1641523")) {
+//            relatedTasks.add("1641523");
+//        } else if (taskId.equalsIgnoreCase("1685040") || taskId.equalsIgnoreCase("1685742")) {
+//            relatedTasks.add("1685040");
+//            relatedTasks.add("1685742");
+//        } else if (taskId.equalsIgnoreCase("1597613")) {
+//            relatedTasks.add("1597613");
+        } else if (taskId.equalsIgnoreCase("362698") || taskId.equalsIgnoreCase("677818") || taskId.equalsIgnoreCase("695075")) {
             relatedTasks.add("362698");
             relatedTasks.add("677818");
+            relatedTasks.add("695075");
         } else if (taskId.equalsIgnoreCase("1671590")) {
             relatedTasks.add("1671590");
-        } else if (taskId.equalsIgnoreCase("1411090") || taskId.equalsIgnoreCase("1306013")) {
-            relatedTasks.add("1411090");
-            relatedTasks.add("1306013");
-        } else if (taskId.equalsIgnoreCase("1365817")) {
-            relatedTasks.add("1365817");
+//        } else if (taskId.equalsIgnoreCase("1411090") || taskId.equalsIgnoreCase("1306013")) {
+//            relatedTasks.add("1411090");
+//            relatedTasks.add("1306013");
+//        } else if (taskId.equalsIgnoreCase("1365817")) {
+//            relatedTasks.add("1365817");
+//        } else if (taskId.equalsIgnoreCase("1438352")) {
+//            relatedTasks.add("1438352");
         }
 
 
-        return relatedTasks;
+        return relatedTasks2;
+//        return relatedTasks;
     }
 
     public TransferReklamaModelWrapper prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove) {

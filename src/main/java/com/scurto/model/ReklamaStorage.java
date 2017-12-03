@@ -13,7 +13,7 @@ public class ReklamaStorage {
         HashMap<String, ReklamaModel> reklamaModels = new HashMap<>();
 
         reklamaModels.put("novbud.com.ua", model(
-                "http://novbud.com.ua/?adwords_remarketing&gclid=",
+                "http://novbud.com.ua/",
                 "novbud.com.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -28,7 +28,7 @@ public class ReklamaStorage {
 
 
         reklamaModels.put("superhotel.kiev.ua", model(
-                "http://superhotel.kiev.ua/?gclid=",
+                "http://superhotel.kiev.ua/",
                 "superhotel.kiev.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -43,7 +43,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("liquimoly.ua", model(
-                "https://liquimoly.ua/shop/?gclid=",
+                "https://liquimoly.ua/shop/",
                 "liquimoly.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -58,7 +58,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("mgorodok.com.ua", model(
-                "https://mgorodok.com.ua/?gclid=",
+                "https://mgorodok.com.ua/",
                 "mgorodok.com.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -73,7 +73,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("bubnovsky.com.ua", model(
-                "http://www.bubnovsky.com.ua/?gclid=",
+                "http://www.bubnovsky.com.ua/",
                 "bubnovsky.com.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -88,7 +88,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("stekloarmatura.com.ua", model(
-                "http://stekloarmatura.com.ua/?adwords_remarketing&gclid=",
+                "http://stekloarmatura.com.ua/",
                 "stekloarmatura.com.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -103,7 +103,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("answear.ua", model(
-                "https://answear.ua/komplekty/komplekty.html/?gclid=",
+                "https://answear.ua/komplekty/komplekty.html/",
                 "answear.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -118,7 +118,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("kobzov.ua", model(
-                "http://kobzov.ua/shows/cirk-recordiv/?gclid=",
+                "http://kobzov.ua/shows/cirk-recordiv/",
                 "kobzov.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -133,7 +133,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("grusha.ua", model(
-                "https://grusha.ua/catalog/zernovoy_kofe/?gclid=",
+                "https://grusha.ua/catalog/zernovoy_kofe/",
                 "grusha.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -148,7 +148,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("exist.ua", model(
-                "https://exist.ua/action-sale/?gclid=",
+                "https://exist.ua/action-sale/",
                 "exist.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -163,7 +163,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("x-moda.ru", model(
-                "https://x-moda.ru/catalog?gclid=",
+                "https://x-moda.ru/catalog",
                 "x-moda.ru",
                 Location.RU.getKey(),
                 Type.REKLAMA.getKey(),
@@ -178,7 +178,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("alser.ua", model(
-                "https://alser.ua/aktsii/?gclid=",
+                "https://alser.ua/aktsii/",
                 "alser.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -193,7 +193,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("fantastika-nn.ru", model(
-                "http://www.fantastika-nn.ru/news/event/?gclid=",
+                "http://www.fantastika-nn.ru/news/event/",
                 "fantastika-nn.ru",
                 Location.RU.getKey(),
                 Type.REKLAMA.getKey(),
@@ -208,7 +208,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("rinza.ru", model(
-                "https://www.rinza.ru/?gclid=",
+                "https://www.rinza.ru/",
                 "rinza.ru",
                 Location.RU.getKey(),
                 Type.REKLAMA.getKey(),
@@ -223,7 +223,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("hager.ua", model(
-                "http://www.hager.ua/produkciya/22123.htm?gclid=",
+                "http://www.hager.ua/produkciya/22123.htm",
                 "hager.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -238,7 +238,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("itea.ua", model(
-                "https://itea.ua/about-itea/?gclid=",
+                "https://itea.ua/about-itea/",
                 "itea.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
@@ -253,7 +253,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("hon.ru", model(
-                "http://www.hon.ru/?from=ad&gclid=",
+                "http://www.hon.ru/",
                 "hon.ru",
                 Location.RU.getKey(),
                 Type.REKLAMA.getKey(),
@@ -267,8 +267,54 @@ public class ReklamaStorage {
                 )
         ));
 
-//        lebedinyiy.com.ua
-//        ub-commercial.com.ua
+        reklamaModels.put("cgtarian.ru", model(
+                "http://www.cgtarian.ru/online-kursy/razrabotka-igr/game-design-ot-a-do-ya.html",
+                "cgtarian.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/cg-3d-grafika-animaciya-vfx/anonsy-novosti.html", ""),
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/cg-3d-grafika-animaciya-vfx/konkursy.html", ""),
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/online-shkola/programma-skidok.html", ""),
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/online-shkola/instruktory.html", ""),
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/online-shkola/kontakty.html", ""),
+                        new SecondaryReklamaModel("http://www.cgtarian.ru/otzyvy-studentov.html", "")
+                )
+        ));
+
+        reklamaModels.put("lebedinyiy.com.ua", model(
+                "https://lebedinyiy.com.ua/ru/technical-specifications/",
+                "lebedinyiy.com.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/option/", ""),
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/benefits/", ""),
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/galery/", ""),
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/news/", ""),
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/contacts/", ""),
+                        new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/rooms/", "")
+                )
+        ));
+
+        reklamaModels.put("ub-commercial.com.ua", model(
+                "https://ub-commercial.com.ua/objects",
+                "ub-commercial.com.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/rent", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/promotions", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/news", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/projects", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/kreditovanie", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/contacts", "")
+                )
+        ));
+
+//        diamond-gallery.com.ua
+//        ub.com.ua
+//        game-shop.com.ua
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/?gclid=",
