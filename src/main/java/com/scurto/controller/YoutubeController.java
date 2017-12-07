@@ -212,6 +212,19 @@ public class YoutubeController {
 
         RestTemplate restTemplate = new RestTemplate();
         YoutubeVideoList youtubeVideoList = restTemplate.getForObject(builder.toUriString(), YoutubeVideoList.class);
-        return youtubeVideoList;
+
+        YoutubeVideoList filteredYoutubeVideoList = new YoutubeVideoList();
+        ArrayList<YoutubeVideoModel> filteredItems = new ArrayList<>();
+        for (YoutubeVideoModel videoModel : youtubeVideoList.getItems()) {
+            if (videoModel.getId().getVideoId() != null) {
+                filteredItems.add(videoModel);
+            }
+        }
+        filteredYoutubeVideoList.setEtag(youtubeVideoList.getEtag());
+        filteredYoutubeVideoList.setKind(youtubeVideoList.getKind());
+        filteredYoutubeVideoList.setPageInfo(youtubeVideoList.getPageInfo());
+        filteredYoutubeVideoList.setItems(filteredItems);
+
+        return filteredYoutubeVideoList;
     }
 }

@@ -312,6 +312,66 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("diamond-gallery.com.ua", model(
+                "https://diamond-gallery.com.ua/content/761-programma-loyalnosti-i-deystvuushie-akcii",
+                "diamond-gallery.com.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/390-diamond-expert", ""),
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/93-ukrashenija", ""),
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/389-koltsa-dlya-pomolvki", ""),
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/40-obruchalnye-koltsa", ""),
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/content/743-spravochnik", ""),
+                        new SecondaryReklamaModel("https://diamond-gallery.com.ua/2-koltsa", "")
+                )
+        ));
+
+        reklamaModels.put("ub.com.ua", model(
+                "https://ub.com.ua/promotions",
+                "ub.com.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://ub.com.ua/corporation", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/projects", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/news", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/terms_of_purchase", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/responsibility", ""),
+                        new SecondaryReklamaModel("https://ub.com.ua/contacts", "")
+                )
+        ));
+
+        reklamaModels.put("game-shop.com.ua", model(
+                "https://game-shop.com.ua/page/news",
+                "game-shop.com.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://game-shop.com.ua/page/o_nas", ""),
+                        new SecondaryReklamaModel("https://game-shop.com.ua/page/garantija", ""),
+                        new SecondaryReklamaModel("https://game-shop.com.ua/page/oplata-i-dostavka", ""),
+                        new SecondaryReklamaModel("https://game-shop.com.ua/page/kontakti", ""),
+                        new SecondaryReklamaModel("https://game-shop.com.ua/category/igrovue-pristavki", ""),
+                        new SecondaryReklamaModel("https://game-shop.com.ua/category/aksessuaru-k-pristavkam", "")
+                )
+        ));
+
+        reklamaModels.put("sohorooms.ua", model(
+                "https://sohorooms.ua/sale",
+                "sohorooms.ua",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://sohorooms.ua/novinki", ""),
+                        new SecondaryReklamaModel("https://sohorooms.ua/brands", ""),
+                        new SecondaryReklamaModel("https://sohorooms.ua/jenskoe", ""),
+                        new SecondaryReklamaModel("https://sohorooms.ua/muzhchinam", ""),
+                        new SecondaryReklamaModel("https://sohorooms.ua/gifts", ""),
+                        new SecondaryReklamaModel("https://sohorooms.ua/muzhchinam/akseccuary", "")
+                )
+        ));
+
 //        diamond-gallery.com.ua
 //        ub.com.ua
 //        game-shop.com.ua
