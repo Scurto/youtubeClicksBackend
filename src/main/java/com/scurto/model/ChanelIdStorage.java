@@ -196,7 +196,30 @@ public class ChanelIdStorage {
                 50,
                 40,
                 "channel/UC8MYAUpyXcjIeAHfzy7ltIQ",
-                null
+                null,
+                "7276490 - giorgi"
+        ));
+        allTaskModel.put("1666434", model(
+                "1666434",
+                "5",
+                "0",
+                "0",
+                40,
+                40,
+                "channel/UCyvDm5--fW3XaTjArYRzXEA",
+                null,
+                "7276490 - giorgi"
+        ));
+        allTaskModel.put("1513673", model(
+                "1513673",
+                "2",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCFK6TD22LyG21h7buxX4O3g",
+                null,
+                "7276490 - giorgi"
         ));
         allTaskModel.put("1641523", model(
                 "1641523",
@@ -379,6 +402,18 @@ public class ChanelIdStorage {
                 "channel/UCVVmtpAp4IY5125T0rPnPzQ",
                 null,
                 "4319928 - константин"
+        ));
+
+        allTaskModel.put("1690574", model(
+                "1690574",
+                "3",
+                "0",
+                "0",
+                40,
+                40,
+                "channel/UCXJDkX877UWROZm600EbC-Q",
+                null,
+                "10593886 - Дмитрий"
         ));
 
 

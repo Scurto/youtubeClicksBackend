@@ -1,16 +1,17 @@
 package com.scurto.service;
 
 import com.scurto.model.Gclid;
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
+import org.hibernate.*;
+import org.hibernate.internal.SessionFactoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * Created by yustymenko on 13.12.2017.
@@ -44,7 +45,7 @@ public class GclidService {
             tx.commit();
 
         } catch (HibernateException e) {
-            if (tx!=null) tx.rollback();
+            if (tx != null) tx.rollback();
             e.printStackTrace();
         } finally {
             session.close();
@@ -60,10 +61,28 @@ public class GclidService {
             tx.commit();
 
         } catch (HibernateException e) {
-            if (tx!=null) tx.rollback();
+            if (tx != null) tx.rollback();
             e.printStackTrace();
         } finally {
             session.close();
         }
+    }
+
+    public List<Gclid> getAllGClids() {
+        Query query = getSession().createSQLQuery("select * from gclid");
+
+        Gclid dest;
+        ArrayList<Gclid> gclids = new ArrayList<>();
+        Iterator iterator= query.list().iterator();
+        while(iterator.hasNext()){
+            Object[] tuple= (Object[]) iterator.next();
+            dest= new Gclid();
+            dest.setId((Integer) tuple[0]);
+            dest.setGclid((String) tuple[1]);
+            dest.setTime((String) tuple[2]);
+            gclids.add(dest);
+        }
+
+        return gclids;
     }
 }
