@@ -154,18 +154,22 @@ public class YoutubeController {
 
     private ArrayList<String> prepareVideoList(YoutubeVideoList videoList, int listSize) {
         ArrayList<String> startVideoList = new ArrayList<>();
+//        ArrayList<String> startFilteredVideoList = new ArrayList<>();
         ArrayList<String> prpearedVideoList = new ArrayList<>();
+//        for (int i = 0; i < listSize; i++) {
+//            startFilteredVideoList.add(startVideoList.get(i));
+//        }
 
 //        int size = (videoList.getPageInfo().getTotalResults() > 11 ? 12 : videoList.getItems().size());
-        int size = videoList.getItems().size();
+//        int size = videoList.getItems().size();
 
-        for(int i = 0; i < size; i++) {
+        for(int i = 0; i < listSize; i++) {
             startVideoList.add(videoList.getItems().get(i).getId().getVideoId());
         }
 
         Random rnd = new Random();
         for (int i = 0; i < listSize; i++) {
-            int anInt = rnd.nextInt(startVideoList.size()) + 1;
+            int anInt = rnd.nextInt(startVideoList.size());
             String unigKey = startVideoList.get(anInt);
             prpearedVideoList.add(unigKey);
             startVideoList.remove(unigKey);

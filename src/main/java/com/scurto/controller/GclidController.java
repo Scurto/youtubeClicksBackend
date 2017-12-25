@@ -44,7 +44,7 @@ public class GclidController {
 
     @RequestMapping(value = "/getAllGclids", method = RequestMethod.POST)
     @ResponseBody
-    public String getAllGclids() {
+    public ArrayList<Gclid> getAllGclids() {
         ArrayList<String> gclidTickTimes = new ArrayList<>();
         String myTime1 = "13:06:02";
         String myTime2 = "13:07:34";
@@ -62,18 +62,24 @@ public class GclidController {
             fullAllGclid.add(gClid);
         }
 
-        for (String tickTime : gclidTickTimes) {
-            LocalDateTime localTickTime = getLocalDateTime(tickTime);
-            for (Gclid gclid : fullAllGclid) {
-                LocalDateTime plus40Seconds = localTickTime.plusSeconds(40);
-                LocalDateTime minus40Seconds = localTickTime.minusSeconds(40);
-                if (plus40Seconds.isAfter(gclid.getLocalDateTime()) && minus40Seconds.isBefore(gclid.getLocalDateTime())) {
-                    System.out.println(gclid + " -> " + "apply for " + tickTime);
-                }
-            }
+//        for (String tickTime : gclidTickTimes) {
+//            LocalDateTime localTickTime = getLocalDateTime(tickTime);
+//            for (Gclid gclid : fullAllGclid) {
+//                LocalDateTime plus40Seconds = localTickTime.plusSeconds(40);
+//                LocalDateTime minus40Seconds = localTickTime.minusSeconds(40);
+//                if (plus40Seconds.isAfter(gclid.getLocalDateTime()) && minus40Seconds.isBefore(gclid.getLocalDateTime())) {
+//                    System.out.println(gclid + " -> " + "apply for " + tickTime);
+//                }
+//            }
+//        }
+
+
+        try {
+            return fullAllGclid;
+        } catch (Exception ex) {
+            return null;
         }
 
-        return "";
     }
 
     private LocalDateTime getLocalDateTime(String tickTime) {

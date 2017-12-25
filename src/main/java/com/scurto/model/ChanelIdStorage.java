@@ -55,6 +55,17 @@ public class ChanelIdStorage {
                 "rpte",
                 "2271404 - Евгений"
         ));
+        allTaskModel.put("513328", model(
+                "513328",
+                "8",
+                "2",
+                "3",
+                40,
+                40,
+                "user/FitnessMontana",
+                "rpte",
+                "2271404 - Евгений"
+        ));
         allTaskModel.put("327835", model(
                 "327835",
                 "12",
@@ -191,7 +202,7 @@ public class ChanelIdStorage {
         allTaskModel.put("1631021", model(
                 "1631021",
                 "4",
-                "1",
+                "2",
                 "3",
                 50,
                 40,
@@ -207,6 +218,17 @@ public class ChanelIdStorage {
                 40,
                 40,
                 "channel/UCyvDm5--fW3XaTjArYRzXEA",
+                null,
+                "7276490 - giorgi"
+        ));
+        allTaskModel.put("1693658", model(
+                "1693658",
+                "5",
+                "0",
+                "0",
+                40,
+                40,
+                "channel/UCijtOtYJoUpyXBJuAuDlCLg",
                 null,
                 "7276490 - giorgi"
         ));
@@ -346,6 +368,17 @@ public class ChanelIdStorage {
                 null,
                 "9845746 - vladgrygorets"
         ));
+        allTaskModel.put("1621843", model(
+                "1621843",
+                "2",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UC0M2X8TxH7X6MKMiyVqFAWg",
+                null,
+                "9845746 - vladgrygorets"
+        ));
 
         allTaskModel.put("1519863", model(
                 "1519863",
@@ -392,6 +425,39 @@ public class ChanelIdStorage {
                 null,
                 "8338662 - Artem"
         ));
+        allTaskModel.put("1710550", model(
+                "1710550",
+                "7",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1715132", model(
+                "1715132",
+                "8",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1714618", model(
+                "1714618",
+                "7",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1003172", model(
                 "1003172",
                 "1",
@@ -415,6 +481,88 @@ public class ChanelIdStorage {
                 null,
                 "10593886 - Дмитрий"
         ));
+        allTaskModel.put("1638945", model(
+                "1638945",
+                "2",
+                "1",
+                "0",
+                40,
+                40,
+                "channel/UC0uMjs5jDTxNWPtpDYVqSfg",
+                null,
+                "8628827 - Алексей"
+        ));
+        allTaskModel.put("1512009", model(
+                "1512009",
+                "1",
+                "1",
+                "3",
+                55,
+                55,
+                "channel/UCowi5AtUatUgwYZcN7QAULw",
+                null,
+                "5901117 - евгений"
+        ));
+        allTaskModel.put("1657703", model(
+                "1657703",
+                "7",
+                "2",
+                "2",
+                45,
+                45,
+                "channel/UCxRpk1y2ombMG_0v1GSHaRw",
+                null,
+                "7655705 - ИнСтрейтик"
+        ));
+
+        allTaskModel.put("458591", model(
+                "458591",
+                "3",
+                "3",
+                "4",
+                40,
+                40,
+                "channel/UCLKUuorEvs2B9sHkO1TKYfA",
+                null,
+                "mane4ka666"
+        ));
+
+        allTaskModel.put("1677336", model(
+                "1677336",
+                "11",
+                "3",
+                "2",
+                40,
+                40,
+                "user/MultiGamewave",
+                null,
+                "7607850 - Андрей"
+        ));
+        allTaskModel.put("461054", model(
+                "461054",
+                "5",
+                "0",
+                "0",
+                40,
+                40,
+                "channel/UCBpSWqTc4qgKy4BWn7o6jcQ",
+                null,
+                "leyba5"
+        ));
+
+        allTaskModel.put("451370", model(
+                "451370",
+                "4",
+                "1",
+                "3",
+                40,
+                40,
+                "user/vivas87100",
+                null,
+                "vivas87"
+        ));
+
+
 
 
         return allTaskModel;
