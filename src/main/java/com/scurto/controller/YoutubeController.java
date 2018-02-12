@@ -121,9 +121,8 @@ public class YoutubeController {
 
             defUrl.append("&gclid=");
 
-            System.out.println(defUrl);
+//            System.out.println(defUrl);
             return defUrl.toString();
-//            return service.getGclid();
         } catch (Exception ex) {
             return null;
         }

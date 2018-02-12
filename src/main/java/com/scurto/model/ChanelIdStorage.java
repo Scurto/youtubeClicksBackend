@@ -21,6 +21,18 @@ public class ChanelIdStorage {
     public static HashMap<String, TaskModel> getAllTaskModel() {
         HashMap<String, TaskModel> allTaskModel = new HashMap<>();
 
+        allTaskModel.put("0", model(
+                "0",
+                "8",
+                "3",
+                "2",
+                10,
+                10,
+                "channel/UCJIbnmV8DdqOGEcl6hm-x8w",
+                null,
+                "test"
+        ));
+
         allTaskModel.put("1", model(
                 "1",
                 "3",
@@ -439,7 +451,7 @@ public class ChanelIdStorage {
         allTaskModel.put("1715132", model(
                 "1715132",
                 "8",
-                "2",
+                "3",
                 "2",
                 40,
                 40,
