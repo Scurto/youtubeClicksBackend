@@ -426,8 +426,41 @@ public class ChanelIdStorage {
                 null,
                 "2079971 - Mnatsakan"
         ));
+        allTaskModel.put("1764130", model(
+                "1764130",
+                "8",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1772732", model(
+                "1772732",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1689346", model(
                 "1689346",
+                "7",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1762715", model(
+                "1762715",
                 "7",
                 "2",
                 "2",
@@ -572,6 +605,28 @@ public class ChanelIdStorage {
                 "user/vivas87100",
                 null,
                 "vivas87"
+        ));
+        allTaskModel.put("1396892", model(
+                "1396892",
+                "7",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCMPf1__FICpCId_eEgcFh2Q",
+                null,
+                "6595001 - Александр"
+        ));
+        allTaskModel.put("1608647", model(
+                "1608647",
+                "2",
+                "2",
+                "3",
+                40,
+                40,
+                "channel/UCm1VsOSi1Ra3JzLeFmzvqWQ",
+                null,
+                "10652628 - Данила"
         ));
 
 
