@@ -437,8 +437,52 @@ public class ChanelIdStorage {
                 null,
                 "8338662 - Artem"
         ));
+        allTaskModel.put("1764129", model(
+                "1764129",
+                "8",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1778375", model(
+                "1778375",
+                "8",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1772732", model(
                 "1772732",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1772327", model(
+                "1772327",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1779009", model(
+                "1779009",
                 "1",
                 "1",
                 "2",
@@ -473,6 +517,17 @@ public class ChanelIdStorage {
         allTaskModel.put("1710550", model(
                 "1710550",
                 "7",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1743874", model(
+                "1743874",
+                "6",
                 "2",
                 "2",
                 40,
@@ -627,6 +682,17 @@ public class ChanelIdStorage {
                 "channel/UCm1VsOSi1Ra3JzLeFmzvqWQ",
                 null,
                 "10652628 - Данила"
+        ));
+        allTaskModel.put("783047", model(
+                "783047",
+                "1",
+                "1",
+                "3",
+                40,
+                40,
+                "channel/UCP06q5TsCnLIPx0qvlSdLrg",
+                null,
+                "2367430 - Владислав"
         ));
 
 

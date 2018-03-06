@@ -117,18 +117,31 @@ public class ReklamaStorage {
                 )
         ));
 
-        reklamaModels.put("kobzov.ua", model(
-                "http://kobzov.ua/shows/cirk-recordiv/",
-                "kobzov.ua",
+        reklamaModels.put("ub-commercial.com.ua", model(
+                "https://ub-commercial.com.ua/promotions",
+                "ub-commercial.com.ua",
                 Location.UA.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
-                        new SecondaryReklamaModel("http://kobzov.ua/blog/", ""),
-                        new SecondaryReklamaModel("http://kobzov.ua/faq/", ""),
-                        new SecondaryReklamaModel("http://kobzov.ua/pro-tsyrk/", ""),
-                        new SecondaryReklamaModel("http://kobzov.ua/contacts/", ""),
-                        new SecondaryReklamaModel("http://kobzov.ua/kvytky/", ""),
-                        new SecondaryReklamaModel("http://kobzov.ua/shows/cirk-recordiv/kyiv/#tickets", "")
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/about", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/objects", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/premises", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/rent", ""),
+                        new SecondaryReklamaModel("https://ub-commercial.com.ua/news", "")
+                )
+        ));
+
+        reklamaModels.put("atlant.build", model(
+                "https://atlant.build/novosti",
+                "atlant.build",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://atlant.build/o-kompanii/opisanie", ""),
+                        new SecondaryReklamaModel("https://atlant.build/o-kompanii/nagradyi", ""),
+                        new SecondaryReklamaModel("https://atlant.build/o-kompanii/otzyvy", ""),
+                        new SecondaryReklamaModel("https://atlant.build/kommertsiya?", ""),
+                        new SecondaryReklamaModel("https://atlant.build/o-kompanii/istoriya", "")
                 )
         ));
 
@@ -369,6 +382,34 @@ public class ReklamaStorage {
                         new SecondaryReklamaModel("https://sohorooms.ua/muzhchinam", ""),
                         new SecondaryReklamaModel("https://sohorooms.ua/gifts", ""),
                         new SecondaryReklamaModel("https://sohorooms.ua/muzhchinam/akseccuary", "")
+                )
+        ));
+
+        reklamaModels.put("www.sevgorod.ru", model(
+                "http://www.sevgorod.ru/actions/",
+                "www.sevgorod.ru",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.sevgorod.ru/objects/live/", ""),
+                        new SecondaryReklamaModel("http://www.sevgorod.ru/forbuyer/sposob/", ""),
+                        new SecondaryReklamaModel("http://www.sevgorod.ru/about/", ""),
+                        new SecondaryReklamaModel("http://www.sevgorod.ru/contacts/", ""),
+                        new SecondaryReklamaModel("http://www.sevgorod.ru/about/important/", "")
+                )
+        ));
+
+        reklamaModels.put("lioncom.pro", model(
+                "https://lioncom.pro/projects/",
+                "lioncom.pro",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://lioncom.pro/services/", ""),
+                        new SecondaryReklamaModel("https://lioncom.pro/clients/", ""),
+                        new SecondaryReklamaModel("https://lioncom.pro/agency/historic-page/", ""),
+                        new SecondaryReklamaModel("https://lioncom.pro/contacts/", ""),
+                        new SecondaryReklamaModel("https://lioncom.pro/organizatsiya-prazdnichnogo-otkrytiya/", "")
                 )
         ));
 
