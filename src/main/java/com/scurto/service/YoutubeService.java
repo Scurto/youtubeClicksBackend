@@ -82,12 +82,14 @@ public class YoutubeService {
         return "";
     }
 
-    public List<Youtube> getReklamaListForRemove(String taskId) {
+    public List<Youtube> getReklamaListForRemove(String taskId, boolean isOneTimeTask) {
         List<Youtube> relatedTasks = new ArrayList<>();
-        for (String relatedTaskId : getRelatedTasks(taskId)) {
-            Youtube relatedTaskFromDb = getTaskById(relatedTaskId);
-            if (relatedTaskFromDb != null) {
-                relatedTasks.add(relatedTaskFromDb);
+        if (!isOneTimeTask) {
+            for (String relatedTaskId : getRelatedTasks(taskId)) {
+                Youtube relatedTaskFromDb = getTaskById(relatedTaskId);
+                if (relatedTaskFromDb != null) {
+                    relatedTasks.add(relatedTaskFromDb);
+                }
             }
         }
         return relatedTasks;
@@ -151,7 +153,7 @@ public class YoutubeService {
 //        return relatedTasks;
     }
 
-    public TransferReklamaModelWrapper prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove) {
+    public TransferReklamaModelWrapper prepareReklamaListToShow(String taskId, String countOfReklama, String countOfMove, boolean isOneTime) {
         TransferReklamaModelWrapper reklamaModelWrapper = new TransferReklamaModelWrapper();
 
         int intCountOfReklama = Integer.parseInt(countOfReklama);
@@ -160,7 +162,7 @@ public class YoutubeService {
         ArrayList<TransferReklamaModel> etalonReklamaForShow = new ArrayList<>();
 
         HashMap<String, ReklamaModel> storageReklama = ReklamaStorage.getAllReklama();
-        List<Youtube> taskForRemove = getReklamaListForRemove(taskId);
+        List<Youtube> taskForRemove = getReklamaListForRemove(taskId, isOneTime);
         List<String> readReklamaFromTask = readReklamaFromTask(taskForRemove);
 
         for (String s : readReklamaFromTask) {
