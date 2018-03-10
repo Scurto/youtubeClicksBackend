@@ -50,7 +50,7 @@ public class YoutubeController {
     @ResponseBody
     public List<Youtube> getReklamaListForRemove() {
         try {
-            List<Youtube> youtubeList = service.getReklamaListForRemove("1");
+            List<Youtube> youtubeList = service.getReklamaListForRemove("1", false);
             return youtubeList;
         } catch (Exception ex) {
             return null;
@@ -67,6 +67,23 @@ public class YoutubeController {
             String chanelId = ChanelIdStorage.getChanelId(taskDto.getTaskId());
             transferModel.setTransferChanelId(chanelId);
             YoutubeVideoList videoList = getYoutubeVideoList(chanelId);
+            prepareTransferModel(taskDto, transferModel, videoList);
+
+            return transferModel;
+        } catch (Exception ex) {
+            return null;
+        }
+    }
+
+    @RequestMapping(value = "/oneTimeAdvertiseListForShow", method = RequestMethod.POST)
+    @ResponseBody
+    public TransferModel getOneTimeAdvertiseListForShow(@RequestBody TaskDTO taskDto) {
+        TransferModel transferModel = new TransferModel();
+        try {
+            String[] split = taskDto.getOneTimeChanelUrl().split("/");
+            String fullChanelId = split[3]+"/"+split[4];
+            transferModel.setTransferChanelId(fullChanelId);
+            YoutubeVideoList videoList = getYoutubeVideoList(fullChanelId);
             prepareTransferModel(taskDto, transferModel, videoList);
 
             return transferModel;
@@ -116,7 +133,7 @@ public class YoutubeController {
 
     private void prepareTransferModel(@RequestBody TaskDTO taskDto, TransferModel transferModel, YoutubeVideoList videoList) {
         ArrayList<String> prpearedVideoList = prepareVideoList(videoList, Integer.parseInt(taskDto.getCountOfVideo()));
-        TransferReklamaModelWrapper youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove());
+        TransferReklamaModelWrapper youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfReklama(), taskDto.getCountOfMove(), taskDto.getOneTimeChanelUrl() != null);
         transferModel.setTransferReklamaModel(youtubeList.getTransferReklamaModels());
         transferModel.setTransferVideoModel(prpearedVideoList);
         transferModel.setTransferReklamaKeys(youtubeList.getTransferReklamaKeys());

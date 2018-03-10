@@ -17,6 +17,7 @@ public class TaskDTO implements Serializable {
     private String countOfVideo;
     private ArrayList<String> listOfVideo;
     private String lastReklama;
+    private String oneTimeChanelUrl;
 
 
     public String getTaskId() {
@@ -65,5 +66,13 @@ public class TaskDTO implements Serializable {
 
     public void setLastReklama(String lastReklama) {
         this.lastReklama = lastReklama;
+    }
+
+    public String getOneTimeChanelUrl() {
+        return oneTimeChanelUrl;
+    }
+
+    public void setOneTimeChanelUrl(String oneTimeChanelUrl) {
+        this.oneTimeChanelUrl = oneTimeChanelUrl;
     }
 }
