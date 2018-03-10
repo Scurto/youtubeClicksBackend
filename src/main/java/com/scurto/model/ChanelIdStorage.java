@@ -246,7 +246,7 @@ public class ChanelIdStorage {
         ));
         allTaskModel.put("1513673", model(
                 "1513673",
-                "2",
+                "1",
                 "1",
                 "2",
                 40,
@@ -481,8 +481,52 @@ public class ChanelIdStorage {
                 null,
                 "8338662 - Artem"
         ));
+        allTaskModel.put("1779014", model(
+                "1779014",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1772737", model(
+                "1772737",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1779009", model(
                 "1779009",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1772734", model(
+                "1772734",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1772325", model(
+                "1772325",
                 "1",
                 "1",
                 "2",
