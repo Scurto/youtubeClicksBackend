@@ -310,21 +310,6 @@ public class ReklamaStorage {
                 )
         ));
 
-        reklamaModels.put("ub-commercial.com.ua", model(
-                "https://ub-commercial.com.ua/objects",
-                "ub-commercial.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
-                createSecondaryReklama(
-                        new SecondaryReklamaModel("https://ub-commercial.com.ua/rent", ""),
-                        new SecondaryReklamaModel("https://ub-commercial.com.ua/promotions", ""),
-                        new SecondaryReklamaModel("https://ub-commercial.com.ua/news", ""),
-                        new SecondaryReklamaModel("https://ub.com.ua/projects", ""),
-                        new SecondaryReklamaModel("https://ub-commercial.com.ua/kreditovanie", ""),
-                        new SecondaryReklamaModel("https://ub-commercial.com.ua/contacts", "")
-                )
-        ));
-
         reklamaModels.put("diamond-gallery.com.ua", model(
                 "https://diamond-gallery.com.ua/content/761-programma-loyalnosti-i-deystvuushie-akcii",
                 "diamond-gallery.com.ua",
@@ -413,12 +398,42 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("northcyprusinvest.net", model(
+                "http://northcyprusinvest.net/properties/investments/",
+                "northcyprusinvest.net",
+                Location.RU.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/properties/apartments/", ""),
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/properties/villas/", ""),
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/info/", ""),
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/properties/commercial/", ""),
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/pages/private/", ""),
+                        new SecondaryReklamaModel("http://northcyprusinvest.net/rent/", "")
+                )
+        ));
+
+        reklamaModels.put("iconiqlab.com", model(
+                "https://iconiqlab.com/",
+                "iconiqlab.com",
+                Location.UA.getKey(),
+                Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://iconiqlab.com/startups/", ""),
+                        new SecondaryReklamaModel("https://iconiqlab.com/community/", ""),
+                        new SecondaryReklamaModel("https://iconiqlab.com/about-us/", ""),
+                        new SecondaryReklamaModel("https://iconiqlab.com/events/", ""),
+                        new SecondaryReklamaModel("https://iconiqlab.com/faq/", ""),
+                        new SecondaryReklamaModel("https://iconiqlab.com/contact/", "")
+                )
+        ));
+
 //        diamond-gallery.com.ua
 //        ub.com.ua
 //        game-shop.com.ua
 
 //        reklamaModels.put("kobzov.ua", model(
-//                "http://kobzov.ua/shows/cirk-recordiv/?gclid=",
+//                "http://kobzov.ua/shows/cirk-recordiv/",
 //                "kobzov.ua",
 //                Location.UA.getKey(),
 //                Type.REKLAMA.getKey(),
