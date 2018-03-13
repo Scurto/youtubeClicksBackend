@@ -143,7 +143,7 @@ public class ReklamaStorage {
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/opisanie", ""),
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/nagradyi", ""),
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/otzyvy", ""),
-                        new SecondaryReklamaModel("https://atlant.build/kommertsiya?", ""),
+                        new SecondaryReklamaModel("https://atlant.build/kommertsiya", ""),
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/istoriya", "")
                 )
         ));
