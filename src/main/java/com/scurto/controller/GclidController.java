@@ -1,23 +1,16 @@
 package com.scurto.controller;
 
 import com.scurto.model.AutoCloseAdvertiseModel;
-import com.scurto.model.Gclid;
 import com.scurto.model.TampermonkeyModel;
 import com.scurto.service.GclidService;
-import com.scurto.service.jms.GclidJmsModel;
-import com.scurto.service.jms.GclidStorageModel;
+import com.scurto.model.GclidStorageModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jms.core.JmsTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import javax.jms.Queue;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Created by yustymenko on 13.12.2017.
@@ -29,12 +22,6 @@ public class GclidController {
 
     @Autowired
     private GclidService service;
-
-    @Autowired
-    private Queue queue;
-
-    @Autowired
-    private JmsTemplate jmsTemplate;
 
     ArrayList<GclidStorageModel> gclidStorage;
 
@@ -107,27 +94,6 @@ public class GclidController {
         } catch (Exception ex) {
             return null;
         }
-    }
-
-    @RequestMapping(value = "/callJms", method = RequestMethod.GET)
-    @ResponseBody
-    public String testJMS() {
-        for (int j = 0; j < 10; j++) {
-            int randomNum = ThreadLocalRandom.current().nextInt(0, 999999999 + 1);
-            GclidJmsModel jms = new GclidJmsModel();
-            jms.setTime(LocalDateTime.now().toString());
-            jms.setGclid(String.valueOf(randomNum));
-            jmsTemplate.convertAndSend(queue, jms);
-        }
-        return "";
-    }
-
-    @RequestMapping(value = "/getJms", method = RequestMethod.GET)
-    @ResponseBody
-    public String receiveMessage() {
-        Object message = jmsTemplate.receiveAndConvert(queue);
-        GclidJmsModel jms = (GclidJmsModel) message;
-        return "Response -> " + jms;
     }
 
     @RequestMapping(value = "/clearGcidTable", method = RequestMethod.POST)

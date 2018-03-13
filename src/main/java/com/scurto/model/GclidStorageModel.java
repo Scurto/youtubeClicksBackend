@@ -1,4 +1,4 @@
-package com.scurto.service.jms;
+package com.scurto.model;
 
 import java.time.LocalDateTime;
 

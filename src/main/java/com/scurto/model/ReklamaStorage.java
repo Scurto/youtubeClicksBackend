@@ -370,9 +370,9 @@ public class ReklamaStorage {
                 )
         ));
 
-        reklamaModels.put("www.sevgorod.ru", model(
+        reklamaModels.put("sevgorod.ru", model(
                 "http://www.sevgorod.ru/actions/",
-                "www.sevgorod.ru",
+                "sevgorod.ru",
                 Location.RU.getKey(),
                 Type.REKLAMA.getKey(),
                 createSecondaryReklama(
