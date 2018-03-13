@@ -1,7 +1,7 @@
 package com.scurto.controller;
 
 import com.scurto.model.SiteModel;
-import com.scurto.model.SitesStorage;
+import com.scurto.shared.SitesStorage;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

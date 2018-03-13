@@ -1,4 +1,6 @@
-package com.scurto.model;
+package com.scurto.shared;
+
+import com.scurto.model.TaskModel;
 
 import java.util.ArrayList;
 import java.util.HashMap;

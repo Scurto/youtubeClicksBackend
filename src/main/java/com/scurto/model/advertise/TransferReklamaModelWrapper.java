@@ -1,4 +1,4 @@
-package com.scurto.model;
+package com.scurto.model.advertise;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package com.scurto.controller;
 
-import com.scurto.model.AutoCloseAdvertiseModel;
+import com.scurto.model.advertise.AutoCloseAdvertiseModel;
 import com.scurto.model.TampermonkeyModel;
 import com.scurto.service.GclidService;
 import com.scurto.model.GclidStorageModel;

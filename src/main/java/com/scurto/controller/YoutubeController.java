@@ -2,7 +2,9 @@ package com.scurto.controller;
 
 import com.scurto.model.*;
 import com.scurto.model.YoutubeApiModel.*;
+import com.scurto.model.advertise.TransferReklamaModelWrapper;
 import com.scurto.service.YoutubeService;
+import com.scurto.shared.ChanelIdStorage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;

@@ -1,5 +1,7 @@
 package com.scurto.model;
 
+import com.scurto.model.advertise.TransferReklamaModel;
+
 import java.util.ArrayList;
 
 /**

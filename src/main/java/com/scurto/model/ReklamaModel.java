@@ -1,5 +1,7 @@
 package com.scurto.model;
 
+import com.scurto.model.advertise.SecondaryReklamaModel;
+
 import java.util.ArrayList;
 
 /**
@@ -73,35 +75,37 @@ public class ReklamaModel {
     public void setSecondaryReklamaModels(ArrayList<SecondaryReklamaModel> secondaryReklamaModels) {
         this.secondaryReklamaModels = secondaryReklamaModels;
     }
-}
 
+    public enum Location {
+        UA("ua"),
+        RU("ru");
 
+        Location(String key) {
+            this.key = key;
+        }
 
-enum Location {
-    UA("ua"),
-    RU("ru");
+        private final String key;
 
-    Location(String key) {
-        this.key = key;
+        public String getKey() {
+            return key;
+        }
     }
 
-    private final String key;
+    public enum Type {
+        REKLAMA("reklama");
 
-    public String getKey() {
-        return key;
-    }
-}
+        Type(String key) {
+            this.key = key;
+        }
 
-enum Type {
-    REKLAMA("reklama");
+        private final String key;
 
-    Type(String key) {
-        this.key = key;
-    }
-
-    private final String key;
-
-    public String getKey() {
-        return key;
+        public String getKey() {
+            return key;
+        }
     }
 }
+
+
+
+

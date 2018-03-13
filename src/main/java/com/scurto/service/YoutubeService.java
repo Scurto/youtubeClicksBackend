@@ -1,6 +1,11 @@
 package com.scurto.service;
 
 import com.scurto.model.*;
+import com.scurto.model.advertise.SecondaryReklamaModel;
+import com.scurto.model.advertise.TransferReklamaModel;
+import com.scurto.model.advertise.TransferReklamaModelWrapper;
+import com.scurto.shared.ChanelIdStorage;
+import com.scurto.shared.ReklamaStorage;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

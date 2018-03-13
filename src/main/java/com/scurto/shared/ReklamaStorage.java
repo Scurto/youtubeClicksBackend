@@ -1,4 +1,7 @@
-package com.scurto.model;
+package com.scurto.shared;
+
+import com.scurto.model.ReklamaModel;
+import com.scurto.model.advertise.SecondaryReklamaModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,8 +18,8 @@ public class ReklamaStorage {
         reklamaModels.put("novbud.com.ua", model(
                 "http://novbud.com.ua/",
                 "novbud.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/infrastruktura-2/", ""),
                         new SecondaryReklamaModel("http://novbud.com.ua/o-komplekse/dokumentatsiya/", ""),
@@ -30,8 +33,8 @@ public class ReklamaStorage {
         reklamaModels.put("superhotel.kiev.ua", model(
                 "http://superhotel.kiev.ua/",
                 "superhotel.kiev.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://superhotel.kiev.ua/rules/", ""),
                         new SecondaryReklamaModel("http://superhotel.kiev.ua/kvartiry/", ""),
@@ -45,8 +48,8 @@ public class ReklamaStorage {
         reklamaModels.put("liquimoly.ua", model(
                 "https://liquimoly.ua/shop/",
                 "liquimoly.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://liquimoly.ua/shop/Motornye_masla", ""),
                         new SecondaryReklamaModel("https://liquimoly.ua/shop/Prisadki", ""),
@@ -60,8 +63,8 @@ public class ReklamaStorage {
         reklamaModels.put("mgorodok.com.ua", model(
                 "https://mgorodok.com.ua/",
                 "mgorodok.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://mgorodok.com.ua/genplan.html", ""),
                         new SecondaryReklamaModel("https://mgorodok.com.ua/kvartiry/5-ochered.html", ""),
@@ -75,8 +78,8 @@ public class ReklamaStorage {
         reklamaModels.put("bubnovsky.com.ua", model(
                 "http://www.bubnovsky.com.ua/",
                 "bubnovsky.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.bubnovsky.com.ua/contacts/", ""),
                         new SecondaryReklamaModel("http://www.bubnovsky.com.ua/methods/", ""),
@@ -90,8 +93,8 @@ public class ReklamaStorage {
         reklamaModels.put("stekloarmatura.com.ua", model(
                 "http://stekloarmatura.com.ua/",
                 "stekloarmatura.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://stekloarmatura.com.ua/o-nas", ""),
                         new SecondaryReklamaModel("http://stekloarmatura.com.ua/produktsiya", ""),
@@ -105,8 +108,8 @@ public class ReklamaStorage {
         reklamaModels.put("answear.ua", model(
                 "https://answear.ua/komplekty/komplekty.html/",
                 "answear.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://answear.ua/p/ona-4-k.html", ""),
                         new SecondaryReklamaModel("https://answear.ua/p/on-89-k.html", ""),
@@ -120,8 +123,8 @@ public class ReklamaStorage {
         reklamaModels.put("ub-commercial.com.ua", model(
                 "https://ub-commercial.com.ua/promotions",
                 "ub-commercial.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://ub-commercial.com.ua/about", ""),
                         new SecondaryReklamaModel("https://ub-commercial.com.ua/objects", ""),
@@ -134,8 +137,8 @@ public class ReklamaStorage {
         reklamaModels.put("atlant.build", model(
                 "https://atlant.build/novosti",
                 "atlant.build",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/opisanie", ""),
                         new SecondaryReklamaModel("https://atlant.build/o-kompanii/nagradyi", ""),
@@ -148,8 +151,8 @@ public class ReklamaStorage {
         reklamaModels.put("grusha.ua", model(
                 "https://grusha.ua/catalog/zernovoy_kofe/",
                 "grusha.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://grusha.ua/catalog/molotyy_kofe/", ""),
                         new SecondaryReklamaModel("https://grusha.ua/catalog/monosorta/", ""),
@@ -163,8 +166,8 @@ public class ReklamaStorage {
         reklamaModels.put("exist.ua", model(
                 "https://exist.ua/action-sale/",
                 "exist.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://exist.ua/about/address.aspx", ""),
                         new SecondaryReklamaModel("https://exist.ua/cat/TecDoc", ""),
@@ -178,8 +181,8 @@ public class ReklamaStorage {
         reklamaModels.put("x-moda.ru", model(
                 "https://x-moda.ru/catalog",
                 "x-moda.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://x-moda.ru/catalog/zhenschinam", ""),
                         new SecondaryReklamaModel("https://x-moda.ru/catalog/muzhchinam", ""),
@@ -193,8 +196,8 @@ public class ReklamaStorage {
         reklamaModels.put("alser.ua", model(
                 "https://alser.ua/aktsii/",
                 "alser.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://alser.ua/dokumenty/", ""),
                         new SecondaryReklamaModel("https://alser.ua/kontakty/", ""),
@@ -208,8 +211,8 @@ public class ReklamaStorage {
         reklamaModels.put("fantastika-nn.ru", model(
                 "http://www.fantastika-nn.ru/news/event/",
                 "fantastika-nn.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/magaziny/", ""),
                         new SecondaryReklamaModel("http://www.fantastika-nn.ru/arendatory/kafe-i-restorany/", ""),
@@ -223,8 +226,8 @@ public class ReklamaStorage {
         reklamaModels.put("rinza.ru", model(
                 "https://www.rinza.ru/",
                 "rinza.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://www.rinza.ru/producty", ""),
                         new SecondaryReklamaModel("https://www.rinza.ru/instrukciya", ""),
@@ -238,8 +241,8 @@ public class ReklamaStorage {
         reklamaModels.put("hager.ua", model(
                 "http://www.hager.ua/produkciya/22123.htm",
                 "hager.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.hager.ua/korisna-informaciya/novini/25967.htm", ""),
                         new SecondaryReklamaModel("http://www.hager.ua/pro-kompaniyu/24123.htm", ""),
@@ -253,8 +256,8 @@ public class ReklamaStorage {
         reklamaModels.put("itea.ua", model(
                 "https://itea.ua/about-itea/",
                 "itea.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://itea.ua/courses-itea/", ""),
                         new SecondaryReklamaModel("https://itea.ua/corporate-education-schedule/", ""),
@@ -268,8 +271,8 @@ public class ReklamaStorage {
         reklamaModels.put("hon.ru", model(
                 "http://www.hon.ru/",
                 "hon.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.hon.ru/ru/st_petersburg_hotels/", ""),
                         new SecondaryReklamaModel("http://www.hon.ru/ru/services/", ""),
@@ -283,8 +286,8 @@ public class ReklamaStorage {
         reklamaModels.put("cgtarian.ru", model(
                 "http://www.cgtarian.ru/online-kursy/razrabotka-igr/game-design-ot-a-do-ya.html",
                 "cgtarian.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.cgtarian.ru/cg-3d-grafika-animaciya-vfx/anonsy-novosti.html", ""),
                         new SecondaryReklamaModel("http://www.cgtarian.ru/cg-3d-grafika-animaciya-vfx/konkursy.html", ""),
@@ -298,8 +301,8 @@ public class ReklamaStorage {
         reklamaModels.put("lebedinyiy.com.ua", model(
                 "https://lebedinyiy.com.ua/ru/technical-specifications/",
                 "lebedinyiy.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/option/", ""),
                         new SecondaryReklamaModel("https://lebedinyiy.com.ua/ru/benefits/", ""),
@@ -313,8 +316,8 @@ public class ReklamaStorage {
         reklamaModels.put("diamond-gallery.com.ua", model(
                 "https://diamond-gallery.com.ua/content/761-programma-loyalnosti-i-deystvuushie-akcii",
                 "diamond-gallery.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://diamond-gallery.com.ua/390-diamond-expert", ""),
                         new SecondaryReklamaModel("https://diamond-gallery.com.ua/93-ukrashenija", ""),
@@ -328,8 +331,8 @@ public class ReklamaStorage {
         reklamaModels.put("ub.com.ua", model(
                 "https://ub.com.ua/promotions",
                 "ub.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://ub.com.ua/corporation", ""),
                         new SecondaryReklamaModel("https://ub.com.ua/projects", ""),
@@ -343,8 +346,8 @@ public class ReklamaStorage {
         reklamaModels.put("game-shop.com.ua", model(
                 "https://game-shop.com.ua/page/news",
                 "game-shop.com.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://game-shop.com.ua/page/o_nas", ""),
                         new SecondaryReklamaModel("https://game-shop.com.ua/page/garantija", ""),
@@ -358,8 +361,8 @@ public class ReklamaStorage {
         reklamaModels.put("sohorooms.ua", model(
                 "https://sohorooms.ua/sale",
                 "sohorooms.ua",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://sohorooms.ua/novinki", ""),
                         new SecondaryReklamaModel("https://sohorooms.ua/brands", ""),
@@ -373,8 +376,8 @@ public class ReklamaStorage {
         reklamaModels.put("sevgorod.ru", model(
                 "http://www.sevgorod.ru/actions/",
                 "sevgorod.ru",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://www.sevgorod.ru/objects/live/", ""),
                         new SecondaryReklamaModel("http://www.sevgorod.ru/forbuyer/sposob/", ""),
@@ -387,8 +390,8 @@ public class ReklamaStorage {
         reklamaModels.put("lioncom.pro", model(
                 "https://lioncom.pro/projects/",
                 "lioncom.pro",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://lioncom.pro/services/", ""),
                         new SecondaryReklamaModel("https://lioncom.pro/clients/", ""),
@@ -401,8 +404,8 @@ public class ReklamaStorage {
         reklamaModels.put("northcyprusinvest.net", model(
                 "http://northcyprusinvest.net/properties/investments/",
                 "northcyprusinvest.net",
-                Location.RU.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.RU.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("http://northcyprusinvest.net/properties/apartments/", ""),
                         new SecondaryReklamaModel("http://northcyprusinvest.net/properties/villas/", ""),
@@ -416,8 +419,8 @@ public class ReklamaStorage {
         reklamaModels.put("iconiqlab.com", model(
                 "https://iconiqlab.com/",
                 "iconiqlab.com",
-                Location.UA.getKey(),
-                Type.REKLAMA.getKey(),
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
                 createSecondaryReklama(
                         new SecondaryReklamaModel("https://iconiqlab.com/startups/", ""),
                         new SecondaryReklamaModel("https://iconiqlab.com/community/", ""),

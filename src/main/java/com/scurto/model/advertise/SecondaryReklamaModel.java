@@ -1,4 +1,4 @@
-package com.scurto.model;
+package com.scurto.model.advertise;
 
 /**
  * Created by yustymenko on 13.10.2017.

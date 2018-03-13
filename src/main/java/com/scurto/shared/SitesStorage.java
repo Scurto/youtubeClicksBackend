@@ -1,4 +1,6 @@
-package com.scurto.model;
+package com.scurto.shared;
+
+import com.scurto.model.SiteModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,7 +22,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "www.mainUrl.com",
+                "https://www.bigmir.net",
                 "7",
                 createSecondaryUrls(
                         "www.mainUrl.com/aaa",
