@@ -1,7 +1,9 @@
 package com.scurto.controller;
 
 import com.scurto.model.SiteModel;
+import com.scurto.model.TaskDTO;
 import com.scurto.shared.SitesStorage;
+import com.scurto.util.WebSiteParser;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -20,5 +22,12 @@ public class WebSiteController {
         } catch (Exception ex) {
             return null;
         }
+    }
+
+    @RequestMapping(value = "/getListSiteUrls", method = RequestMethod.POST)
+    @ResponseBody
+    public ArrayList<String> getListSiteUrls(@RequestBody String websiteUrl) {
+        ArrayList<String> listWebSiteUrls = WebSiteParser.getParsedUrlsFromWebSite(websiteUrl);
+        return listWebSiteUrls;
     }
 }
