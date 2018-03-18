@@ -69,6 +69,17 @@ public class ChanelIdStorage {
                 "rpte",
                 "2271404 - Евгений"
         ));
+        allTaskModel.put("445089", model(
+                "445089",
+                "12",
+                "0",
+                "0",
+                40,
+                50,
+                "user/dkdsl",
+                null,
+                "2271404 - Евгений"
+        ));
         allTaskModel.put("513328", model(
                 "513328",
                 "8",
@@ -472,6 +483,17 @@ public class ChanelIdStorage {
                 null,
                 "8338662 - Artem"
         ));
+        allTaskModel.put("1781630", model(
+                "1781630",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1772327", model(
                 "1772327",
                 "1",
@@ -485,6 +507,17 @@ public class ChanelIdStorage {
         ));
         allTaskModel.put("1779014", model(
                 "1779014",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
+        allTaskModel.put("1781742", model(
+                "1781742",
                 "1",
                 "1",
                 "2",
@@ -741,7 +774,29 @@ public class ChanelIdStorage {
                 "2367430 - Владислав"
         ));
 
+        allTaskModel.put("1793798", model(
+                "1793798",
+                "1",
+                "1",
+                "2",
+                40,
+                40,
+                "channel/UCGLuQftVvy1Dh8rey0cOPZg", /*8,488,621 views*/
+                null,
+                "8338662 - Artem"
+        ));
 
+        allTaskModel.put("1592901", model(
+                "1592901",
+                "3",
+                "0",
+                "0",
+                40,
+                59,
+                "channel/UCBmPC4lPIRU6-ockY_a0iyA",
+                null,
+                "10479925 - Владимир"
+        ));
 
 
         return allTaskModel;
