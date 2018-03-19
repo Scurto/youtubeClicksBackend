@@ -431,15 +431,42 @@ public class ReklamaStorage {
                 )
         ));
 
-//        diamond-gallery.com.ua
-//        ub.com.ua
-//        game-shop.com.ua
+        reklamaModels.put("lapti.life", model(
+                "https://lapti.life/catalog/sale",
+                "lapti.life",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://lapti.life/catalog/promo", ""),
+                        new SecondaryReklamaModel("https://lapti.life/catalog/filter/for-women", ""),
+                        new SecondaryReklamaModel("https://lapti.life/catalog/filter/for-man", ""),
+                        new SecondaryReklamaModel("https://lapti.life/catalog/filter/for-kids", ""),
+                        new SecondaryReklamaModel("https://lapti.life/catalog/accessories/c3", ""),
+                        new SecondaryReklamaModel("https://lapti.life/catalog/outlet", "")
+                )
+        ));
+
+        reklamaModels.put("zov-kyxnu.com.ua", model(
+                "http://www.zov-kyxnu.com.ua/aktsii",
+                "zov-kyxnu.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/katalog", ""),
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/otzyvy/reviews", ""),
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/uslugi/besplatnyj-vyzov-zamershchika", ""),
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/korpusnaya-mebel-zov", ""),
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/kukhni-tv", ""),
+                        new SecondaryReklamaModel("http://www.zov-kyxnu.com.ua/o-kompanii", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
 //                "kobzov.ua",
-//                Location.UA.getKey(),
-//                Type.REKLAMA.getKey(),
+//        ReklamaModel.Location.UA.getKey(),
+//                ReklamaModel.Type.REKLAMA.getKey(),
 //                createSecondaryReklama(
 //                        new SecondaryReklamaModel("",""),
 //                        new SecondaryReklamaModel("",""),

@@ -22,7 +22,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "https://www.bigmir.net",
+                "http://detskie-recepty.ru",
                 "7",
                 createSecondaryUrls(
                         "www.mainUrl.com/aaa",
