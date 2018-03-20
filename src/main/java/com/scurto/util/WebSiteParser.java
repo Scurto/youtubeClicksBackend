@@ -29,7 +29,7 @@ public class WebSiteParser {
         doc = Jsoup.connect(url)
                 .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
                 .referrer("http://www.google.com")
-                .timeout(1000 * 5) //it's in milliseconds, so this means 5 seconds.
+                .timeout(1000) //it's in milliseconds, so this means 5 seconds.
                 .ignoreHttpErrors(true).get();
 
 
@@ -38,7 +38,7 @@ public class WebSiteParser {
         for (Element link : links) {
             String linkHref = link.attr("href");
             System.out.println(linkHref);
-            if ((linkHref.startsWith("http://"+url) || linkHref.startsWith("https://"+url) || linkHref.startsWith(url) && isActiveLink(linkHref))) {
+            if ((linkHref.startsWith("http://"+url) || linkHref.startsWith("https://"+url) || linkHref.startsWith(url) /*&& isActiveLink(linkHref)*/)) {
                 pageUrls.add(linkHref);
             }
 //            if (linkHref.startsWith("//") || linkHref.startsWith("#")) {
@@ -61,11 +61,22 @@ public class WebSiteParser {
         return pageUrls;
     }
 
-    private static boolean isActiveLink(String linkHref) throws IOException {
+    public static boolean isActiveLink(String linkHref) throws IOException {
+//        class="adsbygoogle"
+
         Connection.Response execute = Jsoup.connect(linkHref)
                 .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
                 .referrer("http://www.google.com")
                 .ignoreHttpErrors(true).execute();
+
+//        Document doc;
+//        doc = Jsoup.connect(linkHref)
+//                .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+//                .referrer("http://www.google.com")
+//                .timeout(1000) //it's in milliseconds, so this means 5 seconds.
+//                .ignoreHttpErrors(true).get();
+//
+//        System.out.println(doc);
         return (execute.statusCode() == 200);
     }
 }
