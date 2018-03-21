@@ -35,6 +35,18 @@ public class SitesStorage {
                 )
 
         ));
+        siteModels.put("1", model(
+                "1",
+                10,
+                10,
+                "3",
+                "3",
+                null,
+                "testTaskOwner",
+                "https://www.cyberciti.biz",
+                "4",
+                null
+        ));
         return siteModels;
     }
 
