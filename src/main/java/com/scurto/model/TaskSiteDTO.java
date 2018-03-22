@@ -6,6 +6,7 @@ public class TaskSiteDTO {
     private String countOfMove;
     private String countOfUrls;
     private String oneTimeSiteUrl;
+    private String lastAdvertise;
 
     public String getTaskId() {
         return taskId;
@@ -45,5 +46,13 @@ public class TaskSiteDTO {
 
     public void setOneTimeSiteUrl(String oneTimeSiteUrl) {
         this.oneTimeSiteUrl = oneTimeSiteUrl;
+    }
+
+    public String getLastAdvertise() {
+        return lastAdvertise;
+    }
+
+    public void setLastAdvertise(String lastAdvertise) {
+        this.lastAdvertise = lastAdvertise;
     }
 }

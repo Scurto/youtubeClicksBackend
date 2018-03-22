@@ -54,6 +54,11 @@ public class YoutubeService {
         return task;
     }
 
+    public Website getSiteTaskById(String taskId) {
+        Website task = (Website) getSession().get(Website.class, taskId);
+        return task;
+    }
+
     public String updateTask(String taskId, String lastReklama) {
         Youtube task = (Youtube)getTaskById(taskId);
         LocalDate today = LocalDate.now();
@@ -73,6 +78,39 @@ public class YoutubeService {
             } else {
                 task.setLastDate(stringDate);
                 task.setLastReklama(lastReklama);
+                session.update(task);
+            }
+
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+
+        return "";
+    }
+
+    public String updateSiteTask(String taskId, String lastAdvertise) {
+        Website task = (Website)getSiteTaskById(taskId);
+        LocalDate today = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MM-yyyy");
+        String stringDate = today.format(formatter);
+        Session session = sessionFactory.openSession();
+        Transaction tx = null;
+        try{
+            tx = session.beginTransaction();
+
+            if (task == null) {
+                task = new Website();
+                task.setTaskId(taskId);
+                task.setLastAdvertise(lastAdvertise);
+                task.setLastDate(stringDate);
+                session.save(task);
+            } else {
+                task.setLastDate(stringDate);
+                task.setLastAdvertise(lastAdvertise);
                 session.update(task);
             }
 

@@ -1,6 +1,7 @@
 package com.scurto.controller;
 
 import com.scurto.model.SiteModel;
+import com.scurto.model.TaskDTO;
 import com.scurto.model.TaskSiteDTO;
 import com.scurto.model.TransferModel;
 import com.scurto.model.advertise.TransferReklamaModelWrapper;
@@ -60,6 +61,20 @@ public class WebSiteController {
             e.printStackTrace();
         }
         return "no";
+    }
+
+    @RequestMapping(value = "/updateTask", method = RequestMethod.POST)
+    @ResponseBody
+    public String updateTask(@RequestBody TaskSiteDTO taskDto) {
+        try {
+            System.out.println(taskDto.getTaskId());
+            System.out.println(taskDto.getLastAdvertise());
+
+            service.updateSiteTask(taskDto.getTaskId(), taskDto.getLastAdvertise());
+            return "";
+        } catch (Exception ex) {
+            return null;
+        }
     }
 
     private void prepareTransferModel(TaskSiteDTO taskDto, TransferModel transferModel) {

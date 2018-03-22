@@ -42,6 +42,8 @@ public class WebSiteParser {
             if (!(linkHref.equalsIgnoreCase(url)
                     || linkHref.endsWith(".xml")
                     || linkHref.endsWith(".txt")
+                    || linkHref.endsWith(".jpg")
+                    || linkHref.endsWith(".png")
                     || linkHref.contains("#")
             ) && (linkHref.startsWith("http://"+url)
                     || linkHref.startsWith("https://"+url)
