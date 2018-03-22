@@ -461,6 +461,36 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("vpohod.in.ua", model(
+                "http://vpohod.in.ua/aktsii",
+                "vpohod.in.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://vpohod.in.ua/news", ""),
+                        new SecondaryReklamaModel("http://vpohod.in.ua/catalog", ""),
+                        new SecondaryReklamaModel("http://vpohod.in.ua/info", ""),
+                        new SecondaryReklamaModel("http://vpohod.in.ua/catalog/lodochnie-motori-benzinovie/maslo-dlya-lodochnih-motorov", ""),
+                        new SecondaryReklamaModel("http://vpohod.in.ua/catalog/naduvnie-lodki/grebnie-naduvnie-lodki", ""),
+                        new SecondaryReklamaModel("http://vpohod.in.ua/catalog/palatki/dvuhmestnie-palatki", "")
+                )
+        ));
+
+        reklamaModels.put("humanhair.com.ua", model(
+                "http://humanhair.com.ua/novosti-i-akcii.html",
+                "humanhair.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://humanhair.com.ua/about.html", ""),
+                        new SecondaryReklamaModel("http://humanhair.com.ua/uslugi.html", ""),
+                        new SecondaryReklamaModel("http://humanhair.com.ua/dostavka-i-oplata.html", ""),
+                        new SecondaryReklamaModel("http://humanhair.com.ua/stati.html", ""),
+                        new SecondaryReklamaModel("http://humanhair.com.ua/partneram.html", ""),
+                        new SecondaryReklamaModel("http://humanhair.com.ua/contacts.html", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
