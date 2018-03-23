@@ -59,6 +59,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1794416", model(
+                "1794416",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "https://mysnova.ru/",
+                "5",
+                null
+        ));
         return siteModels;
     }
 //    http://vikix.ru/
