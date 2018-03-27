@@ -66,7 +66,7 @@ public class ChanelIdStorage {
                 40,
                 40,
                 "user/dkdsl",
-                "rpte",
+                null,
                 "2271404 - Евгений"
         ));
         allTaskModel.put("445089", model(
@@ -88,7 +88,7 @@ public class ChanelIdStorage {
                 40,
                 40,
                 "user/FitnessMontana",
-                "rpte",
+                null,
                 "2271404 - Евгений"
         ));
         allTaskModel.put("327835", model(
@@ -110,7 +110,7 @@ public class ChanelIdStorage {
                 45,
                 45,
                 "user/PalkinChef",
-                "rpte",
+                null,
                 "2271404 - Евгений"
         ));
         allTaskModel.put("327160", model(
@@ -121,7 +121,7 @@ public class ChanelIdStorage {
                 45,
                 45,
                 "user/PalkinBody",
-                "rpte",
+                null,
                 "2271404 - Евгений"
         ));
         allTaskModel.put("1457501", model(

@@ -71,6 +71,33 @@ public class SitesStorage {
                 "5",
                 null
         ));
+
+        siteModels.put("1682975", model(
+                "1682975",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areq",
+                "http://junjo.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1719387", model(
+                "1719387",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://gvenik.ru/",
+                "6",
+                null
+        ));
+
         return siteModels;
     }
 //    http://vikix.ru/

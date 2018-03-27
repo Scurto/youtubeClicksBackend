@@ -491,6 +491,51 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("uniqa.ua", model(
+                "https://uniqa.ua/private/auto/kasko/",
+                "uniqa.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://uniqa.ua/private/home/", ""),
+                        new SecondaryReklamaModel("https://uniqa.ua/private/travel/", ""),
+                        new SecondaryReklamaModel("https://uniqa.ua/private/life/", ""),
+                        new SecondaryReklamaModel("https://uniqa.ua/case/", ""),
+                        new SecondaryReklamaModel("https://uniqa.ua/about_us/", ""),
+                        new SecondaryReklamaModel("https://uniqa.ua/contacts/contact/", "")
+                )
+        ));
+
+        reklamaModels.put("sniker.ua", model(
+                "https://sniker.ua/best_sale/",
+                "sniker.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://sniker.ua/new/", ""),
+                        new SecondaryReklamaModel("https://sniker.ua/mujchinam/", ""),
+                        new SecondaryReklamaModel("https://sniker.ua/jenschinam/", ""),
+                        new SecondaryReklamaModel("https://sniker.ua/action/", ""),
+                        new SecondaryReklamaModel("https://sniker.ua/info/", ""),
+                        new SecondaryReklamaModel("https://sniker.ua/about/", "")
+                )
+        ));
+
+        reklamaModels.put("oiler.ua", model(
+                "https://oiler.ua/sto/",
+                "oiler.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://oiler.ua/masla/", ""),
+                        new SecondaryReklamaModel("https://oiler.ua/zapchasti/to-filters/", ""),
+                        new SecondaryReklamaModel("https://oiler.ua/o-nas/", ""),
+                        new SecondaryReklamaModel("https://oiler.ua/kontakty/", ""),
+                        new SecondaryReklamaModel("https://oiler.ua/dostavka-i-oplata/", ""),
+                        new SecondaryReklamaModel("https://oiler.ua/zapchasti/", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
