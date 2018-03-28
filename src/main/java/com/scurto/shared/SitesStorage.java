@@ -43,7 +43,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "https://www.cyberciti.biz",
+                "http://fitfb.ru/",
                 "4",
                 null
         ));
@@ -56,6 +56,30 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "https://mysnova.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1641652", model(
+                "1641652",
+                30,
+                30,
+                "0",
+                "0",
+                null,
+                "9950949 - Artyom",
+                "http://sunsang.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1674967", model(
+                "1674967",
+                30,
+                30,
+                "0",
+                "0",
+                null,
+                "9950949 - Artyom",
+                "https://googs.ru/",
                 "6",
                 null
         ));
@@ -85,6 +109,32 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1647364", model(
+                "1647364",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "10603708 - Areq",
+                "https://ooaoo.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1622180", model(
+                "1622180",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://fitfb.ru/",
+                "6",
+                null
+        ));
+
         siteModels.put("1719387", model(
                 "1719387",
                 40,
@@ -97,10 +147,71 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1717671", model(
+                "1717671",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://poxik.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1717668", model(
+                "1717668",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://paypey.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1660674", model(
+                "1660674",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "http://sunsee.info/",
+                "8",
+                null
+        ));
+        siteModels.put("1660669", model(
+                "1660669",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "https://vidzo.me/",
+                "8",
+                null
+        ));
+        siteModels.put("1548087", model(
+                "1548087",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "10199054 - Semir",
+                "http://neoguru.ru/",
+                "6",
+                null
+        ));
 
         return siteModels;
     }
-//    http://vikix.ru/
+
     private static SiteModel model(String taskId,
                                    Integer advertiseFreeze,
                                    Integer siteFreeze,
