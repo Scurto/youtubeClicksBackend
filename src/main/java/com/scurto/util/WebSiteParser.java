@@ -40,17 +40,17 @@ public class WebSiteParser {
         String shortUrl = url.startsWith("https://") ? url.substring(8, url.length()) : url.substring(7, url.length());
         for (Element link : links) {
             String linkHref = link.attr("href");
-            System.out.println(decode(linkHref));
-            if (!(linkHref.equalsIgnoreCase(url)
-                    || linkHref.endsWith(".xml")
-                    || linkHref.endsWith(".txt")
-                    || linkHref.endsWith(".jpg")
-                    || linkHref.endsWith(".png")
-                    || linkHref.contains("#")
-            ) && (linkHref.startsWith("http://"+shortUrl)
-                    || linkHref.startsWith("https://"+shortUrl))
-                    || linkHref.startsWith(url)) {
-                pageUrls.add(decode(linkHref));
+            String decodeLinkHref = decode(linkHref);
+
+            if (!(linkHref.equalsIgnoreCase(url) || linkHref.endsWith(".xml") || linkHref.endsWith(".txt")
+                    || linkHref.endsWith(".jpg") || linkHref.endsWith(".png")
+                    || decodeLinkHref.contains("#")
+            )) {
+                if ((linkHref.startsWith("http://"+shortUrl)
+                        || linkHref.startsWith("https://"+shortUrl))
+                        || linkHref.startsWith(url)) {
+                    pageUrls.add(decodeLinkHref);
+                }
             }
         }
         return pageUrls;

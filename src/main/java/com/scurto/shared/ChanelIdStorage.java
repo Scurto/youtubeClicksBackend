@@ -626,6 +626,17 @@ public class ChanelIdStorage {
                 null,
                 "8338662 - Artem"
         ));
+        allTaskModel.put("1752613", model(
+                "1752613",
+                "7",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCO0eop7jbAxaowFT-VoX4rA",
+                null,
+                "8338662 - Artem"
+        ));
         allTaskModel.put("1715132", model(
                 "1715132",
                 "8",

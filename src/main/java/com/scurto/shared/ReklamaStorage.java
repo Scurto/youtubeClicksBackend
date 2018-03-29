@@ -536,6 +536,36 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("agro-market.net", model(
+                "https://agro-market.net/actions/",
+                "agro-market.net",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/semena/", ""),
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/luk_chesnok_kartoshka_i_griby_2/", ""),
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/269/", ""),
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/235/", ""),
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/sazhentsy_vinograda_saj/", ""),
+                        new SecondaryReklamaModel("https://agro-market.net/catalog/cat/klubnika_i_zemlyanika_yagodi/", "")
+                )
+        ));
+
+        reklamaModels.put("alpha-intensiv.com.ua", model(
+                "http://alpha-intensiv.com.ua/",
+                "alpha-intensiv.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/urovni.html", ""),
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/intensiv-kurs.html", ""),
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/nemeckij-dlya-vrachej.html", ""),
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/biznes-nemeckij.html", ""),
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/nemeckij-dlya-detej.html", ""),
+                        new SecondaryReklamaModel("http://alpha-intensiv.com.ua/grammaticheskij-intensiv.html", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",

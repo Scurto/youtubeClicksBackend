@@ -43,8 +43,32 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "http://fitfb.ru/",
+                "http://doppy.ru/",
                 "4",
+                null
+        ));
+        siteModels.put("1764661", model(
+                "1764661",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "11206263 - Дмитрий",
+                "http://loxik.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1750464", model(
+                "1750464",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "11016161 - Stepan",
+                "http://grvume.ru/",
+                "6",
                 null
         ));
         siteModels.put("1794419", model(
@@ -71,6 +95,19 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1712034", model(
+                "1712034",
+                30,
+                30,
+                "0",
+                "0",
+                null,
+                "9950949 - Artyom",
+                "http://psixushka.ru/",
+                "6",
+                null
+        ));
+
         siteModels.put("1674967", model(
                 "1674967",
                 30,
@@ -118,6 +155,19 @@ public class SitesStorage {
                 null,
                 "10603708 - Areq",
                 "https://ooaoo.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1667312", model(
+                "1667312",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "10603708 - Areq",
+                "http://erare.ru/",
                 "6",
                 null
         ));
@@ -184,6 +234,19 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1694441", model(
+                "1694441",
+                45,
+                45,
+                "0",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "https://snamiveselo24.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1660669", model(
                 "1660669",
                 40,
@@ -205,6 +268,18 @@ public class SitesStorage {
                 null,
                 "10199054 - Semir",
                 "http://neoguru.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1754687", model(
+                "1754687",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "10199054 - Semir",
+                "https://nirlen.ru/",
                 "6",
                 null
         ));
