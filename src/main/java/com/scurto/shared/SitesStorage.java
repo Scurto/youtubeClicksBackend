@@ -246,6 +246,18 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1694438", model(
+                "1694438",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://snamiveselo24.ru/",
+                "5",
+                null
+        ));
 
         siteModels.put("1660669", model(
                 "1660669",
@@ -281,6 +293,44 @@ public class SitesStorage {
                 "10199054 - Semir",
                 "https://nirlen.ru/",
                 "6",
+                null
+        ));
+
+        siteModels.put("1786596", model(
+                "1786596",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10199054 - Semir",
+                "http://lexde.ru/",
+                "8",
+                null
+        ));
+
+        siteModels.put("1678296", model(
+                "1678296",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "7195882 - Дмитрий",
+                "http://palata09.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1774277", model(
+                "1774277",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "11146537 - Денежный мешок",
+                "https://100realt.ru/arenda-kurgan",
+                "8",
                 null
         ));
 

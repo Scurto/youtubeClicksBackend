@@ -41,7 +41,7 @@ public class WebSiteParser {
         for (Element link : links) {
             String linkHref = link.attr("href");
             String decodeLinkHref = decode(linkHref);
-
+            System.out.println(decodeLinkHref);
             if (!(linkHref.equalsIgnoreCase(url) || linkHref.endsWith(".xml") || linkHref.endsWith(".txt")
                     || linkHref.endsWith(".jpg") || linkHref.endsWith(".png")
                     || decodeLinkHref.contains("#")
@@ -51,6 +51,15 @@ public class WebSiteParser {
                         || linkHref.startsWith(url)) {
                     pageUrls.add(decodeLinkHref);
                 }
+//                else if (decodeLinkHref.startsWith("/") && decodeLinkHref.length() > 10 && !decodeLinkHref.contains("?")) {
+//                    Connection.Response execute = Jsoup.connect("http://"+linkHref)
+//                            .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+//                            .referrer("http://www.google.com")
+//                            .ignoreHttpErrors(true).execute();
+//                    if (execute.statusCode() == 200) {
+//                        pageUrls.add(decodeLinkHref);
+//                    }
+//                }
             }
         }
         return pageUrls;
