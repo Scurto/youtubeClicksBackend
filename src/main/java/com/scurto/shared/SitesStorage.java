@@ -43,8 +43,20 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "http://doppy.ru/",
+                "http://see-online.ru/",
                 "4",
+                null
+        ));
+        siteModels.put("1648314", model(
+                "1648314",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "10813496 - Genadi",
+                "http://see-online.ru/",
+                "6",
                 null
         ));
         siteModels.put("1764661", model(
