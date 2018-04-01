@@ -71,6 +71,19 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1764648", model(
+                "1764648",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "11206263 - Дмитрий",
+                "http://hancho.ru/",
+                "6",
+                null
+        ));
+
         siteModels.put("1750464", model(
                 "1750464",
                 45,
@@ -81,6 +94,18 @@ public class SitesStorage {
                 "11016161 - Stepan",
                 "http://grvume.ru/",
                 "6",
+                null
+        ));
+        siteModels.put("1761182", model(
+                "1761182",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://qani.ru",
+                "8",
                 null
         ));
         siteModels.put("1794419", model(
@@ -107,6 +132,32 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1751091", model(
+                "1751091",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://virnag.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1712033", model(
+                "1712033",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://psixushka.ru/",
+                "6",
+                null
+        ));
+
         siteModels.put("1712034", model(
                 "1712034",
                 30,
@@ -144,6 +195,18 @@ public class SitesStorage {
                 "5",
                 null
         ));
+        siteModels.put("1758715", model(
+                "1758715",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://vikix.ru/",
+                "5",
+                null
+        ));
 
         siteModels.put("1682975", model(
                 "1682975",
@@ -152,8 +215,32 @@ public class SitesStorage {
                 "1",
                 "4",
                 null,
-                "10603708 - Areq",
+                "10603708 - Areg",
                 "http://junjo.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1752452", model(
+                "1752452",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://timonik.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1707416", model(
+                "1707416",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://chkaser.ru/",
                 "5",
                 null
         ));
@@ -165,7 +252,7 @@ public class SitesStorage {
                 "0",
                 "4",
                 null,
-                "10603708 - Areq",
+                "10603708 - Areg",
                 "https://ooaoo.ru/",
                 "6",
                 null
@@ -178,7 +265,7 @@ public class SitesStorage {
                 "0",
                 "4",
                 null,
-                "10603708 - Areq",
+                "10603708 - Areg",
                 "http://erare.ru/",
                 "6",
                 null
@@ -194,6 +281,54 @@ public class SitesStorage {
                 "7017738 - Vedun",
                 "http://fitfb.ru/",
                 "6",
+                null
+        ));
+        siteModels.put("1724783", model(
+                "1724783",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://mindmo.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1744991", model(
+                "1744991",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://nomey.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1724786", model(
+                "1724786",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://lenron.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1798782", model(
+                "1798782",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11318806 - Marina",
+                "http://howmuchprice.info/",
+                "3",
                 null
         ));
 
@@ -246,6 +381,58 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1494653", model(
+                "1494653",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://vidzo.me/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1770932", model(
+                "1770932",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://lyudiraznie24.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1689851", model(
+                "1689851",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://mosvmeste.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1495353", model(
+                "1495353",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://yerireq.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1694441", model(
                 "1694441",
                 45,
@@ -267,6 +454,18 @@ public class SitesStorage {
                 null,
                 "6615828 - Ivan",
                 "https://snamiveselo24.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1483835", model(
+                "1483835",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "http://sunsee.info/",
                 "5",
                 null
         ));
@@ -326,6 +525,18 @@ public class SitesStorage {
                 40,
                 40,
                 "1",
+                "4",
+                null,
+                "7195882 - Дмитрий",
+                "http://palata09.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1681664", model(
+                "1681664",
+                45,
+                45,
+                "0",
                 "4",
                 null,
                 "7195882 - Дмитрий",
