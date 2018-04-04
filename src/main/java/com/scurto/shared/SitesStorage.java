@@ -59,6 +59,21 @@ public class SitesStorage {
                 "6",
                 null
         ));
+
+        siteModels.put("1656028", model(
+                "1656028",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "10813496 - Genadi",
+                "http://news-post.ru",
+                "9",
+                null
+        ));
+
+
         siteModels.put("1764661", model(
                 "1764661",
                 45,
@@ -141,6 +156,19 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "http://virnag.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1760244", model(
+                "1760244",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "https://my-posts.ru",
                 "6",
                 null
         ));
@@ -257,6 +285,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1591609", model(
+                "1591609",
+                55,
+                55,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "https://ooaoo.ru/",
+                "6",
+                null
+        ));
 
         siteModels.put("1667312", model(
                 "1667312",
@@ -328,6 +368,18 @@ public class SitesStorage {
                 null,
                 "11318806 - Marina",
                 "http://howmuchprice.info/",
+                "3",
+                null
+        ));
+        siteModels.put("1807005", model(
+                "1807005",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11318806 - Marina",
+                "http://awhhe.am/",
                 "3",
                 null
         ));
@@ -492,6 +544,18 @@ public class SitesStorage {
                 "10199054 - Semir",
                 "http://neoguru.ru/",
                 "6",
+                null
+        ));
+        siteModels.put("1754686", model(
+                "1754686",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10199054 - Semir",
+                "https://nirlen.ru/",
+                "8",
                 null
         ));
         siteModels.put("1754687", model(
