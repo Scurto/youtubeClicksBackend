@@ -43,7 +43,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "http://see-online.ru/",
+                "http://nirlen.ru",
                 "4",
                 null
         ));
@@ -156,6 +156,19 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "http://virnag.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1729018", model(
+                "1729018",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://laflux.ru",
                 "6",
                 null
         ));
@@ -608,16 +621,16 @@ public class SitesStorage {
                 "8",
                 null
         ));
-        siteModels.put("1774277", model(
-                "1774277",
-                40,
-                40,
+        siteModels.put("1794908", model(
+                "1794908",
+                45,
+                45,
                 "1",
                 "4",
                 null,
-                "11146537 - Денежный мешок",
-                "https://100realt.ru/arenda-kurgan",
-                "8",
+                "11235471 - Olga Bulkina",
+                "http://pozitivonst.ru/",
+                "5",
                 null
         ));
 
