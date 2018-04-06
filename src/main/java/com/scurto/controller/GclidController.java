@@ -1,5 +1,7 @@
 package com.scurto.controller;
 
+import com.scurto.model.GclidCheckModel;
+import com.scurto.model.GclidRecall;
 import com.scurto.model.advertise.AutoCloseAdvertiseModel;
 import com.scurto.model.TampermonkeyModel;
 import com.scurto.service.GclidService;
@@ -8,7 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Optional;
 import java.util.Random;
 
@@ -49,24 +53,7 @@ public class GclidController {
     @RequestMapping(value = "/getGClid", method = RequestMethod.GET)
     public String getGClid() {
         try {
-            Random rnd = new Random();
-            StringBuilder defUrl= new StringBuilder("?utm_term=" + rnd.nextInt(999999999));
-
-            ArrayList<String> gclidUriAttributes = new ArrayList<>();
-            gclidUriAttributes.add("&utm_medium=gdn");
-            gclidUriAttributes.add("&utm_source=awo");
-            gclidUriAttributes.add("&utm_content=google");
-            gclidUriAttributes.add("&utm_campaign=" + rnd.nextInt(999999999));
-            gclidUriAttributes.add("&utm_medium=display");
-            gclidUriAttributes.add("&promo=" + rnd.nextInt(999999999));
-
-            for (String uriAttribute : gclidUriAttributes) {
-                if (Math.round(Math.random()) > 0) {
-                    defUrl.append(uriAttribute);
-                }
-            }
-
-            defUrl.append("&gclid=");
+            StringBuilder defUrl = getDefUrl();
 
             LocalDateTime etalonTime = LocalDateTime.now();
             System.out.println("etalon time -> " + etalonTime);
@@ -94,6 +81,51 @@ public class GclidController {
         } catch (Exception ex) {
             return null;
         }
+    }
+
+    private StringBuilder getDefUrl() {
+        Random rnd = new Random();
+        StringBuilder defUrl= new StringBuilder("?utm_term=" + rnd.nextInt(999999999));
+
+        ArrayList<String> gclidUriAttributes = new ArrayList<>();
+        gclidUriAttributes.add("&utm_medium=gdn");
+        gclidUriAttributes.add("&utm_source=awo");
+        gclidUriAttributes.add("&utm_content=google");
+        gclidUriAttributes.add("&utm_campaign=" + rnd.nextInt(999999999));
+        gclidUriAttributes.add("&utm_medium=display");
+        gclidUriAttributes.add("&promo=" + rnd.nextInt(999999999));
+
+        for (String uriAttribute : gclidUriAttributes) {
+            if (Math.round(Math.random()) > 0) {
+                defUrl.append(uriAttribute);
+            }
+        }
+
+        defUrl.append("&gclid=");
+        return defUrl;
+    }
+
+    @RequestMapping(value = "/reGetGclid", method = RequestMethod.POST)
+    @ResponseBody
+    public String reGetGclid(@RequestBody GclidRecall request) {
+        ArrayList<String> gclidStorageForRemove = new ArrayList<>();
+        for (GclidCheckModel checkModel : request.getGclidArray()) {
+            if (checkModel.getGclidLink().contains("gclid=")) {
+                String substring = checkModel.getGclidLink().substring(checkModel.getGclidLink().indexOf("gclid=") + 6, checkModel.getGclidLink().length());
+                gclidStorageForRemove.add(substring);
+            }
+        }
+
+        LocalDateTime ldt = LocalDateTime.ofInstant(new Date(request.getTime()).toInstant(), ZoneId.systemDefault());
+
+        GclidStorageModel link = gclidStorage.stream()
+                .filter(model -> !gclidStorageForRemove.contains(model.getGclid()))
+                .filter(model -> ldt.minusSeconds(20).isBefore(model.getTime()) && ldt.plusSeconds(20).isAfter(model.getTime()))
+                .findAny()
+                .get();
+
+        StringBuilder defUrl = getDefUrl();
+        return defUrl.append(link.getGclid()).toString();
     }
 
     @RequestMapping(value = "/clearGcidTable", method = RequestMethod.POST)
