@@ -30,11 +30,12 @@ public class WebSiteParser {
         TreeSet<String> pageUrls = new TreeSet<>();
         Document doc;
         doc = Jsoup.connect(url)
+                .proxy("92.53.73.138", 8118)
                 .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
                 .referrer("http://www.google.com")
-                .timeout(10000) //it's in milliseconds, so this means 5 seconds.
+                .timeout(20000) //it's in milliseconds, so this means 5 seconds.
                 .ignoreHttpErrors(true).get();
-
+//        https://free-proxy-list.net/
 
         Elements links = doc.body().select("a");
         String shortUrl = url.startsWith("https://") ? url.substring(8, url.length()) : url.substring(7, url.length());
