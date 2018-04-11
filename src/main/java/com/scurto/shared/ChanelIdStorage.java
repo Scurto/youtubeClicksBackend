@@ -822,7 +822,7 @@ public class ChanelIdStorage {
 
         allTaskModel.put("1798360", model(
                 "1798360",
-                "3",
+                "1",
                 "1",
                 "3",
                 50,
