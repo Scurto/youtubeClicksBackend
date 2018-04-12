@@ -15,10 +15,10 @@ import java.util.TreeSet;
 
 public class WebSiteParser {
 
-    public static ArrayList<String> getParsedUrlsFromWebSite(String websiteUrl) {
+    public static ArrayList<String> getParsedUrlsFromWebSite(String websiteUrl, boolean useProxyFlag) {
         ArrayList<String> parsedUrlsList = new ArrayList<>();
         try {
-            parsedUrlsList.addAll(getProperLinks(websiteUrl));
+            parsedUrlsList.addAll(getProperLinks(websiteUrl, useProxyFlag));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -26,15 +26,24 @@ public class WebSiteParser {
         return parsedUrlsList;
     }
 
-    private static TreeSet<String> getProperLinks(String url) throws IOException {
+    private static TreeSet<String> getProperLinks(String url, boolean useProxyFlag) throws IOException {
         TreeSet<String> pageUrls = new TreeSet<>();
         Document doc;
-        doc = Jsoup.connect(url)
-                .proxy("92.53.73.138", 8118)
-                .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
-                .referrer("http://www.google.com")
-                .timeout(20000) //it's in milliseconds, so this means 5 seconds.
-                .ignoreHttpErrors(true).get();
+        if (useProxyFlag) {
+            doc = Jsoup.connect(url)
+                    .proxy("92.53.73.138", 8118)
+                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                    .referrer("http://www.google.com")
+                    .timeout(20000) //it's in milliseconds, so this means 5 seconds.
+                    .ignoreHttpErrors(true).get();
+        } else {
+            doc = Jsoup.connect(url)
+                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                    .referrer("http://www.google.com")
+                    .timeout(20000) //it's in milliseconds, so this means 5 seconds.
+                    .ignoreHttpErrors(true).get();
+        }
+
 //        https://free-proxy-list.net/
 
         Elements links = doc.body().select("a");
@@ -92,21 +101,35 @@ public class WebSiteParser {
         }
     }
 
-    public static boolean isActiveLink(String linkHref) throws IOException {
-        Connection.Response execute = Jsoup.connect(linkHref)
-                .proxy("92.53.73.138", 8118)
-                .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
-                .referrer("http://www.google.com")
-                .ignoreHttpErrors(true).execute();
+    public static boolean isActiveLink(String linkHref, boolean useProxyFlag) throws IOException {
+        Connection.Response execute;
+        if (useProxyFlag) {
+            execute = Jsoup.connect(linkHref)
+                    .proxy("92.53.73.138", 8118)
+                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                    .referrer("http://www.google.com")
+                    .ignoreHttpErrors(true).execute();
+        } else {
+            execute = Jsoup.connect(linkHref)
+                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                    .referrer("http://www.google.com")
+                    .ignoreHttpErrors(true).execute();
+        }
+
 
         if (execute.statusCode() == 200) {
             Document doc;
-            doc = Jsoup.connect(linkHref)
-                    .proxy("92.53.73.138", 8118)
-                    .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
-//                    .referrer("http://www.google.com")
-//                    .timeout(1000) //it's in milliseconds, so this means 5 seconds.
-                    .ignoreHttpErrors(true).get();
+            if (useProxyFlag) {
+                doc = Jsoup.connect(linkHref)
+                        .proxy("92.53.73.138", 8118)
+                        .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                        .ignoreHttpErrors(true).get();
+            } else {
+                doc = Jsoup.connect(linkHref)
+                        .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
+                        .ignoreHttpErrors(true).get();
+            }
+
 
 
             for (Element element : doc.body().getAllElements()) {

@@ -4,6 +4,7 @@ import com.scurto.model.SiteModel;
 import com.scurto.model.TaskDTO;
 import com.scurto.model.TaskSiteDTO;
 import com.scurto.model.TransferModel;
+import com.scurto.model.advertise.AutoCloseAdvertiseModel;
 import com.scurto.model.advertise.TransferReklamaModelWrapper;
 import com.scurto.service.YoutubeService;
 import com.scurto.shared.SitesStorage;
@@ -22,6 +23,8 @@ public class WebSiteController {
     @Autowired
     private YoutubeService service;
 
+    private boolean useProxyFlag = false;
+
     @RequestMapping(value = "/listAllSitesModel", method = RequestMethod.POST)
     @ResponseBody
     public ArrayList<SiteModel> getListYoutubeTasksId() {
@@ -36,7 +39,7 @@ public class WebSiteController {
     @RequestMapping(value = "/getListSiteUrls", method = RequestMethod.POST)
     @ResponseBody
     public ArrayList<String> getListSiteUrls(@RequestBody String websiteUrl) {
-        ArrayList<String> listWebSiteUrls = WebSiteParser.getParsedUrlsFromWebSite(websiteUrl);
+        ArrayList<String> listWebSiteUrls = WebSiteParser.getParsedUrlsFromWebSite(websiteUrl, isUseProxyFlag());
         return listWebSiteUrls;
     }
 
@@ -56,11 +59,18 @@ public class WebSiteController {
     @ResponseBody
     public String isLinkActive(@RequestBody SiteModel url) {
         try {
-            return WebSiteParser.isActiveLink(url.getMainUrl()) ? "yes" : "no";
+            return WebSiteParser.isActiveLink(url.getMainUrl(), isUseProxyFlag()) ? "yes" : "no";
         } catch (IOException e) {
             e.printStackTrace();
         }
         return "no";
+    }
+
+    @RequestMapping(value = "/setUseProxy", method = RequestMethod.POST)
+    @ResponseBody
+    public String setUseProxy(@RequestBody AutoCloseAdvertiseModel flag) {
+        setUseProxyFlag(flag.getFlag().equalsIgnoreCase("no") ? false : true);
+        return "";
     }
 
     @RequestMapping(value = "/updateTask", method = RequestMethod.POST)
@@ -81,5 +91,13 @@ public class WebSiteController {
         TransferReklamaModelWrapper youtubeList = service.prepareReklamaListToShow(taskDto.getTaskId(), taskDto.getCountOfAdvertise(), taskDto.getCountOfMove(), taskDto.getOneTimeSiteUrl() != null);
         transferModel.setTransferReklamaModel(youtubeList.getTransferReklamaModels());
         transferModel.setTransferReklamaKeys(youtubeList.getTransferReklamaKeys());
+    }
+
+    public boolean isUseProxyFlag() {
+        return useProxyFlag;
+    }
+
+    public void setUseProxyFlag(boolean useProxyFlag) {
+        this.useProxyFlag = useProxyFlag;
     }
 }
