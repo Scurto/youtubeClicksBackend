@@ -348,6 +348,18 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1631458", model(
+                "1631458",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://postler.ru/",
+                "8",
+                null
+        ));
         siteModels.put("1744991", model(
                 "1744991",
                 45,

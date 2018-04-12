@@ -94,6 +94,7 @@ public class WebSiteParser {
 
     public static boolean isActiveLink(String linkHref) throws IOException {
         Connection.Response execute = Jsoup.connect(linkHref)
+                .proxy("92.53.73.138", 8118)
                 .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
                 .referrer("http://www.google.com")
                 .ignoreHttpErrors(true).execute();
@@ -101,6 +102,7 @@ public class WebSiteParser {
         if (execute.statusCode() == 200) {
             Document doc;
             doc = Jsoup.connect(linkHref)
+                    .proxy("92.53.73.138", 8118)
                     .userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0")
 //                    .referrer("http://www.google.com")
 //                    .timeout(1000) //it's in milliseconds, so this means 5 seconds.
