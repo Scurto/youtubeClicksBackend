@@ -566,6 +566,51 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("splav.ua", model(
+                "http://splav.ua/material/rasprodazha-dsp/",
+                "splav.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://splav.ua/material/built-in-ironing-board", ""),
+                        new SecondaryReklamaModel("http://splav.ua/wardrobes", ""),
+                        new SecondaryReklamaModel("http://splav.ua/gallery", ""),
+                        new SecondaryReklamaModel("http://splav.ua/contacts", ""),
+                        new SecondaryReklamaModel("http://splav.ua/material/furnitura", ""),
+                        new SecondaryReklamaModel("http://splav.ua/material/catalogues-filling-cabinets-coupe", "")
+                )
+        ));
+
+        reklamaModels.put("skyfitness.com.ua", model(
+                "http://skyfitness.com.ua/services-all-fitness/",
+                "skyfitness.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/about/", ""),
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/services/", ""),
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/trainers/", ""),
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/schedule/", ""),
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/about/pricing-plans/", ""),
+                        new SecondaryReklamaModel("https://skyfitness.com.ua/features/photo-gallery/", "")
+                )
+        ));
+
+        reklamaModels.put("anabel-arto.com", model(
+                "https://anabel-arto.com/ru/akcii/",
+                "anabel-arto.com",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/bele/", ""),
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/kupalniki/", ""),
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/odezhda/", ""),
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/kolgotki/", ""),
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/muzhskoe/", ""),
+                        new SecondaryReklamaModel("https://anabel-arto.com/ru/podrostkovoe/", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
