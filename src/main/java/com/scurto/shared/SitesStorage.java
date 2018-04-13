@@ -123,6 +123,18 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1730509", model(
+                "1730509",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://gexecik.ru",
+                "8",
+                null
+        ));
         siteModels.put("1794419", model(
                 "1794419",
                 30,
@@ -182,6 +194,19 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "https://my-posts.ru",
+                "6",
+                null
+        ));
+
+        siteModels.put("1750962", model(
+                "1750962",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://nagita.ru/",
                 "6",
                 null
         ));
