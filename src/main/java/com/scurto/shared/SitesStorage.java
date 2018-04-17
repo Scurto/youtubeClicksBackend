@@ -671,6 +671,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1821896", model(
+                "1821896",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://helthy.ru/",
+                "5",
+                null
+        ));
+
         return siteModels;
     }
 
