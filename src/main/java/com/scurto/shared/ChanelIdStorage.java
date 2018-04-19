@@ -69,6 +69,17 @@ public class ChanelIdStorage {
                 null,
                 "2271404 - Евгений"
         ));
+        allTaskModel.put("58552", model(
+                "58552",
+                "2",
+                "2",
+                "3",
+                40,
+                40,
+                "user/dkdsl",
+                null,
+                "810945 - Denys"
+        ));
         allTaskModel.put("445089", model(
                 "445089",
                 "12",

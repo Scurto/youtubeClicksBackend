@@ -171,6 +171,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1641863", model(
+                "1641863",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://sunsang.ru/",
+                "6",
+                null
+        ));
 
         siteModels.put("1729018", model(
                 "1729018",
@@ -286,6 +298,20 @@ public class SitesStorage {
                 "5",
                 null
         ));
+
+        siteModels.put("1612864", model(
+                "1612864",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://erare.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1752452", model(
                 "1752452",
                 40,
@@ -370,6 +396,18 @@ public class SitesStorage {
                 null,
                 "7017738 - Vedun",
                 "http://mindmo.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1816941", model(
+                "1816941",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://lindron.ru/",
                 "8",
                 null
         ));
@@ -634,6 +672,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1533654", model(
+                "1533654",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10199054 - Semir",
+                "http://neoguru.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1678296", model(
                 "1678296",
                 40,
@@ -680,6 +731,19 @@ public class SitesStorage {
                 null,
                 "11235471 - Olga Bulkina",
                 "http://helthy.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1822785", model(
+                "1822785",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://bulto.ru/",
                 "5",
                 null
         ));
