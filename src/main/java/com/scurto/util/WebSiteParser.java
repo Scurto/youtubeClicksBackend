@@ -6,10 +6,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
+import java.io.*;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
@@ -47,7 +45,17 @@ public class WebSiteParser {
 //        https://free-proxy-list.net/
 
         Elements links = doc.body().select("a");
-        String shortUrl = url.startsWith("https://") ? url.substring(8, url.length()) : url.substring(7, url.length());
+        String shortUrl;
+        if (url.endsWith("site-map")) {
+            shortUrl = url.startsWith("https://") ? url.substring(8, url.length() - 8) : url.substring(7, url.length() - 8);
+        } else if (url.endsWith("karta-sajta")) {
+            shortUrl = url.startsWith("https://") ? url.substring(8, url.length() -11) : url.substring(7, url.length() - 11);
+        } else if (url.endsWith("karta")) {
+            shortUrl = url.startsWith("https://") ? url.substring(8, url.length() -5) : url.substring(7, url.length() - 5);
+        }else {
+            shortUrl = url.startsWith("https://") ? url.substring(8, url.length()) : url.substring(7, url.length());
+        }
+
         for (Element link : links) {
             String linkHref = link.attr("href");
             String decodeLinkHref = decode(linkHref);

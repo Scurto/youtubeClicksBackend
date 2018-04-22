@@ -43,7 +43,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "testTaskOwner",
-                "http://nirlen.ru",
+                "http://hodizdorov.ru/site-map",
                 "4",
                 null
         ));
@@ -120,6 +120,18 @@ public class SitesStorage {
                 null,
                 "11016161 - Stepan",
                 "http://qani.ru",
+                "8",
+                null
+        ));
+        siteModels.put("1711080", model(
+                "1711080",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://ininik.ru",
                 "8",
                 null
         ));
@@ -324,6 +336,18 @@ public class SitesStorage {
                 "5",
                 null
         ));
+        siteModels.put("1681885", model(
+                "1681885",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://elnelua.ru/",
+                "5",
+                null
+        ));
         siteModels.put("1707416", model(
                 "1707416",
                 40,
@@ -408,6 +432,18 @@ public class SitesStorage {
                 null,
                 "7017738 - Vedun",
                 "http://lindron.ru/",
+                "8",
+                null
+        ));
+        siteModels.put("1750122", model(
+                "1750122",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://vintor.ru",
                 "8",
                 null
         ));
@@ -745,6 +781,58 @@ public class SitesStorage {
                 "11235471 - Olga Bulkina",
                 "http://bulto.ru/",
                 "5",
+                null
+        ));
+
+        siteModels.put("1478391", model(
+                "1478391",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://hodizdorov.ru/site-map",
+                "6",
+                null
+        ));
+
+        siteModels.put("1482297", model(
+                "1482297",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://fit-fox.ru",
+                "6",
+                null
+        ));
+
+        siteModels.put("1479122", model(
+                "1479122",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://ablamirat.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1479172", model(
+                "1479172",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://tempremonta.ru/karta-sajta",
+                "6",
                 null
         ));
 
