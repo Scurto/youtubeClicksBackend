@@ -24,6 +24,7 @@ public class WebSiteController {
     private YoutubeService service;
 
     private boolean useProxyFlag = false;
+    private boolean useSecondaryUrls = false;
 
     @RequestMapping(value = "/listAllSitesModel", method = RequestMethod.POST)
     @ResponseBody
@@ -39,7 +40,13 @@ public class WebSiteController {
     @RequestMapping(value = "/getListSiteUrls", method = RequestMethod.POST)
     @ResponseBody
     public ArrayList<String> getListSiteUrls(@RequestBody String websiteUrl) {
-        ArrayList<String> listWebSiteUrls = WebSiteParser.getParsedUrlsFromWebSite(websiteUrl, isUseProxyFlag());
+        ArrayList<String> listWebSiteUrls = new ArrayList<>();
+        if (!isUseSecondaryUrls()) {
+            listWebSiteUrls.addAll(WebSiteParser.getParsedUrlsFromWebSite(websiteUrl, isUseProxyFlag()));
+        } else {
+            listWebSiteUrls.addAll(SitesStorage.getSiteModelById(websiteUrl).getSecondaryUrls());
+        }
+
         return listWebSiteUrls;
     }
 
@@ -59,7 +66,11 @@ public class WebSiteController {
     @ResponseBody
     public String isLinkActive(@RequestBody SiteModel url) {
         try {
-            return WebSiteParser.isActiveLink(url.getMainUrl(), isUseProxyFlag()) ? "yes" : "no";
+            if (!isUseSecondaryUrls()) {
+                return WebSiteParser.isActiveLink(url.getMainUrl(), isUseProxyFlag()) ? "yes" : "no";
+            } else {
+                return "yes";
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,6 +81,13 @@ public class WebSiteController {
     @ResponseBody
     public String setUseProxy(@RequestBody AutoCloseAdvertiseModel flag) {
         setUseProxyFlag(flag.getFlag().equalsIgnoreCase("no") ? false : true);
+        return "";
+    }
+
+    @RequestMapping(value = "/setSecondaryUrl", method = RequestMethod.POST)
+    @ResponseBody
+    public String setSecondaryUrl(@RequestBody AutoCloseAdvertiseModel flag) {
+        setUseSecondaryUrls(flag.getFlag().equalsIgnoreCase("no") ? false : true);
         return "";
     }
 
@@ -99,5 +117,13 @@ public class WebSiteController {
 
     public void setUseProxyFlag(boolean useProxyFlag) {
         this.useProxyFlag = useProxyFlag;
+    }
+
+    public boolean isUseSecondaryUrls() {
+        return useSecondaryUrls;
+    }
+
+    public void setUseSecondaryUrls(boolean useSecondaryUrls) {
+        this.useSecondaryUrls = useSecondaryUrls;
     }
 }

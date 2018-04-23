@@ -5,11 +5,18 @@ import com.scurto.model.SiteModel;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 public class SitesStorage {
 
     public static ArrayList<SiteModel> getAllSitesTaskModelArray() {
         return new ArrayList<SiteModel>(getAllSitesModel().values());
+    }
+
+    public static SiteModel getSiteModelById(String key) {
+        return getAllSitesModel().values().stream()
+                .filter(siteModel -> siteModel.getMainUrl().equals(key)).findFirst().get();
     }
 
     public static HashMap<String, SiteModel> getAllSitesModel() {
