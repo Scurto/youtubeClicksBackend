@@ -15,8 +15,7 @@ public class SitesStorage {
     }
 
     public static SiteModel getSiteModelById(String key) {
-        return getAllSitesModel().values().stream()
-                .filter(siteModel -> siteModel.getMainUrl().equals(key)).findFirst().get();
+        return getAllSitesModel().get(key);
     }
 
     public static HashMap<String, SiteModel> getAllSitesModel() {
@@ -587,7 +586,22 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "https://lyudiraznie24.ru/",
                 "5",
-                null
+                createSecondaryUrls(
+                        "https://lyudiraznie24.ru/2018/02/03/парашютист-собрал-кубик-рубика-своб/",
+                        "https://lyudiraznie24.ru/2018/02/12/крытый-мост-юнис-уильямс/",
+                        "https://lyudiraznie24.ru/2018/02/12/парк-gas-works/",
+                        "https://lyudiraznie24.ru/2018/02/23/мышка-отказывается-ложиться-спать-ес/",
+                        "https://lyudiraznie24.ru/2018/02/25/красивая-музыка-слушать-одно-удоволь/",
+                        "https://lyudiraznie24.ru/2018/03/11/глаз-сахары-самый-загадочный-объект-з/",
+                        "https://lyudiraznie24.ru/2018/03/17/о-маленьких-но-постоянно-раздражающи/",
+                        "https://lyudiraznie24.ru/2018/03/23/мир-с-высоты-птичьего-полета/",
+                        "https://lyudiraznie24.ru/2018/04/08/попугай-говорит-котиком/",
+                        "https://lyudiraznie24.ru/2018/04/08/смешной-слоненок-полторы-минуты-пози/",
+                        "https://lyudiraznie24.ru/2018/04/08/художник-из-японии-рисует-наши-чувств/",
+                        "https://lyudiraznie24.ru/2018/04/15/изучаем-кошачий-язык/",
+                        "https://lyudiraznie24.ru/2018/04/15/различные-жизненные-ситуации-милых/",
+                        "https://lyudiraznie24.ru/2018/04/15/секвойи-бессмертные-исполинские-ги/"
+                )
         ));
 
         siteModels.put("1689851", model(
@@ -600,7 +614,27 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "https://mosvmeste.ru/",
                 "5",
-                null
+                createSecondaryUrls("https://mosvmeste.ru/2018/01/17/7-фраз-которые-никогда-не-произносят-ус/",
+                        "https://mosvmeste.ru/2018/02/06/10-лучших-советов-ошо/",
+                        "https://mosvmeste.ru/2018/02/16/один-день-из-жизни-профессионального/",
+                        "https://mosvmeste.ru/2018/02/16/отпустишь-прошлое-получишь-будущее/",
+                        "https://mosvmeste.ru/2018/02/21/9-способов-выразить-свою-любовь-сло/",
+                        "https://mosvmeste.ru/2018/02/25/почему-решать-чужие-проблемы-категор/",
+                        "https://mosvmeste.ru/2018/02/26/миллион-алых-роз-прекрасном-испол/",
+                        "https://mosvmeste.ru/2018/02/26/фильмы-книги-которые-меняют-жизнь/",
+                        "https://mosvmeste.ru/2018/03/04/8-вещей-которые-зрелые-мужчины-никогда/",
+                        "https://mosvmeste.ru/2018/03/04/вершина-эгоизма-сологамия-брак/",
+                        "https://mosvmeste.ru/2018/03/04/жена-и-удача/",
+                        "https://mosvmeste.ru/2018/03/14/10-снов-которые-не-стоит-игнорировать/",
+                        "https://mosvmeste.ru/2018/03/14/15-лучших-цитат-омара-хайяма/",
+                        "https://mosvmeste.ru/2018/03/19/5-типов-мужчин-которых-никогда/",
+                        "https://mosvmeste.ru/2018/03/25/знаки-зодиака-которые-идеально-подхо/",
+                        "https://mosvmeste.ru/2018/03/26/10-способов-справиться-с-тревогой/",
+                        "https://mosvmeste.ru/2018/04/03/лгут-знаки-зодиака-своим-вторым/",
+                        "https://mosvmeste.ru/2018/04/11/10-способов-справиться-со-стрессом/",
+                        "https://mosvmeste.ru/2018/04/15/10-мощных-привычек-счастливых-отношен/",
+                        "https://mosvmeste.ru/2018/04/24/почему-такая-красивая-одна/"
+                        )
         ));
 
         siteModels.put("1495353", model(
@@ -638,7 +672,29 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "https://snamiveselo24.ru/",
                 "5",
-                null
+                createSecondaryUrls(
+
+                        "https://snamiveselo24.ru/2017/11/24/солнечную-систему-впервые-прилетел/",
+                        "https://snamiveselo24.ru/2017/11/26/вывод-который-можно-сделать-по-походк/",
+                        "https://snamiveselo24.ru/2017/11/27/китай-открыл-самую-крутую-библиотеку/",
+                        "https://snamiveselo24.ru/2017/11/28/жизнь-1-100-лет-120-секунд/",
+                        "https://snamiveselo24.ru/2017/12/10/малыш-вышел-сцену-покорить-се/",
+                        "https://snamiveselo24.ru/2018/01/27/малоизвестная-молитва-от-антуана-де-с/",
+                        "https://snamiveselo24.ru/2018/02/16/20-цитат-совести-запада-альбера-кам/",
+                        "https://snamiveselo24.ru/2018/02/21/вам_вcтpeчались-солнечные-люди/",
+                        "https://snamiveselo24.ru/2018/02/26/apple-год-извлекла-тонну-золота-списа/",
+                        "https://snamiveselo24.ru/2018/03/04/законная-владелица-солнца-испанка/",
+                        "https://snamiveselo24.ru/2018/03/04/пронзительные-рассказы-из-шести-слов/",
+                        "https://snamiveselo24.ru/2018/03/14/какую-опасность-скрывают-воды-черног/",
+                        "https://snamiveselo24.ru/2018/03/14/путь-электромобиля-tesla-к-марсу-можно-про/",
+                        "https://snamiveselo24.ru/2018/03/19/самая-маленькая-дикая-кошка-мире/",
+                        "https://snamiveselo24.ru/2018/03/25/гениальный-мультфильм-том-работ/",
+                        "https://snamiveselo24.ru/2018/03/26/что-случится-землей-если-солнце-вдру/",
+                        "https://snamiveselo24.ru/2018/04/03/детеныш-носорога-преследует-автомоб/",
+                        "https://snamiveselo24.ru/2018/04/11/еакция-белухи-двух-малышей-наобор/",
+                        "https://snamiveselo24.ru/2018/04/15/позитив-маленьких-африканских-тан/",
+                        "https://snamiveselo24.ru/2018/04/24/я-научилась-просто-мудро-жить/"
+                )
         ));
         siteModels.put("1483835", model(
                 "1483835",

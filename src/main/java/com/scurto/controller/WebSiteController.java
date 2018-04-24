@@ -39,15 +39,21 @@ public class WebSiteController {
 
     @RequestMapping(value = "/getListSiteUrls", method = RequestMethod.POST)
     @ResponseBody
-    public ArrayList<String> getListSiteUrls(@RequestBody String websiteUrl) {
+    public ArrayList<String> getListSiteUrls(@RequestBody SiteModel model) {
         ArrayList<String> listWebSiteUrls = new ArrayList<>();
         if (!isUseSecondaryUrls()) {
-            listWebSiteUrls.addAll(WebSiteParser.getParsedUrlsFromWebSite(websiteUrl, isUseProxyFlag()));
+            listWebSiteUrls.addAll(WebSiteParser.getParsedUrlsFromWebSite(model.getMainUrl(), isUseProxyFlag()));
         } else {
-            listWebSiteUrls.addAll(SitesStorage.getSiteModelById(websiteUrl).getSecondaryUrls());
+            listWebSiteUrls.addAll(SitesStorage.getSiteModelById(model.getTaskId()).getSecondaryUrls());
         }
 
         return listWebSiteUrls;
+    }
+
+    @RequestMapping(value = "/decodeUrl", method = RequestMethod.POST)
+    @ResponseBody
+    public String decodeUrl(@RequestBody SiteModel model) {
+        return WebSiteParser.decode(model.getMainUrl());
     }
 
     @RequestMapping(value = "/advertiseListForSiteShow", method = RequestMethod.POST)
