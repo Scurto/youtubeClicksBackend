@@ -23,9 +23,6 @@ public class WebSiteController {
     @Autowired
     private YoutubeService service;
 
-    private boolean useProxyFlag = false;
-    private boolean useSecondaryUrls = false;
-
     @RequestMapping(value = "/listAllSitesModel", method = RequestMethod.POST)
     @ResponseBody
     public ArrayList<SiteModel> getListYoutubeTasksId() {
@@ -41,8 +38,8 @@ public class WebSiteController {
     @ResponseBody
     public ArrayList<String> getListSiteUrls(@RequestBody SiteModel model) {
         ArrayList<String> listWebSiteUrls = new ArrayList<>();
-        if (!isUseSecondaryUrls()) {
-            listWebSiteUrls.addAll(WebSiteParser.getParsedUrlsFromWebSite(model.getMainUrl(), isUseProxyFlag()));
+        if (!model.isUseSecondaryUrls()) {
+            listWebSiteUrls.addAll(WebSiteParser.getParsedUrlsFromWebSite(model.getMainUrl(), model.isUseProxy()));
         } else {
             listWebSiteUrls.addAll(SitesStorage.getSiteModelById(model.getTaskId()).getSecondaryUrls());
         }
@@ -70,10 +67,10 @@ public class WebSiteController {
 
     @RequestMapping(value = "/isLinkActive", method = RequestMethod.POST)
     @ResponseBody
-    public String isLinkActive(@RequestBody SiteModel url) {
+    public String isLinkActive(@RequestBody SiteModel model) {
         try {
-            if (!isUseSecondaryUrls()) {
-                return WebSiteParser.isActiveLink(url.getMainUrl(), isUseProxyFlag()) ? "yes" : "no";
+            if (!model.isUseSecondaryUrls()) {
+                return WebSiteParser.isActiveLink(model.getMainUrl(), model.isUseProxy()) ? "yes" : "no";
             } else {
                 return "yes";
             }
@@ -81,20 +78,6 @@ public class WebSiteController {
             e.printStackTrace();
         }
         return "no";
-    }
-
-    @RequestMapping(value = "/setUseProxy", method = RequestMethod.POST)
-    @ResponseBody
-    public String setUseProxy(@RequestBody AutoCloseAdvertiseModel flag) {
-        setUseProxyFlag(flag.getFlag().equalsIgnoreCase("no") ? false : true);
-        return "";
-    }
-
-    @RequestMapping(value = "/setSecondaryUrl", method = RequestMethod.POST)
-    @ResponseBody
-    public String setSecondaryUrl(@RequestBody AutoCloseAdvertiseModel flag) {
-        setUseSecondaryUrls(flag.getFlag().equalsIgnoreCase("no") ? false : true);
-        return "";
     }
 
     @RequestMapping(value = "/updateTask", method = RequestMethod.POST)
@@ -117,19 +100,4 @@ public class WebSiteController {
         transferModel.setTransferReklamaKeys(youtubeList.getTransferReklamaKeys());
     }
 
-    public boolean isUseProxyFlag() {
-        return useProxyFlag;
-    }
-
-    public void setUseProxyFlag(boolean useProxyFlag) {
-        this.useProxyFlag = useProxyFlag;
-    }
-
-    public boolean isUseSecondaryUrls() {
-        return useSecondaryUrls;
-    }
-
-    public void setUseSecondaryUrls(boolean useSecondaryUrls) {
-        this.useSecondaryUrls = useSecondaryUrls;
-    }
 }

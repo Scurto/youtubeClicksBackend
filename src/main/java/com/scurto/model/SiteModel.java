@@ -13,6 +13,8 @@ public class SiteModel {
     private String countAdvertise;
     private String countAdvertiseMove;
     private ArrayList<String> secondaryUrls;
+    private boolean useSecondaryUrls;
+    private boolean useProxy;
 
     public String getTaskId() {
         return taskId;
@@ -92,5 +94,21 @@ public class SiteModel {
 
     public void setSecondaryUrls(ArrayList<String> secondaryUrls) {
         this.secondaryUrls = secondaryUrls;
+    }
+
+    public boolean isUseSecondaryUrls() {
+        return useSecondaryUrls;
+    }
+
+    public void setUseSecondaryUrls(boolean useSecondaryUrls) {
+        this.useSecondaryUrls = useSecondaryUrls;
+    }
+
+    public boolean isUseProxy() {
+        return useProxy;
+    }
+
+    public void setUseProxy(boolean useProxy) {
+        this.useProxy = useProxy;
     }
 }
