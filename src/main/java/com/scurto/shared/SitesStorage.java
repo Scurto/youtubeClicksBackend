@@ -597,7 +597,23 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "https://vidzo.me/",
                 "5",
-                null
+                createSecondaryUrls(
+                        "https://vidzo.me/сильным-женщинам-нравится-ходить/",
+                        "https://vidzo.me/8-знаков-зодиака-которым-нельзя-давать/",
+                        "https://vidzo.me/10-мощных-привычек-счастливых-отношен/",
+                        "https://vidzo.me/замена-батареек-прекрасная-груст/",
+                        "https://vidzo.me/несравненная-марина-цветаева/",
+                        "https://vidzo.me/как-ведут-себя-взрослые-которые-вырос/",
+                        "https://vidzo.me/4-знака-зодиака-не-боящиеся-проявлять-и/",
+                        "https://vidzo.me/забывчивость-признак-высокого-инте/",
+                        "https://vidzo.me/7-главных-ошибок-воспитании-детей/",
+                        "https://vidzo.me/дипломатия-искусство-примере/",
+                        "https://vidzo.me/одна-булавка-поможет-привлечь-удачу/",
+                        "https://vidzo.me/открыть-консервную-банку-голыми-рука/",
+                        "https://vidzo.me/как-обстоятельства-меняют-людей/",
+                        "https://vidzo.me/идеальный-мужчина-знает-все-сокровен/",
+                        "https://vidzo.me/простое-правило-1-секунды-сделает-боле/"
+                )
         ));
 
         siteModels.put("1770932", model(
@@ -671,7 +687,20 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "https://yerireq.ru/",
                 "5",
-                null
+                createSecondaryUrls(
+                        "https://yerireq.ru/2-правила-которые-изменят-вашу-личную-ж/",
+                        "https://yerireq.ru/судьба-этой-шпионки-второй-мировой-во/",
+                        "https://yerireq.ru/правда-или-ложь/",
+                        "https://yerireq.ru/8-фото-мгновение-трагедии-кото/",
+                        "https://yerireq.ru/вот-что-происходит-с-вашим-организмом/",
+                        "https://yerireq.ru/10-повседневных-вещей-которые-мы-все-эт/",
+                        "https://yerireq.ru/юная-акробатка-американском-шоу-та/",
+                        "https://yerireq.ru/9-хитростей-которыми-ваши-гаджеты/",
+                        "https://yerireq.ru/10-продуктов-которые-не-стоит-хранить/",
+                        "https://yerireq.ru/сладкий-ребенок-хочется-слушать-вечн/",
+                        "https://yerireq.ru/5-самых-омерзительных-работ/",
+                        "https://yerireq.ru/чего-вы-боитесь-больше-всего/"
+                )
         ));
 
         siteModels.put("1694441", model(
@@ -941,7 +970,7 @@ public class SitesStorage {
 //        http://ya-vdome.ru/karta-sajta
 //        http://ideya-doma.ru/karta
 //        http://tempremonta.ru/karta-sajta
-//        http://freshremont.com/sitemap/
+//        http://freshremont.com/sitemap
         return siteModels;
     }
 

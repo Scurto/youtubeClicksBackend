@@ -52,7 +52,9 @@ public class WebSiteParser {
             shortUrl = url.startsWith("https://") ? url.substring(8, url.length() -11) : url.substring(7, url.length() - 11);
         } else if (url.endsWith("karta")) {
             shortUrl = url.startsWith("https://") ? url.substring(8, url.length() -5) : url.substring(7, url.length() - 5);
-        }else {
+        } else if (url.endsWith("sitemap")) {
+            shortUrl = url.startsWith("https://") ? url.substring(8, url.length() - 7) : url.substring(7, url.length() - 7);
+        } else {
             shortUrl = url.startsWith("https://") ? url.substring(8, url.length()) : url.substring(7, url.length());
         }
 
