@@ -129,6 +129,18 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("1730504", model(
+                "1730504",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://etedu.ru",
+                "8",
+                null
+        ));
         siteModels.put("1711080", model(
                 "1711080",
                 45,
@@ -138,6 +150,18 @@ public class SitesStorage {
                 null,
                 "11016161 - Stepan",
                 "http://ininik.ru",
+                "8",
+                null
+        ));
+        siteModels.put("1713348", model(
+                "1713348",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://dezok.ru",
                 "8",
                 null
         ));
@@ -189,6 +213,30 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1806770", model(
+                "1806770",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://veekn.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1821964", model(
+                "1821964",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://wgoogle.ru/",
+                "6",
+                null
+        ));
         siteModels.put("1641863", model(
                 "1641863",
                 45,
@@ -198,6 +246,18 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "http://sunsang.ru/",
+                "6",
+                null
+        ));
+        siteModels.put("1655548", model(
+                "1655548",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://googs.ru/",
                 "6",
                 null
         ));
@@ -211,6 +271,19 @@ public class SitesStorage {
                 null,
                 "9950949 - Artyom",
                 "http://laflux.ru",
+                "6",
+                null
+        ));
+
+        siteModels.put("1820267", model(
+                "1820267",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://izikam.ru/",
                 "6",
                 null
         ));
@@ -304,6 +377,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1806773", model(
+                "1806773",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://yourhooby.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1682975", model(
                 "1682975",
                 40,
@@ -313,6 +399,19 @@ public class SitesStorage {
                 null,
                 "10603708 - Areg",
                 "http://junjo.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1679558", model(
+                "1679558",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://ayaoyo.ru",
                 "5",
                 null
         ));
@@ -550,6 +649,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1735665", model(
+                "1735665",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://poxik.ru/",
+                "6",
+                null
+        ));
         siteModels.put("1717671", model(
                 "1717671",
                 40,
@@ -762,6 +873,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1770941", model(
+                "1770941",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "http://mirchudes24.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1660669", model(
                 "1660669",
                 40,
@@ -849,6 +973,20 @@ public class SitesStorage {
                 "8",
                 null
         ));
+
+        siteModels.put("1802877", model(
+                "1802877",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "7195882 - Дмитрий",
+                "http://palata09.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1681664", model(
                 "1681664",
                 45,
@@ -897,6 +1035,47 @@ public class SitesStorage {
                 "11235471 - Olga Bulkina",
                 "http://bulto.ru/",
                 "5",
+                createSecondaryUrls(
+
+                        "https://bulto.ru/хотите-чтобы-ваше-лицо-выглядело-на-10-л/",
+                        "https://bulto.ru/9-продуктов-помогающих-избавиться-от-з/",
+                        "https://bulto.ru/хозяйственное-мыло-для-красоты-гигие/",
+                        "https://bulto.ru/как-заваривать-имбирь-для-похудения-п/",
+                        "https://bulto.ru/диетический-суп-из-индейки-с-зеленым-г/",
+                        "https://bulto.ru/попробуй-этот-огуречный-сок-растворя/",
+                        "https://bulto.ru/диета-при-молочнице-правила-питания-с/",
+                        "https://bulto.ru/как-освежить-свою-внешность-за-30-дней-10-с/",
+                        "https://bulto.ru/7-дней-7-стаканов-мощный-метод-который/",
+                        "https://bulto.ru/срочная-диета-минус-5-кг-за-6-дней/",
+                        "https://bulto.ru/низкокалорийный-яблочный-пирог-на-ке/",
+                        "https://bulto.ru/диета-с-йогуртом-и-корицей/",
+                        "https://bulto.ru/творожный-зефир-для-тех-кто-худеет/"
+                )
+        ));
+
+        siteModels.put("1755586", model(
+                "1755586",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11110031 - Artsrun",
+                "http://www.qmedy.com",
+                "6",
+                null
+        ));
+
+        siteModels.put("1804232", model(
+                "1804232",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11110031 - Artsrun",
+                "http://holyeconomy.com",
+                "6",
                 null
         ));
 
@@ -1017,4 +1196,4 @@ public class SitesStorage {
 //        6615828 - Ivan
 //        10199054 - Semir
 //        7195882 - Дмитрий
-//        11146537 - Денежный мешок
+//        11235471 - Olga Bulkina
