@@ -637,8 +637,32 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1836491", model(
+                "1836491",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://paypey.ru",
+                "6",
+                null
+        ));
         siteModels.put("1727027", model(
                 "1727027",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "11026159 - Edoooo",
+                "http://gvenik.ru",
+                "6",
+                null
+        ));
+        siteModels.put("1836496", model(
+                "1836496",
                 40,
                 40,
                 "1",
@@ -1191,6 +1215,7 @@ public class SitesStorage {
 //        http://ideya-doma.ru/karta
 //        http://tempremonta.ru/karta-sajta
 //        http://freshremont.com/sitemap
+//        http://faza-remonta.ru/karta-sajta
         return siteModels;
     }
 
