@@ -92,6 +92,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1829581", model(
+                "1829581",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "11206263 - Дмитрий",
+                "http://mknik.ru",
+                "6",
+                null
+        ));
         siteModels.put("1764648", model(
                 "1764648",
                 45,
@@ -425,6 +437,18 @@ public class SitesStorage {
                 null,
                 "10603708 - Areg",
                 "http://erare.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1652702", model(
+                "1652702",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://okoook.ru/",
                 "5",
                 null
         ));
@@ -1208,6 +1232,18 @@ public class SitesStorage {
                 "6",
                 null
         ));
+        siteModels.put("1417712", model(
+                "1417712",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://house-lab.ru/karta-sajta",
+                "6",
+                null
+        ));
 //        http://vector-remonta.ru/karta-sajta
 //        http://vash-center.ru/karta
 //        http://nauka-mastera.ru/karta
@@ -1216,6 +1252,7 @@ public class SitesStorage {
 //        http://tempremonta.ru/karta-sajta
 //        http://freshremont.com/sitemap
 //        http://faza-remonta.ru/karta-sajta
+//        http://house-lab.ru/karta-sajta
         return siteModels;
     }
 
