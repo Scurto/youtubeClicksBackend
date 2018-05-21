@@ -235,7 +235,25 @@ public class SitesStorage {
                 "9950949 - Artyom",
                 "http://veekn.ru/",
                 "6",
-                null
+                createSecondaryUrls(
+                        "http://veekn.ru/2018/03/04/берлинская-телебашня/",
+                        "http://veekn.ru/2018/03/04/дождевые-леса/",
+                        "http://veekn.ru/2018/03/04/13-идиотских-причин-которые-будут-препя/",
+                        "http://veekn.ru/2018/03/04/что-делает-женщину-желанной-мнение-му/",
+                        "http://veekn.ru/2018/03/04/7-причин-по-которым-пожилые-мужчины-ста/",
+                        "http://veekn.ru/2018/03/04/остров-маккуори/",
+                        "http://veekn.ru/2018/03/04/национальный-парк-ламингтон/",
+                        "http://veekn.ru/2018/03/04/сексуальная-совместимость-знаков-зо/",
+                        "http://veekn.ru/2018/03/04/парк-улуру-ката-тьюта/",
+                        "http://veekn.ru/2018/03/04/11-заповедей-ширди-саи-бабы-которые-сде/",
+                        "http://veekn.ru/2018/03/04/это-невероятно-женщины-могут-достичь/",
+                        "http://veekn.ru/2018/03/04/22-года-назад-мужчина-серьезно-ранил-сво/",
+                        "http://veekn.ru/2018/03/04/национальный-парк-йенго/",
+                        "http://veekn.ru/2018/03/04/10-заповедей-идеальной-жены-которая-поч/",
+                        "http://veekn.ru/2018/03/04/радолл-ривер/",
+                        "http://veekn.ru/2018/03/04/базилика-сант-амброджо/",
+                        "http://veekn.ru/2018/03/04/чудо-тибета/"
+                )
         ));
         siteModels.put("1821964", model(
                 "1821964",
@@ -1245,6 +1263,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1761603", model(
+                "1761603",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11194517 - Gor",
+                "http://www.bigzemlya.ru",
+                "5",
+                null
+        ));
+
         siteModels.put("1812457", model(
                 "1812457",
                 45,
@@ -1300,6 +1331,37 @@ public class SitesStorage {
                         "http://doppy.ru/2018/02/08/каньон-антилопы-в-сша/",
                         "http://doppy.ru/2017/11/08/вулкан-везувий-vesuvio/",
                         "http://doppy.ru/2018/01/13/гора-килиманджаро-в-танзании-африка/"
+                )
+        ));
+
+        siteModels.put("1641670", model(
+                "1641670",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://bronxik.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://bronxik.ru/2018/05/13/пустыня-гоби-gobi-2/",
+                        "http://bronxik.ru/2018/05/07/остров-лангкави-langkawi-2/",
+                        "http://bronxik.ru/2018/04/28/поклонная-гора-парк-победы/",
+                        "http://bronxik.ru/2018/04/25/канарские-острова-2/",
+                        "http://bronxik.ru/2018/04/18/тауэрский-мост-tower-bridge/",
+                        "http://bronxik.ru/2018/04/15/майами-бич-miami-beach-2/",
+                        "http://bronxik.ru/2018/04/11/мертвое-море-dead-sea-2/",
+                        "http://bronxik.ru/2018/04/06/город-прага-prague/",
+                        "http://bronxik.ru/2018/03/31/желтое-море-yellow-sea/",
+                        "http://bronxik.ru/2018/03/27/музей-ван-гога-van-gogh-museum/",
+                        "http://bronxik.ru/2018/03/25/остров-эльба/",
+                        "http://bronxik.ru/2018/03/16/музей-боба-марли-bob-marley-museum/",
+                        "http://bronxik.ru/2018/03/13/город-торонто-toronto/",
+                        "http://bronxik.ru/2018/03/11/гоа-goa/",
+                        "http://bronxik.ru/2018/03/05/кольцо-гора/",
+                        "http://bronxik.ru/2018/03/02/майами-бич-miami-beach/",
+                        "http://bronxik.ru/2018/02/27/мачу-пикчу/"
                 )
         ));
 
