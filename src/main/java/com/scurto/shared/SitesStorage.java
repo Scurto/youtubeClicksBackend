@@ -129,6 +129,20 @@ public class SitesStorage {
                 "6",
                 null
         ));
+
+        siteModels.put("1737822", model(
+                "1737822",
+                45,
+                45,
+                "1",
+                "0",
+                null,
+                "11016161 - Stepan",
+                "http://mikik.ru/",
+                "6",
+                null
+        ));
+
         siteModels.put("1761182", model(
                 "1761182",
                 45,
@@ -512,6 +526,19 @@ public class SitesStorage {
                 null,
                 "10603708 - Areg",
                 "http://junjo.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1684341", model(
+                "1684341",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://jajan.ru/",
                 "5",
                 null
         ));
@@ -1342,6 +1369,18 @@ public class SitesStorage {
                 null,
                 "11235471 - Olga Bulkina",
                 "http://pozitivonst.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1853657", model(
+                "1853657",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://mojjo.ru/",
                 "5",
                 null
         ));
