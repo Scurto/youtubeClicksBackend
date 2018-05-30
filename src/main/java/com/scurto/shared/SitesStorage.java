@@ -1784,6 +1784,51 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1836385", model(
+                "1836385",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://doocy.ru",
+                "5",
+                createSecondaryUrls(
+
+                )
+        ));
+
+        siteModels.put("1742970", model(
+                "1742970",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://sliipy.ru",
+                "5",
+                createSecondaryUrls(
+
+                )
+        ));
+
+        siteModels.put("1737312", model(
+                "1737312",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://sniizy.ru",
+                "5",
+                createSecondaryUrls(
+
+                )
+        ));
+
         siteModels.put("1844270", model(
                 "1844270",
                 45,
