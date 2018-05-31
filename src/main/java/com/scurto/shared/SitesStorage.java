@@ -1810,7 +1810,30 @@ public class SitesStorage {
                 "http://sliipy.ru",
                 "5",
                 createSecondaryUrls(
-
+                        "https://sliipy.ru/2018/05/28/дворец-дожей-palazzo-ducale/",
+                        "https://sliipy.ru/2018/05/25/чичен-ица-chichen-itza/",
+                        "https://sliipy.ru/2018/05/13/пустыня-намиб-namіb/",
+                        "https://sliipy.ru/2018/05/07/острова-кондао-con-dao/",
+                        "https://sliipy.ru/2018/04/28/олимпийский-парк-сочи/",
+                        "https://sliipy.ru/2018/04/18/мост-миллениум-в-казани/",
+                        "https://sliipy.ru/2018/04/15/кута-kuta/",
+                        "https://sliipy.ru/2018/04/11/статуя-свободы/",
+                        "https://sliipy.ru/2018/04/06/город-токио-tokyo/",
+                        "https://sliipy.ru/2018/03/27/галерея-тейт-модерн-tate-modern/",
+                        "https://sliipy.ru/2018/03/25/остров-сокотра-socotra/",
+                        "https://sliipy.ru/2018/03/19/остров-мэн-isle-of-man/",
+                        "https://sliipy.ru/2018/03/16/монастыри-метеоры-meteora/",
+                        "https://sliipy.ru/2018/03/13/город-эдинбург-edinburgh/",
+                        "https://sliipy.ru/2018/03/11/амальфитанское-побережье-costiera-amalfitana/",
+                        "https://sliipy.ru/2018/03/05/утесы-мохер-cliffs-of-moher/",
+                        "https://sliipy.ru/2018/03/02/розовый-пляж-pink-sands-beach/",
+                        "https://sliipy.ru/2018/02/27/долина-смерти-death-valley/",
+                        "https://sliipy.ru/2018/02/24/бостон/",
+                        "https://sliipy.ru/2018/02/24/дублин/",
+                        "https://sliipy.ru/2018/02/14/древний-город-эфес-efes/",
+                        "https://sliipy.ru/2018/02/13/река-чаупхрая-chao-phraya/",
+                        "https://sliipy.ru/2018/02/11/ниагарский-водопад-niagara-falls/",
+                        "https://sliipy.ru/2018/02/09/остров-кюсю-kyushu-island/"
                 )
         ));
 
@@ -1825,7 +1848,28 @@ public class SitesStorage {
                 "http://sniizy.ru",
                 "5",
                 createSecondaryUrls(
-
+                        "http://sniizy.ru/2018/05/28/гейрангер-фьорд/",
+                        "http://sniizy.ru/2018/05/25/холм-большого-будды/",
+                        "http://sniizy.ru/2018/05/13/пустыня-атакама-desierto-de-atacama/",
+                        "http://sniizy.ru/2018/05/07/остров-рюген-rugen/",
+                        "http://sniizy.ru/2018/04/28/дворцово-парковый-ансамбль-царицыно/",
+                        "http://sniizy.ru/2018/04/25/нормандия-normandie/",
+                        "http://sniizy.ru/2018/04/22/город-ла-пас-la-paz/",
+                        "http://sniizy.ru/2018/04/18/эресуннский-мост-oresund-bridge/",
+                        "http://sniizy.ru/2018/04/15/копаоник-kopaonik/",
+                        "http://sniizy.ru/2018/04/11/рейхстаг-reichstag-building/",
+                        "http://sniizy.ru/2018/04/06/город-ванкувер-vancouver/",
+                        "http://sniizy.ru/2018/03/27/эрмитаж-в-амстердаме-hermitage-amsterdam/",
+                        "http://sniizy.ru/2018/03/25/принцевы-острова/",
+                        "http://sniizy.ru/2018/03/19/остров-бора-бора-bora-bora/",
+                        "http://sniizy.ru/2018/03/16/монастырь-острог-ostrog/",
+                        "http://sniizy.ru/2018/03/13/город-шанхай-shanghai/",
+                        "http://sniizy.ru/2018/03/11/джемете/",
+                        "http://sniizy.ru/2018/03/05/арболь-де-пьедра-arbol-de-piedra/",
+                        "http://sniizy.ru/2018/03/02/кута-kuta/",
+                        "http://sniizy.ru/2018/02/27/ниагарский-водопад/",
+                        "http://sniizy.ru/2018/02/24/лос-анджелес/",
+                        "http://sniizy.ru/2018/02/24/оттава/"
                 )
         ));
 
@@ -1839,7 +1883,34 @@ public class SitesStorage {
                 "10701692 - Вова",
                 "http://legalayz.ru",
                 "8",
-                null
+                createSecondaryUrls(
+                        "http://legalayz.ru/2017/08/12/тест-сможете-ли-вы-угадать-анимационн/",
+                        "http://legalayz.ru/2017/09/01/выберите-окно-и-оно-откроет-правду-о-то/",
+                        "http://legalayz.ru/2017/10/07/этот-тест-определит-уровень-вашей-гра/",
+                        "http://legalayz.ru/2017/10/29/тест-для-интровертов-тип-личности-по-м/",
+                        "http://legalayz.ru/2017/11/13/выберите-картинку-и-узнайте-ваше-псих/",
+                        "http://legalayz.ru/2018/02/22/sekrety-narodnoj-kitajskoj-mediciny-dlja-bystroj-borby-s-ustalostju/",
+                        "http://legalayz.ru/2018/03/04/10-zhivotnyh-kotoryh-sozdal-djavol/",
+                        "http://legalayz.ru/2018/03/09/13-letnij-malchishka-nes-na-rukah-bolnuju-sestru-po-pylajushhemu-koridoru-a-potom-bosikom-po-snegu-v-40-on-spas-vsju-semju/",
+                        "http://legalayz.ru/2018/03/25/hozjajka-chut-ne-umerla-ot-serdechnogo-pristupa-uvidev-svoih-7-loshadej-lezhashhih-na-zemle/",
+                        "http://legalayz.ru/2018/04/05/shjeron-stoun-foto-bez-makijazha-sejchas/",
+                        "http://legalayz.ru/2018/04/05/znamenitosti-kotorye-sovershili-ubijstvo/",
+                        "http://legalayz.ru/2018/04/14/v-pakistane-beremennuju-pevicu-zastrelili-prjamo-na-scene-za-otkaz-vystupat-stoja/",
+                        "http://legalayz.ru/2018/04/20/jetot-4-letnij-rebenok-vneshne-pohozh-na-starichka-vrachi-do-sih-por-ne-mogut-objasnit-prichinu-jetogo/",
+                        "http://legalayz.ru/2018/04/20/u-vas-doma-est-kupjury-1-dollara-proverte-vozmozhno-oni-stojat-tysjachi/",
+                        "http://legalayz.ru/2018/04/24/ubitaja-gorem-sobaka-broshennaja-iz-za-ejo-nekrasivogo-lica-nashla-dom-i-silno-izmenilas/",
+                        "http://legalayz.ru/2018/04/30/igil-ustroil-ohotu-na-prnoaktrisu-snjavshujusja-v-hidzhabe/",
+                        "http://legalayz.ru/2018/04/30/pjat-stran-gde-mozhno-kupit-zhenu/",
+                        "http://legalayz.ru/2018/05/02/v-kakom-mesjace-devushka-rodilas-takoj-u-nee-i-harakter-popadanie-100/",
+                        "http://legalayz.ru/2018/05/03/esli-vy-najdete-zhenshhinu-na-jetom-foto-vash-iq-vyshe-srednego/",
+                        "http://legalayz.ru/2018/05/10/sosedi-napisali-zapisku-strastnoj-parochke/",
+                        "http://legalayz.ru/2018/05/14/jetoj-devushke-prorochat-pobedu-na-evrovidenii-a-ee-klip-nabral-bolee-25-mln-prosmotrov/",
+                        "http://legalayz.ru/2018/05/14/sharliz-teron-nabrala-23-kilogramma-dlja-novoj-roli-i-ee-bolshe-ne-uznajut-fanaty/",
+                        "http://legalayz.ru/2018/05/18/ocherednoj-tanec-anastasii-volochkovoj-napugal-poklonnikov/",
+                        "http://legalayz.ru/2018/05/22/pjat-sovetov-o-kotoryh-dolzhen-znat-kazhdyj-muzhchina/",
+                        "http://legalayz.ru/2018/05/22/vas-ne-budut-uvazhat-kak-zhenshhinu-esli-vy-delaete-jeti-9-veshhej/",
+                        "http://legalayz.ru/2018/05/28/jeto-ad-hudshij-koshmar-ljuboj-materi-devushka-vpala-v-komu-iz-za-oslozhnenij-ot-obychnoj-prostudy-ona-dvazhdy-umerla-na-operacionnom-stole/"
+                )
         ));
 
 //        http://vector-remonta.ru/karta-sajta
