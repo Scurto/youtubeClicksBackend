@@ -135,7 +135,7 @@ public class SitesStorage {
                 45,
                 45,
                 "1",
-                "0",
+                "4",
                 null,
                 "11016161 - Stepan",
                 "http://mikik.ru/",
