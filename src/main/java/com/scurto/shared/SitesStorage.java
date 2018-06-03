@@ -79,6 +79,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1857640", model(
+                "1857640",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "10813496 - Genadi",
+                "http://cofee-room.ru",
+                "6",
+                null
+        ));
+
 
         siteModels.put("1764661", model(
                 "1764661",
@@ -688,6 +701,19 @@ public class SitesStorage {
                 null,
                 "10603708 - Areg",
                 "http://okoook.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1679577", model(
+                "1679577",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://oookok.ru",
                 "5",
                 null
         ));
@@ -1330,7 +1356,32 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "http://sunsee.info/",
                 "5",
-                null
+                createSecondaryUrls(
+                        "https://sunsee.info/ролик-всего-то-на-12-секунд-а-смеха/",
+                        "https://sunsee.info/эта-записка-дверях-акушера-гинекол/",
+                        "https://sunsee.info/10-фото-о-том-как-женщины-отомстили-мужу/",
+                        "https://sunsee.info/все-мужчины-влюбляются-только-ту-жен/",
+                        "https://sunsee.info/вот-сколько-вы-должны-весить-в-соответ/",
+                        "https://sunsee.info/6-верных-признаков-того-что-вы-состоите/",
+                        "https://sunsee.info/6-признаков-того-что-вы-счастливая-н/",
+                        "https://sunsee.info/5-причин-почему-мужчины-уходят-лю/",
+                        "https://sunsee.info/9-комиксов-том-живут-нормальные-л/",
+                        "https://sunsee.info/10-звезд-до-того-как-у-них-появились-стил/",
+                        "https://sunsee.info/13-мужчин-которым-можно-дать-медаль/",
+                        "https://sunsee.info/вы-со-второй-половинкой-одного-з/",
+                        "https://sunsee.info/3-ингредиента-которые-вернут-жизнь-люб/",
+                        "https://sunsee.info/оптическая-иллюзия-которая-поможет/",
+                        "https://sunsee.info/10-хитростей-всегда-выглядеть-обв/",
+                        "https://sunsee.info/5-приемов-которые-помогут-вам/",
+                        "https://sunsee.info/5-поз-которые-помогут-справиться-со-стр/",
+                        "https://sunsee.info/настроения-любви-двух-словах/",
+                        "https://sunsee.info/9-романтических-жестов-которыми-вы-мож/",
+                        "https://sunsee.info/2-правила-серьезно-заинтересова/",
+                        "https://sunsee.info/7-правил-этикета-которые-мы-должны-знат/",
+                        "https://sunsee.info/никто-не-говорил-мне-что-эти-6-вещей-мог/",
+                        "https://sunsee.info/нежность-это-не-слабость-нежность/",
+                        "https://sunsee.info/20-вещей-которые-стоит-сделать-30-лет-что/"
+                )
         ));
 
         siteModels.put("1770941", model(
@@ -1343,7 +1394,22 @@ public class SitesStorage {
                 "6615828 - Ivan",
                 "http://mirchudes24.ru/",
                 "5",
-                null
+                createSecondaryUrls(
+                        "http://mirchudes24.ru/2018/02/18/почему-люди-карими-глазами-самые-луч/",
+                        "http://mirchudes24.ru/2018/02/19/цените-женщин-что-вас-дома-ждут/",
+                        "http://mirchudes24.ru/2018/02/23/научиться-замечать-подсказки-жиз/",
+                        "http://mirchudes24.ru/2018/03/04/простая-философия-не-навреди-но-и-не-т/",
+                        "http://mirchudes24.ru/2018/03/25/3-совета-как-научится-читать-чужие-мысл/",
+                        "http://mirchudes24.ru/2018/04/01/главная-проблема-женатых-людей/",
+                        "http://mirchudes24.ru/2018/04/01/люди-которые-говорят-сами-с-собой-ге/",
+                        "http://mirchudes24.ru/2018/04/01/о-личности-и-индивидуальности/",
+                        "http://mirchudes24.ru/2018/04/08/7-причин-почему-пара-должна-путешество/",
+                        "http://mirchudes24.ru/2018/04/08/тест-на-определение-вашего-биологиче/",
+                        "http://mirchudes24.ru/2018/04/08/фильмы-которые-не-отпускают-до-самого/",
+                        "http://mirchudes24.ru/2018/04/15/в-солнечную-систему-впервые-прилетел/",
+                        "http://mirchudes24.ru/2018/04/15/никогда-нельзя-хрустеть-пальцами/",
+                        "http://mirchudes24.ru/2018/04/15/уходите-от-токсичных-людей-включая-то/"
+                )
         ));
 
         siteModels.put("1660669", model(
@@ -1910,6 +1976,32 @@ public class SitesStorage {
                         "http://legalayz.ru/2018/05/22/pjat-sovetov-o-kotoryh-dolzhen-znat-kazhdyj-muzhchina/",
                         "http://legalayz.ru/2018/05/22/vas-ne-budut-uvazhat-kak-zhenshhinu-esli-vy-delaete-jeti-9-veshhej/",
                         "http://legalayz.ru/2018/05/28/jeto-ad-hudshij-koshmar-ljuboj-materi-devushka-vpala-v-komu-iz-za-oslozhnenij-ot-obychnoj-prostudy-ona-dvazhdy-umerla-na-operacionnom-stole/"
+                )
+        ));
+
+        siteModels.put("1845359", model(
+                "1845359",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://sparepartssale.ru",
+                "5",
+                createSecondaryUrls(
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-axor-i-i-ii-pokoleniya-posobie-po-remontu-i-ekspluatatsii-elektroshemy.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-axor-posobie-po-ekspluatatsii-i-tehnicheskomu-obslujivaniyu-tom-1.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-axor-mersedes-aksor-s-2005-kniga-po-remontu-i-ekspluatatsii--katalog-zapchastey.html",
+                        "http://sparepartssale.ru/avtoliteratura/volvo-fh--fm-s-2002-instruktsiya-po-ekspluatatsii-i-tehobslujivaniyu.html",
+                        "http://sparepartssale.ru/avtoliteratura/volvo-fh-c-2005-posobie-po-remontu.html",
+                        "http://sparepartssale.ru/avtoliteratura/volvo-fh12-1993-1998-posobie-po-remontu-i-ekspluatatsii--katalog-detaley.html",
+                        "http://sparepartssale.ru/avtoliteratura/volvo-fm-s-2002-instruktsiya-po-remontu-i-ekspluatatsii.html",
+                        "http://sparepartssale.ru/avtoliteratura/volvo-fh-s-2002-kniga-po-remontu-i-ekspluatatsii.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-new-s-03-11-rukovodstvo-po-remontu.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-1996-2007-kniga-po-remontu-i-ekspluatatsii.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-1996-2003-dizel-kniga-po-remontu-i-ekspluatatsii.html",
+                        "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-2-2003-2008--actros-3-2008-2011-dizel-posobie-po-remontu-i-ekspluatatsii.html"
                 )
         ));
 
