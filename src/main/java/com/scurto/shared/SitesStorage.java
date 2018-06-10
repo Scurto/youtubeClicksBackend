@@ -66,6 +66,39 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1856449", model(
+                "1856449",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "10813496 - Genadi",
+                "http://see-online.ru/",
+                "6",
+                createSecondaryUrls(
+                        "http://see-online.ru/2018/02/23/простой-метод-пифагора-который-помож/",
+                        "http://see-online.ru/2018/02/23/12-приложений-которые-заменят-психолог/",
+                        "http://see-online.ru/2018/02/23/28-постов-в-соцсетях-ради-которых-стоит/",
+                        "http://see-online.ru/2018/02/23/15-крутых-традиций-в-разных-странах-мира/",
+                        "http://see-online.ru/2018/02/23/ганский-художник-рисует-отношения-та/",
+                        "http://see-online.ru/2018/02/18/психологи-назвали-10-простых-истин-кото/",
+                        "http://see-online.ru/2018/02/18/15-изобретений-которые-делают-наш-мир-о/",
+                        "http://see-online.ru/2018/02/18/21-факт-о-нашем-мире-для-тех-кто-уже-давно/",
+                        "http://see-online.ru/2018/02/18/15-забавных-тортов-которые-могли-бы-поу/",
+                        "http://see-online.ru/2018/02/18/25-фото-на-которых-происходит-чуточку-б/",
+                        "http://see-online.ru/2018/02/18/20-доказательств-что-аватаркам-в-соцсет/",
+                        "http://see-online.ru/2018/02/18/эти-дизайнеры-шьют-наряды-примерить-к/",
+                        "http://see-online.ru/2018/02/18/13-звезд-которые-когда-то-ночевали-на-ул/",
+                        "http://see-online.ru/2018/02/18/фотограф-показала-что-красивые-снимк/",
+                        "http://see-online.ru/2018/02/18/31-парных-тату-за-которыми-скрываются-и/",
+                        "http://see-online.ru/2018/02/18/20-наглядных-сравнений-которые-заставя/",
+                        "http://see-online.ru/2018/02/18/12-побочных-эффектов-тренировок-с-котор/",
+                        "http://see-online.ru/2018/02/08/5-приемов-экстремального-вождения-зим/",
+                        "http://see-online.ru/2018/02/08/11-иллюстраций-о-том-как-меняется-жизнь/"
+                )
+        ));
+
         siteModels.put("1656028", model(
                 "1656028",
                 45,
@@ -152,7 +185,7 @@ public class SitesStorage {
                 null,
                 "11016161 - Stepan",
                 "http://mikik.ru/",
-                "6",
+                "8",
                 null
         ));
 
@@ -1976,6 +2009,34 @@ public class SitesStorage {
                         "http://legalayz.ru/2018/05/22/pjat-sovetov-o-kotoryh-dolzhen-znat-kazhdyj-muzhchina/",
                         "http://legalayz.ru/2018/05/22/vas-ne-budut-uvazhat-kak-zhenshhinu-esli-vy-delaete-jeti-9-veshhej/",
                         "http://legalayz.ru/2018/05/28/jeto-ad-hudshij-koshmar-ljuboj-materi-devushka-vpala-v-komu-iz-za-oslozhnenij-ot-obychnoj-prostudy-ona-dvazhdy-umerla-na-operacionnom-stole/"
+                )
+        ));
+
+        siteModels.put("1830532", model(
+                "1830532",
+                45,
+                45,
+                "1",
+                "5",
+                null,
+                "10701692 - Вова",
+                "http://hmblog.ru",
+                "8",
+                createSecondaryUrls(
+                )
+        ));
+
+        siteModels.put("1862254", model(
+                "1862254",
+                45,
+                45,
+                "1",
+                "6",
+                null,
+                "11359136 - Катя",
+                "http://kraxi.ru",
+                "8",
+                createSecondaryUrls(
                 )
         ));
 

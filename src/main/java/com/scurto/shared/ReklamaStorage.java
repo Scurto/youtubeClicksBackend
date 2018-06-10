@@ -582,7 +582,7 @@ public class ReklamaStorage {
         ));
 
         reklamaModels.put("skyfitness.com.ua", model(
-                "http://skyfitness.com.ua/services-all-fitness/",
+                "https://skyfitness.com.ua/services-all-fitness/",
                 "skyfitness.com.ua",
                 ReklamaModel.Location.UA.getKey(),
                 ReklamaModel.Type.REKLAMA.getKey(),
