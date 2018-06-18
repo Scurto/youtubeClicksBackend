@@ -1730,6 +1730,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1851876", model(
+                "1851876",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://hodizdorov.ru/site-map",
+                "6",
+                null
+        ));
+
         siteModels.put("1482297", model(
                 "1482297",
                 55,
@@ -1895,6 +1908,27 @@ public class SitesStorage {
                 "5",
                 createSecondaryUrls(
 
+                        "http://doocy.ru/2018/05/28/парфенон-в-афинах-parthenon/",
+                        "http://doocy.ru/2018/05/25/шунантунич-xunantunich/",
+                        "http://doocy.ru/2018/05/13/дюна-эфа/",
+                        "http://doocy.ru/2018/05/07/остров-белла-остров-изола-белла/",
+                        "http://doocy.ru/2018/04/30/музей-современного-искусства-в-нитер/",
+                        "http://doocy.ru/2018/04/30/мэрия-лондона-london-city-hall/",
+                        "http://doocy.ru/2018/04/30/опера-осло-operahuset/",
+                        "http://doocy.ru/2018/04/30/башня-агбар-torre-agbar/",
+                        "http://doocy.ru/2018/04/30/музей-гуггенхайма-в-бильбао-guggenheim-museum-bilbao/",
+                        "http://doocy.ru/2018/04/30/центр-гейдара-алиева/",
+                        "http://doocy.ru/2018/04/30/хранилище-судного-дня-всемирное-семе/",
+                        "http://doocy.ru/2018/04/30/храм-лотоса-lotus-temple/",
+                        "http://doocy.ru/2018/04/30/атомиум-atomium/",
+                        "http://doocy.ru/2018/04/25/пещера-рук-куэва-де-лас-манос/",
+                        "http://doocy.ru/2018/04/25/пещера-шондонг-son-doong/",
+                        "http://doocy.ru/2018/04/25/моравский-крас-moravsky-kras/",
+                        "http://doocy.ru/2018/04/25/великоанадольский-лес/",
+                        "http://doocy.ru/2018/04/25/танцующий-лес-на-куршской-косе/",
+                        "http://doocy.ru/2018/04/25/бассейн-амазонки-amazon-basin/",
+                        "http://doocy.ru/2018/04/25/шварцвальд-schwarzwald-черный-лес/",
+                        "http://doocy.ru/2018/04/25/беловежская-пуща-belovezhskaya-pushcha-national-park/"
                 )
         ));
 
@@ -2076,6 +2110,7 @@ public class SitesStorage {
 //        http://faza-remonta.ru/karta-sajta
 //        http://house-lab.ru/karta-sajta
 //        http://v-procese.ru/karta-sajta
+//        http://gidpostroyki.ru/sitemap
         return siteModels;
     }
 
