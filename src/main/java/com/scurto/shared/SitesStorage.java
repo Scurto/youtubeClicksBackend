@@ -189,6 +189,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1850092", model(
+                "1850092",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://axjik.ru",
+                "8",
+                null
+        ));
+
         siteModels.put("1761182", model(
                 "1761182",
                 45,
@@ -640,6 +653,39 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1820271", model(
+                "1820271",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9950949 - Artyom",
+                "http://kooka.ru",
+                "5",
+                createSecondaryUrls(
+
+                        "http://kooka.ru/2018/06/22/тина-канделаки-работал-62-миллиона-рубл/",
+                        "http://kooka.ru/2018/06/22/kонфликт-между-николом-пэшиняном-и-арм/",
+                        "http://kooka.ru/2018/06/22/я-хотел-бы-работать-с-майклом-джексоно/",
+                        "http://kooka.ru/2018/06/22/армянский-фестиваль-культуры-которы/",
+                        "http://kooka.ru/2018/06/22/аргентинские-футболисты-хотят-вывес/",
+                        "http://kooka.ru/2018/06/15/журналист-который-опубликовал-стать/",
+                        "http://kooka.ru/2018/06/15/мне-нравятся-люди-как-алеп/",
+                        "http://kooka.ru/2018/06/14/жерар-депардье-и-пьер-ришар-решили-сня/",
+                        "http://kooka.ru/2018/06/14/была-арестована-супружеская-пара-кто/",
+                        "http://kooka.ru/2018/06/14/в-его-день-рождения-трамп-возьмет-выхо/",
+                        "http://kooka.ru/2018/06/14/iphone-защищион/",
+                        "http://kooka.ru/2018/06/14/манчестер-юнайтед-еще-раз-стал-самым-д/",
+                        "http://kooka.ru/2018/06/14/кремль-объявил-о-том-какие-иностранны/",
+                        "http://kooka.ru/2018/06/14/темпы-обмена-валюты-с-14-июня/",
+                        "http://kooka.ru/2018/06/14/дата-референдума-по-распределению-3-шт/",
+                        "http://kooka.ru/2018/05/21/палестинский-президент-махмуд-аббас/",
+                        "http://kooka.ru/2018/05/21/модель-formy-playboy-в-нью-йорке-с-7-летним-сыном-па/",
+                        "http://kooka.ru/2018/05/21/памятник-маршала-бэгрэмьяна-открыва/"
+                )
+        ));
+
         siteModels.put("1806773", model(
                 "1806773",
                 45,
@@ -685,6 +731,51 @@ public class SitesStorage {
                 "http://junjo.ru/",
                 "5",
                 null
+        ));
+
+        siteModels.put("1685680", model(
+                "1685680",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "http://ukuki.ru",
+                "5",
+                null
+        ));
+
+        siteModels.put("897685", model(
+                "897685",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "6175130 - Phenix",
+                "http://travki.in.ua/",
+                "5",
+                createSecondaryUrls(
+                        "http://travki.in.ua/travy-a/5-air-obyknovenniy",
+                        "http://travki.in.ua/travy-a/3-aloe-vera",
+                        "http://travki.in.ua/travy-a/4-altei-lekarstvenniy",
+                        "http://travki.in.ua/travy-a/6-astragal-povislocvetkoviy",
+                        "http://travki.in.ua/travy-b/7-bagulnik-bolotniy",
+                        "http://travki.in.ua/travy-b/10-bazilik-dushistiy",
+                        "http://travki.in.ua/travy-b/11-barbaris-obiknovenniy",
+                        "http://travki.in.ua/travy-b/8-bessmertnik-peschaniy-ili-cmin",
+                        "http://travki.in.ua/travy-b/273-borovaya-matka-ortiliya",
+                        "http://travki.in.ua/travy-b/9-boyarishnik",
+                        "http://travki.in.ua/travy-b/21-brusnika",
+                        "http://travki.in.ua/travy-b/13-buzina-travyanistaya",
+                        "http://travki.in.ua/travy-v/12-valeriana-lekarstvennaya",
+                        "http://travki.in.ua/travy-v/16-verbeinik-monetchatiy-ili-lugovoy-chay",
+                        "http://travki.in.ua/travy-v/14-veresk-obiknovenniy",
+                        "http://travki.in.ua/travy-v/15-veronika-lekarstvennaya",
+                        "http://travki.in.ua/travy-v/20-vishnya-obiknovennaya",
+                        "http://travki.in.ua/travy-v/17-volchec-kudryaviy"
+                )
         ));
 
         siteModels.put("1684341", model(
@@ -994,6 +1085,38 @@ public class SitesStorage {
                         "http://paypey.ru/2018/05/01/антон-козлов-ставим-цель-и-идем-вперед/"
                 )
         ));
+
+        siteModels.put("1840793", model(
+                "1840793",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "11359136 - Катя",
+                "http://paypey.ru",
+                "8",
+                createSecondaryUrls(
+                        "http://paypey.ru/2018/04/28/расшифровка-моторного-масла/",
+                        "http://paypey.ru/2018/03/15/кредит-под-залог-в-москве/",
+                        "http://paypey.ru/2018/03/15/услуги-адвоката/",
+                        "http://paypey.ru/2018/03/15/как-избежать-раздражения-после-брить/",
+                        "http://paypey.ru/2018/05/21/минимализм-заключается-не-в-отсутств/",
+                        "http://paypey.ru/2018/05/21/зафиксирована-рекордная-концентраци/",
+                        "http://paypey.ru/2018/05/21/женщины-предпочитают-мужественные-л/",
+                        "http://paypey.ru/2018/05/12/ксения-собчак-и-максим-виторган-отдых/",
+                        "http://paypey.ru/2018/05/11/ford-возьмется-за-водителей-скорых/",
+                        "http://paypey.ru/2018/04/12/вы-некрасивые-и-жалкие-лена-миро-объ/",
+                        "http://paypey.ru/2018/05/06/вегетарианская-диета-похудей-на-овощ/",
+                        "http://paypey.ru/2018/04/26/звезда-сериала-сваты-олег-треповский/",
+                        "http://paypey.ru/2018/04/26/неожиданные-совпадения-в-которые-сло/",
+                        "http://paypey.ru/2018/05/05/роботов-научили-эффективно-оказыват/",
+                        "http://paypey.ru/2018/05/04/через-шесть-лет-на-луну-отправится-рос/",
+                        "http://paypey.ru/2018/05/03/альтуризм-туризм-со-смыслом/",
+                        "http://paypey.ru/2018/05/01/антон-козлов-ставим-цель-и-идем-вперед/"
+                )
+        ));
+
         siteModels.put("1836491", model(
                 "1836491",
                 40,
@@ -1896,6 +2019,21 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1832924", model(
+                "1832924",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://hepii.ru",
+                "5",
+                createSecondaryUrls(
+
+                )
+        ));
+
         siteModels.put("1836385", model(
                 "1836385",
                 45,
@@ -2098,6 +2236,45 @@ public class SitesStorage {
                         "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-1996-2003-dizel-kniga-po-remontu-i-ekspluatatsii.html",
                         "http://sparepartssale.ru/avtoliteratura-20265/mercedes-benz-actros-2-2003-2008--actros-3-2008-2011-dizel-posobie-po-remontu-i-ekspluatatsii.html"
                 )
+        ));
+
+        siteModels.put("1846631", model(
+                "1846631",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://bigprodzap.ru",
+                "5",
+                createSecondaryUrls(
+                        "http://bigprodzap.ru/lampy/r5w-t16-12v-5w--ba15s-lampa-upakovka-10-sht-blick.html",
+                        "http://bigprodzap.ru/predohraniteli/mini-10-mm-30-a--predohranitel-upakovka-10-sht-blick-zelnyiy.html",
+                        "http://bigprodzap.ru/predohraniteli/mini-10-mm-25-a--predohranitel-upakovka-10-sht-blick-prozrachn.html",
+                        "http://bigprodzap.ru/predohraniteli/mini-10-mm-20-a--predohranitel-upakovka-10-sht-blick-jelt.html",
+                        "http://bigprodzap.ru/predohraniteli/mini-10-mm-15-a--predohranitel-upakovka-10-sht-blick-siniy.html",
+                        "http://bigprodzap.ru/lampy/p15w-12v-15w--ba15s-lampa-upakovka-10-sht-selum.html",
+                        "http://bigprodzap.ru/lampy/py21w-s25-12v-21w--ba15s-lampa-upakovka-10-sht-blick-jelt.html",
+                        "http://bigprodzap.ru/lampy/p215w-12v-215w--ba15d-lampa-upakovka-10-sht-selum.html",
+                        "http://bigprodzap.ru/lampy/p214w-12v-214w--baz15d-lampa-upakovka-10-sht-selum.html",
+                        "http://bigprodzap.ru/lampy/t4w-12v-4w--ba9s-lampa-upakovka-10-sht-selum.html",
+                        "http://bigprodzap.ru/lampy/w5w-t10-12v-5w--w21x95d-lampa-upakovka-10-sht-blick.html",
+                        "http://bigprodzap.ru/lampy/w3w-t10-12v-3w--w21x95d-lampa-upakovka-10-sht-blick.html"
+                )
+        ));
+
+        siteModels.put("1844132", model(
+                "1844132",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11299914 - Tony",
+                "http://roama.ru",
+                "6",
+                createSecondaryUrls()
         ));
 
 //        http://vector-remonta.ru/karta-sajta
