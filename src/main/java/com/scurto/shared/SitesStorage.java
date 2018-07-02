@@ -733,6 +733,41 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1591609", model(
+                "1591609",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10603708 - Areg",
+                "https://ooaoo.ru/",
+                "5",
+                createSecondaryUrls(
+
+                        "https://ooaoo.ru/2017/10/14/малыша-бросили-в-холодный-подвал-в-раз/",
+                        "https://ooaoo.ru/2017/10/14/позор-певицы-ирины-дубцовой-обозвав-з/",
+                        "https://ooaoo.ru/2017/10/06/18-красавиц-показали-половину-своего-ли/",
+                        "https://ooaoo.ru/2017/10/06/тест-вы-служанка-принцесса-или-короле/",
+                        "https://ooaoo.ru/2017/10/06/иран-и-турция-отказались-от-доллара/",
+                        "https://ooaoo.ru/2017/10/06/вот-полный-список-всех-секретных-кодо/",
+                        "https://ooaoo.ru/2017/10/03/в-наса-признали-что-инопланетяне-суще/",
+                        "https://ooaoo.ru/2017/10/03/осторожно-5-самых-отъявленных-стерв-по/",
+                        "https://ooaoo.ru/2017/10/03/шеф-повар-знаменитого-ресторана-поде/",
+                        "https://ooaoo.ru/2017/10/03/9-вещей-для-которых-женщина-за-30-уже-слиш/",
+                        "https://ooaoo.ru/2017/10/02/развитие-ребенка-в-утробе-матери-19-сни/",
+                        "https://ooaoo.ru/2017/10/02/люди-ожидали-услышать-от-девочки-песн/",
+                        "https://ooaoo.ru/2017/10/02/на-9-м-месяце-беременности-ее-дочь-перес/",
+                        "https://ooaoo.ru/2017/10/02/дмитрий-шепелев-о-втором-ребенке-хоче/",
+                        "https://ooaoo.ru/2017/10/01/дочь-не-хочет-чтобы-мама-прикасалась-к/",
+                        "https://ooaoo.ru/2017/10/01/оля-полякова-показала-мужа-бизнесмен/",
+                        "https://ooaoo.ru/2017/10/01/5-эффективных-упражнений-для-подтянут/",
+                        "https://ooaoo.ru/2017/10/01/самое-смешное-видео-в-мире-попробуй-не/",
+                        "https://ooaoo.ru/2017/10/01/10-причин-есть-больше-сливочного-масла/",
+                        "https://ooaoo.ru/2017/10/01/вы-больше-не-будете-выбрасывать-кожур/"
+                )
+        ));
+
         siteModels.put("1685680", model(
                 "1685680",
                 40,
@@ -884,18 +919,6 @@ public class SitesStorage {
                 40,
                 40,
                 "0",
-                "4",
-                null,
-                "10603708 - Areg",
-                "https://ooaoo.ru/",
-                "6",
-                null
-        ));
-        siteModels.put("1591609", model(
-                "1591609",
-                55,
-                55,
-                "1",
                 "4",
                 null,
                 "10603708 - Areg",
@@ -1369,6 +1392,45 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1878409", model(
+                "1878409",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "https://laruny.ru",
+                "5",
+                createSecondaryUrls(
+
+                        "https://laruny.ru/2018/06/24/мост-swarkestone/",
+                        "https://laruny.ru/2018/06/24/храм-джаганнатха/",
+                        "https://laruny.ru/2018/06/24/станция-морга/",
+                        "https://laruny.ru/2018/06/24/горький-лимон/",
+                        "https://laruny.ru/2018/06/23/книжный-магазин-бертран/",
+                        "https://laruny.ru/2018/06/23/обнаружение-самой-высокой-горы-в-солн/",
+                        "https://laruny.ru/2018/06/23/местоположение-съемки-mash-вымышленный/",
+                        "https://laruny.ru/2018/06/23/подземный-свод-мемориала-линкольна-п/",
+                        "https://laruny.ru/2018/06/23/один-квадратный-дюйм-тишины-крошечна/",
+                        "https://laruny.ru/2018/06/23/таверна-белой-воды-эта-легенда-литл-ро/",
+                        "https://laruny.ru/2018/06/23/bir-zekreet-некоторые-выглядящие-древним-обра/",
+                        "https://laruny.ru/2018/06/23/пещера-мерлина/",
+                        "https://laruny.ru/2018/06/23/пещера-кобокве/",
+                        "https://laruny.ru/2018/06/23/сюрреалистические-экспериментальны/",
+                        "https://laruny.ru/2018/06/23/центр-полета-twa-в-аэропорту-jfk/",
+                        "https://laruny.ru/2018/06/23/интересные-факты-о-сельскохозяйстве/",
+                        "https://laruny.ru/2018/06/23/5-романтических-мест-для-ресторанов-riverbed/",
+                        "https://laruny.ru/2018/06/23/сушильный-зеленый-шотландия/",
+                        "https://laruny.ru/2018/06/23/здание-lax-theme-лос-анджелес/",
+                        "https://laruny.ru/2018/06/23/bodegas-guell/",
+                        "https://laruny.ru/2018/06/23/габерун-оазис-ливия/",
+                        "https://laruny.ru/2018/06/22/зал-международного-аэропорта-гандер/",
+                        "https://laruny.ru/2018/06/22/5-способов-сделать-день-более-длинным/",
+                        "https://laruny.ru/2018/06/21/остров-исена/"
+                )
+        ));
+
         siteModels.put("1770932", model(
                 "1770932",
                 45,
@@ -1702,6 +1764,31 @@ public class SitesStorage {
                 null,
                 "11235471 - Olga Bulkina",
                 "http://pozitivonst.ru/",
+                "5",
+                null
+        ));
+        siteModels.put("1877104", model(
+                "1877104",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://babybuby.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1872651", model(
+                "1872651",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://mojjo.ru/",
                 "5",
                 null
         ));
@@ -2070,6 +2157,45 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1866924", model(
+                "1866924",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://fueggo.ru",
+                "5",
+                createSecondaryUrls(
+
+                        "http://fueggo.ru/2018/06/25/древний-город-эфес-efes/",
+                        "http://fueggo.ru/2018/06/21/город-лиссабон-lisboa/",
+                        "http://fueggo.ru/2018/06/14/санур-sanur/",
+                        "http://fueggo.ru/2018/06/08/аквариум-анталии-antalya-aquarium/",
+                        "http://fueggo.ru/2018/06/08/диснейленд-в-токио-tokyo-disneyland/",
+                        "http://fueggo.ru/2018/06/08/музей-скансен-skansen/",
+                        "http://fueggo.ru/2018/06/08/деревня-санта-клауса-деревня-йоулупу/",
+                        "http://fueggo.ru/2018/06/08/парк-миниатюр-мини-европа/",
+                        "http://fueggo.ru/2018/06/08/парк-развлечений-порт-авентура-port-aventura/",
+                        "http://fueggo.ru/2018/06/08/национальная-галерея-шотландии-national-gallery-of-scotland/",
+                        "http://fueggo.ru/2018/06/08/эрмитаж-в-амстердаме-hermitage-amsterdam/",
+                        "http://fueggo.ru/2018/06/08/город-стратфорд-на-эйвоне/",
+                        "http://fueggo.ru/2018/06/08/город-солсбери/",
+                        "http://fueggo.ru/2018/06/08/галерея-академии-в-венеции/",
+                        "http://fueggo.ru/2018/06/08/центр-фотографии-им-братьев-люмьер/",
+                        "http://fueggo.ru/2018/06/08/город-кардифф/",
+                        "http://fueggo.ru/2018/06/08/рейксмузеум-rijksmuseum/",
+                        "http://fueggo.ru/2018/06/08/уаи-о-тапу-вайотапу/",
+                        "http://fueggo.ru/2018/06/08/дорога-смерти-юнгас-north-yungas-road/",
+                        "http://fueggo.ru/2018/06/08/трансфэгэрашское-шоссе-дорога-7с/",
+                        "http://fueggo.ru/2018/06/08/великая-океанская-дорога-great-ocean-road/",
+                        "http://fueggo.ru/2018/06/08/город-абердин/",
+                        "http://fueggo.ru/2018/06/08/аппиева-дорога-via-appia/",
+                        "http://fueggo.ru/2018/06/08/город-бристоль/"
+                )
+        ));
+
         siteModels.put("1742970", model(
                 "1742970",
                 45,
@@ -2212,6 +2338,20 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1871076", model(
+                "1871076",
+                45,
+                45,
+                "1",
+                "6",
+                null,
+                "11359136 - Катя",
+                "http://www.dayick.com",
+                "8",
+                createSecondaryUrls(
+                )
+        ));
+
         siteModels.put("1845359", model(
                 "1845359",
                 45,
@@ -2264,6 +2404,58 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1848724", model(
+                "1848724",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://avtoelektron.ru",
+                "5",
+                createSecondaryUrls(
+                        "http://avtoelektron.ru/avtoseyfy/seyf-dometic-safe-md361c.html",
+                        "http://avtoelektron.ru/avtoseyfy/seyf-dometic-safe-md-281c.html",
+                        "http://avtoelektron.ru/avtoseyfy/seyf-dometic-safe-361c.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-indel-b-arctic-plus---1800-watts.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-webasto-compact-cooler-4e-24-v.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-dometic-freshjet-3200.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-dometic-freshlight-2200.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-webasto-compact-cooler-8-1224-v.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-coleman-mach-3-plus-395-kvt.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-waeco-coolair-rt-880.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-truma-aventa-comfort.html",
+                        "http://avtoelektron.ru/avtokonditsionery/avtokonditsioner-truma-saphir-compact.html"
+                )
+        ));
+
+        siteModels.put("1849509", model(
+                "1849509",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://toysforallshop.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-gidrosamolet-art-tech-a5-seaplane-epo-24g---21421.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-samolet-art-tech-cessna-182-400-class-s-lyjami-24g---2101t.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-samolet-art-tech-wing-dragon-4---24g---22032.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-samolet-lodka-art-tech-coota-24g---21104.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-samolet-art-tech-wing-dragon-sportster---24g---22022.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/model-samolta-dynam-sbach-342-24g-mode-2-kod-dy8945.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/model-samolta-dynam-su-26m-rtf-24g-kod-dy8948.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/model-samolta-dynam-pitts-model-12-rtf-koddy8947.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/bumajnyy-samoletik-s-motorom-paper-plane-338-kod-pu338.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-kater-double-horse-flying-fish-7006-kod-7006.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-kater-feilun-ft010-racing-boat-24g---ft010.html",
+                        "http://toysforallshop.ru/sudomodeli--samolty/radioupravlyaemyy-kater-s-beskollektornym-motorom-wltoys-24g---wl915.html"
+                )
+        ));
+
         siteModels.put("1844132", model(
                 "1844132",
                 45,
@@ -2275,6 +2467,77 @@ public class SitesStorage {
                 "http://roama.ru",
                 "6",
                 createSecondaryUrls()
+        ));
+
+        siteModels.put("1865939", model(
+                "1865939",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11392968 - Никита",
+                "https://www.rebuttaloflies.com/",
+                "5",
+                createSecondaryUrls(
+                        "https://www.rebuttaloflies.com/signs",
+                        "https://www.rebuttaloflies.com/amitivill",
+                        "https://www.rebuttaloflies.com/annabel",
+                        "https://www.rebuttaloflies.com/reik",
+                        "https://www.rebuttaloflies.com/chupakabra"
+                )
+        ));
+
+        siteModels.put("1841011", model(
+                "1841011",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11144191 - Андрей",
+                "http://rubachok.ru",
+                "6",
+                createSecondaryUrls(
+                        "http://rubachok.ru/pletnaya-leska-berkley-/pletnaya-leska-berkley-fireline-tracer-braid-110m-016.html",
+                        "http://rubachok.ru/pletenaya-leska-allvega/pletenaya-leska-allvega-yellow-92m-012.html",
+                        "http://rubachok.ru/pletenaya-leska-allvega/pletenaya-leska-allvega-yellow-92m-028.html",
+                        "http://rubachok.ru/pletenaya-leska-allvega/pletenaya-leska-allvega-yellow-92m-030.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-light-game-130m-04.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-light-game-130m-03.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-light-game-130m-02.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-mid-game-150m-15.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-mid-game-150m-12.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-mid-game-150m-1.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-mid-game-150m-08.html",
+                        "http://rubachok.ru/pletnaya-leska-aiko/pletnaya-leska-aiko-unitex-mid-game-150m-06.html"
+                )
+        ));
+
+        siteModels.put("1841019", model(
+                "1841019",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11144191 - Андрей",
+                "http://doctornot.ru/",
+                "6",
+                createSecondaryUrls(
+                        "http://doctornot.ru/bloki-pitaniya-lenovo/blok-pitaniya-40y7700-200v-45a-79x55x05-dlya-lenovo.html",
+                        "http://doctornot.ru/bloki-pitaniya-lenovo/blok-pitaniya-pa-1900-56lc-200v-45a-55x25-dlya-lenovo.html",
+                        "http://doctornot.ru/bloki-pitaniya-lenovo/blok-pitaniya-200v-45a-pryamougolnyy-dlya-lenovo.html",
+                        "http://doctornot.ru/moduli-pamyati/modul-pamyati-8gb-ddr4-2400mgts-so-dimm-ramaxel-rmsa3230kb78haf-2133.html",
+                        "http://doctornot.ru/moduli-pamyati/modul-pamyati-8gb-ddr4-2400mgts-so-dimm-hynix-hma81gs6afr8n-uhn0.html",
+                        "http://doctornot.ru/moduli-pamyati/modul-pamyati-2gb-ddr3-1600mgts-so-dimm-hynix-hmt325s6efr8a-pb.html",
+                        "http://doctornot.ru/moduli-pamyati/modul-pamyati-16gb-ddr4-2400mgts-so-dimm-hynix-hma82gs6mfr8n.html",
+                        "http://doctornot.ru/jestkie-diski/jestkiy-disk-25-95mm-western-digital-1tb-sata-iii-wd10jpvx-08.html",
+                        "http://doctornot.ru/jestkie-diski/jestkiy-disk-25-7mm-seagate-500gb-sata-iii-st500lt012.html",
+                        "http://doctornot.ru/jestkie-diski/jestkiy-disk-25-7mm-seagate-1tb-sata-iii-st1000lm035.html",
+                        "http://doctornot.ru/jestkie-diski/jestkiy-disk-25-7mm-hgst-500gb-sata-iii-hts725050a7e630.html",
+                        "http://doctornot.ru/jestkie-diski/jestkiy-disk-25-5mm-seagate-500gb-sata-iii-st500lt032.html"
+                )
         ));
 
 //        http://vector-remonta.ru/karta-sajta
