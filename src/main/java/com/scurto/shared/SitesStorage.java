@@ -2012,7 +2012,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "11194517 - Gor",
-                "http://www.bigzemlya.ru",
+                "http://big-zemlya.ru/",
                 "5",
                 null
         ));
@@ -2551,6 +2551,12 @@ public class SitesStorage {
 //        http://house-lab.ru/karta-sajta
 //        http://v-procese.ru/karta-sajta
 //        http://gidpostroyki.ru/sitemap
+//        http://shtorylab.ru/karta
+
+
+//        № 1761603: «Простые клики»
+//        http://arta-group.org
+//        https://grandi-okna.com
         return siteModels;
     }
 
