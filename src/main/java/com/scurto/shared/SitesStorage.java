@@ -2553,10 +2553,6 @@ public class SitesStorage {
 //        http://gidpostroyki.ru/sitemap
 //        http://shtorylab.ru/karta
 
-
-//        № 1761603: «Простые клики»
-//        http://arta-group.org
-//        https://grandi-okna.com
         return siteModels;
     }
 

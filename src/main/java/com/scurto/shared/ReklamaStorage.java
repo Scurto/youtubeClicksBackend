@@ -611,6 +611,39 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("arta-group.org", model(
+                "http://arta-group.org/akcii",
+                "arta-group.org",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://arta-group.org/slopes", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/blinds-rollersi", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/services/repair", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/windows-and-doors/laminate-color", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/services/installing", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/balconies/roof", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/balconies/window-long", ""),
+                        new SecondaryReklamaModel("http://arta-group.org/balconies/frantsuzskij-balkon", "")
+                )
+        ));
+
+        reklamaModels.put("grandi-okna.com", model(
+                "https://grandi-okna.com/kredit/",
+                "grandi-okna.com",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://grandi-okna.com/okna/building/spalnya/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/okna/building/kuhnya/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/okna/disign/arochnye/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/balkony/osteklenie-balkonov/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/balkony/remont-balkona-pod-kliuch/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/komplektuyuschye-okna/furnytura/", ""),
+                        new SecondaryReklamaModel("https://grandi-okna.com/komplektuyuschye-okna/otlivy-kozyrki/", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
