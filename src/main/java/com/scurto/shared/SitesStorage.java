@@ -2553,6 +2553,27 @@ public class SitesStorage {
 //        http://gidpostroyki.ru/sitemap
 //        http://shtorylab.ru/karta
 
+//        11469965 - Евгений
+//        № 1852919: «Просмотр сайта+ реклама 5»
+//        http://impetech.ru/
+
+//        № 1861276: «Просмотр сайта+ реклама 6»
+//        vwnaobzore.ru
+
+//        № 1865800: «Просмотр сайта+ реклама 7»
+//        http://countrytech.ru/
+
+//        11016161 - Stepan
+//        № 1750467: «Простые клики gr**e»
+//        http://grvume.ru/
+
+//        № 1812037: «Простые клики hav**i»
+//        http://havaei.ru/
+
+//        № 1832924: «Всего нескольких простых клыков»
+//        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/
+
+
         return siteModels;
     }
 
