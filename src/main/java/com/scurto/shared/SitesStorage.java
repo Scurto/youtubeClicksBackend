@@ -176,6 +176,32 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1750467", model(
+                "1750467",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://grvume.ru/",
+                "8",
+                null
+        ));
+
+        siteModels.put("1812037", model(
+                "1812037",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://havaei.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1737822", model(
                 "1737822",
                 45,
@@ -2117,7 +2143,55 @@ public class SitesStorage {
                 "http://hepii.ru",
                 "5",
                 createSecondaryUrls(
+                        "https://hepii.ru/?p=326",
+                        "https://hepii.ru/?p=316",
+                        "https://hepii.ru/?p=308",
+                        "https://hepii.ru/?p=301",
+                        "https://hepii.ru/?p=295",
+                        "https://hepii.ru/?p=287",
+                        "https://hepii.ru/?p=282",
+                        "https://hepii.ru/?p=277",
+                        "https://hepii.ru/?p=272",
+                        "https://hepii.ru/?p=267",
+                        "https://hepii.ru/?p=262",
+                        "https://hepii.ru/?p=257",
+                        "https://hepii.ru/?p=252",
+                        "https://hepii.ru/?p=247"
+                )
+        ));
 
+        siteModels.put("1870648", model(
+                "1870648",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "10624362 - Bronx",
+                "http://icanbbee.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://icanbbee.ru/2018/07/15/институт-биологии-южных-морей-украин/",
+                        "http://icanbbee.ru/2018/07/15/музей-истории-автомобилей-в-моделях-у/",
+                        "http://icanbbee.ru/2018/07/15/музей-морских-катастроф-украина-мало/",
+                        "http://icanbbee.ru/2018/07/15/литературный-музей-украина-одесса-оп/",
+                        "http://icanbbee.ru/2018/07/14/художественный-музей-имени-ярошенко/",
+                        "http://icanbbee.ru/2018/07/14/крепость-музей-украина-судак/",
+                        "http://icanbbee.ru/2018/07/14/музей-заповедник-усадьба-попова-ук/",
+                        "http://icanbbee.ru/2018/07/14/музеи-италии/",
+                        "http://icanbbee.ru/2018/07/13/экскурсия-к-звездам3-знаменитых-обсер/",
+                        "http://icanbbee.ru/2018/07/13/парадный-вход-8-монументальных-ворот/",
+                        "http://icanbbee.ru/2018/07/11/центр-искусств-королевы-софии-испани/",
+                        "http://icanbbee.ru/2018/07/11/музей-прадо-описание-как-найти-в-мадри/",
+                        "http://icanbbee.ru/2018/07/11/каирский-национальный-музей-египет/",
+                        "http://icanbbee.ru/2018/07/11/музей-bmw-в-мюнхене-и-музей-мерседес-в-шту/",
+                        "http://icanbbee.ru/2018/07/09/музей-порше-porsche-в-штутгарте-адрес-музея/",
+                        "http://icanbbee.ru/2018/07/09/дрезденская-картинная-галерея-время/",
+                        "http://icanbbee.ru/2018/07/06/галерея-уффици-во-флоренции-адрес-и-оп/",
+                        "http://icanbbee.ru/2018/07/06/галерея-спада-рим-расположение-на-кар/",
+                        "http://icanbbee.ru/2018/07/06/рейксмузеум-в-амстердаме/",
+                        "http://icanbbee.ru/2018/07/06/национальная-галерея-лондон-англия/",
+                        "http://icanbbee.ru/2018/07/06/музей-мадам-тюссо-в-лондоне/"
                 )
         ));
 
@@ -2456,6 +2530,55 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1852919", model(
+                "1852919",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://impetech.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-zigmund-shtain-vge-3998-x.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-zigmund-shtain-vgg-3862-x.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-kaiser-hge-61501-r.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-simfer-f96gw52001.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-ricci-rgc-9040bz.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-kaiser-hgg-62501-w.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-electrolux-ekk-96458-cx.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-simfer-f96eo52001.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-bosch-hgd-745255-r.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-ardesia-d667-rcrs.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-beko-csm-62321-da.html",
+                        "http://impetech.ru/gazovye-plity/gazovaya-plita-electrolux-ekg-96118-cx.html"
+                )
+        ));
+
+        siteModels.put("1861276", model(
+                "1861276",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://vwnaobzore.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://vwnaobzore.ru/75000",
+                        "http://vwnaobzore.ru/74999",
+                        "http://vwnaobzore.ru/74998",
+                        "http://vwnaobzore.ru/74997",
+                        "http://vwnaobzore.ru/74996",
+                        "http://vwnaobzore.ru/74991",
+                        "http://vwnaobzore.ru/75009",
+                        "http://vwnaobzore.ru/75023",
+                        "http://vwnaobzore.ru/75028"
+                )
+        ));
+
         siteModels.put("1844132", model(
                 "1844132",
                 45,
@@ -2555,23 +2678,23 @@ public class SitesStorage {
 
 //        11469965 - Евгений
 //        № 1852919: «Просмотр сайта+ реклама 5»
-//        http://impetech.ru/
+//        http://impetech.ru/        ++++
 
 //        № 1861276: «Просмотр сайта+ реклама 6»
-//        vwnaobzore.ru
+//        vwnaobzore.ru              ++++
 
 //        № 1865800: «Просмотр сайта+ реклама 7»
 //        http://countrytech.ru/
 
 //        11016161 - Stepan
 //        № 1750467: «Простые клики gr**e»
-//        http://grvume.ru/
+//        http://grvume.ru/          ++++
 
 //        № 1812037: «Простые клики hav**i»
-//        http://havaei.ru/
+//        http://havaei.ru/          ++++
 
-//        № 1832924: «Всего нескольких простых клыков»
-//        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/
+//        № 1832924: «Всего нескольких простых клыков»       ++++
+//        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/ ++++
 
 
         return siteModels;
