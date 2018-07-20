@@ -1940,6 +1940,21 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1479122", model(
+                "1479122",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://hodizdorov.ru/site-map",
+                "6",
+                null
+        ));
+
+
+
         siteModels.put("1416347", model(
                 "1416347",
                 55,
@@ -2452,6 +2467,36 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1865800", model(
+                "1865800",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://countrytech.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-sony-gtk-xb60.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-jbl-xtreme.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-jbl-pulse-3.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-harman-kardon-onyx-studio-4.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-bbk-bta7000.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-jbl-flip-4.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-jbl-horizon.html",
+                        "http://countrytech.ru/portativnaya-akustika/portativnaya-akustika-philips-bt6000w12.html",
+                        "http://countrytech.ru/domashniy-kinoteatr/domashniy-kinoteatr-sony-bdv-n9200ww.html",
+                        "http://countrytech.ru/domashniy-kinoteatr/domashniy-kinoteatr-sony-bdv-e4100.html",
+                        "http://countrytech.ru/domashniy-kinoteatr/domashniy-kinoteatr-sony-ht-ct80.html",
+                        "http://countrytech.ru/domashniy-kinoteatr/domashniy-kinoteatr-philips-htl-1190b12.html",
+                        "http://countrytech.ru/portativnye-dvd-pleery/portativnyy-dvd-pleer-hyundai-h-lcd1000.html",
+                        "http://countrytech.ru/portativnye-dvd-pleery/portativnyy-dvd-pleer-hyundai-h-lcd900.html",
+                        "http://countrytech.ru/portativnye-dvd-pleery/portativnyy-dvd-pleer-hyundai-h-lcd700.html",
+                        "http://countrytech.ru/portativnye-dvd-pleery/portativnyy-dvd-pleer-mystery-mps-105.html"
+                )
+        ));
+
         siteModels.put("1846631", model(
                 "1846631",
                 45,
@@ -2677,10 +2722,10 @@ public class SitesStorage {
 //        http://shtorylab.ru/karta
 
 //        № 1865800: «Просмотр сайта+ реклама 7»
-//        http://countrytech.ru/
+//        http://countrytech.ru/       +++
 
 //        9553676 - Дмитрий
-//        № 1479122: «Несколько кликов и 1р. ваш» rem*p*an.ru
+//        № 1479122: «Несколько кликов и 1р. ваш» rem*p*an.ru  +++
 
 
 //        № 1832924: «Всего нескольких простых клыков»       ++++

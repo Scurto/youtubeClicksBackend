@@ -644,6 +644,21 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("dok.dbroker.com.ua", model(
+                "http://dok.dbroker.com.ua/",
+                "dok.dbroker.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/maslyanii-filtr", ""),
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/tros-stsepleniya", ""),
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/vozdyshnii-filtr", ""),
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/filtr-salona", ""),
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/klapan-vpysknoi", ""),
+                        new SecondaryReklamaModel("http://dok.dbroker.com.ua/catalog/prokladka-maslyanogo-poddona", "")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
