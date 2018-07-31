@@ -189,6 +189,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1821705", model(
+                "1821705",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11016161 - Stepan",
+                "http://qanak.ru",
+                "8",
+                null
+        ));
+
         siteModels.put("1812037", model(
                 "1812037",
                 45,
@@ -990,6 +1003,20 @@ public class SitesStorage {
                 "8",
                 null
         ));
+
+        siteModels.put("1622174", model(
+                "1622174",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://fitfb.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1816941", model(
                 "1816941",
                 45,
@@ -1144,7 +1171,7 @@ public class SitesStorage {
                 null,
                 "11359136 - Катя",
                 "http://paypey.ru",
-                "8",
+                "7",
                 createSecondaryUrls(
                         "http://paypey.ru/2018/04/28/расшифровка-моторного-масла/",
                         "http://paypey.ru/2018/03/15/кредит-под-залог-в-москве/",
@@ -1235,7 +1262,7 @@ public class SitesStorage {
                 null,
                 "11026159 - Edoooo",
                 "http://gvenik.ru",
-                "6",
+                "7",
                 createSecondaryUrls(
                         "http://gvenik.ru/2018/05/11/в-британии-хотят-запретить-влажные-са/",
                         "http://gvenik.ru/2018/05/19/9394/",
@@ -1415,6 +1442,35 @@ public class SitesStorage {
                         "https://vidzo.me/как-обстоятельства-меняют-людей/",
                         "https://vidzo.me/идеальный-мужчина-знает-все-сокровен/",
                         "https://vidzo.me/простое-правило-1-секунды-сделает-боле/"
+                )
+        ));
+
+        siteModels.put("1886789", model(
+                "1886789",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "6615828 - Ivan",
+                "http://naxanna.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://naxanna.ru/2018/07/23/7-пушистых-фактов-о-красных-пандах/",
+                        "http://naxanna.ru/2018/07/23/как-кошачья-мята-работает/",
+                        "http://naxanna.ru/2018/07/04/лайведен-нью-билд/",
+                        "http://naxanna.ru/2018/07/04/заброшенная-комета-diner/",
+                        "http://naxanna.ru/2018/07/04/как-говорить-на-яганском-языке/",
+                        "http://naxanna.ru/2018/07/04/как-сделать-морской-шелк/",
+                        "http://naxanna.ru/2018/07/03/дворец-клеопатры/",
+                        "http://naxanna.ru/2018/07/03/памятник-йонагуни/",
+                        "http://naxanna.ru/2018/07/03/умирающее-700-летнее-баньяновое-дерево-б/",
+                        "http://naxanna.ru/2018/07/03/исследуйте-звук-островов-которые-ник/",
+                        "http://naxanna.ru/2018/07/03/веселые-девы/",
+                        "http://naxanna.ru/2018/07/03/10-простых-советов-для-здоровой-жизни/",
+                        "http://naxanna.ru/2018/07/01/святая-гора-грэбарка-кресты-всех-форм/",
+                        "http://naxanna.ru/2018/07/01/каменные-кошки-на-ракетной-базе-nike/",
+                        "http://naxanna.ru/2018/07/01/манчестерская-пчела-будьте-в-поисках/"
                 )
         ));
 
@@ -1680,6 +1736,7 @@ public class SitesStorage {
                 "6",
                 null
         ));
+
         siteModels.put("1754686", model(
                 "1754686",
                 40,
@@ -1689,9 +1746,40 @@ public class SitesStorage {
                 null,
                 "10199054 - Semir",
                 "https://nirlen.ru/",
-                "8",
-                null
+                "6",
+                createSecondaryUrls(
+                        "https://nirlen.ru/жители-северных-стран-считаются-самы/",
+                        "https://nirlen.ru/9-неожиданных-фактов-о-том-как-связаны/",
+                        "https://nirlen.ru/мышьяк-нитраты-и-фториды-врачи-предуп/",
+                        "https://nirlen.ru/9-антивозрастных-упражнений-для-лица-ч/",
+                        "https://nirlen.ru/11-комиксов-о-детях-и-родителях-которые/",
+                        "https://nirlen.ru/модели-плюс-сайз-рассказали-какие-вещ/",
+                        "https://nirlen.ru/топ-4-мифов-о-раке-в-которые-давно-пора-п/",
+                        "https://nirlen.ru/сплетники-злорадствуют-варнава-дов/",
+                        "https://nirlen.ru/в-индонезии-разгневанная-толпа-убила-300/",
+                        "https://nirlen.ru/ужасающий-эксперимент-с-бигмаком-пос/",
+                        "https://nirlen.ru/новая-самая-красивая-девочка-в-мире-пя/",
+                        "https://nirlen.ru/бархатная-кожа-без-тонального-и-пудры/",
+                        "https://nirlen.ru/как-избавиться-от-жировика-естествен/",
+                        "https://nirlen.ru/7-вещей-которые-мы-напрасно-считали-фра/",
+                        "https://nirlen.ru/7-сигналов-которые-неосознанно-посыла/",
+                        "https://nirlen.ru/как-общаться-с-подростками-чтобы-не-ст/",
+                        "https://nirlen.ru/быстрый-психологический-портрет-жен/"
+                )
         ));
+
+//        siteModels.put("1754686", model(
+//                "1754686",
+//                40,
+//                40,
+//                "1",
+//                "4",
+//                null,
+//                "10199054 - Semir",
+//                "https://nirlen.ru/",
+//                "8",
+//                null
+//        ));
         siteModels.put("1795234", model(
                 "1795234",
                 40,
@@ -1781,6 +1869,21 @@ public class SitesStorage {
                 "8",
                 null
         ));
+
+        siteModels.put("1893913", model(
+                "1893913",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://handygrow.ru/",
+                "5",
+                null
+        ));
+
+
         siteModels.put("1794908", model(
                 "1794908",
                 45,
@@ -1793,6 +1896,20 @@ public class SitesStorage {
                 "5",
                 null
         ));
+
+        siteModels.put("1857532", model(
+                "1857532",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://mentalclub.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1877104", model(
                 "1877104",
                 45,
@@ -2422,7 +2539,7 @@ public class SitesStorage {
                 null,
                 "11359136 - Катя",
                 "http://kraxi.ru",
-                "8",
+                "7",
                 createSecondaryUrls(
                 )
         ));
@@ -2637,6 +2754,19 @@ public class SitesStorage {
                 createSecondaryUrls()
         ));
 
+        siteModels.put("1804232", model(
+                "1804232",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11110031 - Artsrun",
+                "http://holyeconomy.com/",
+                "6",
+                createSecondaryUrls()
+        ));
+
         siteModels.put("1865939", model(
                 "1865939",
                 45,
@@ -2720,20 +2850,10 @@ public class SitesStorage {
 //        http://v-procese.ru/karta-sajta
 //        http://gidpostroyki.ru/sitemap
 //        http://shtorylab.ru/karta
+//        http://zona-postroyki.ru/karta-sajta
 
-//        № 1865800: «Просмотр сайта+ реклама 7»
-//        http://countrytech.ru/       +++
-
-//        9553676 - Дмитрий
-//        № 1479122: «Несколько кликов и 1р. ваш» rem*p*an.ru  +++
-
-
-//        № 1832924: «Всего нескольких простых клыков»       ++++
 //        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/ ++++
 
-
-//        http://dok.dbroker.com.ua
-//        http://interline.ua
 
         return siteModels;
     }
