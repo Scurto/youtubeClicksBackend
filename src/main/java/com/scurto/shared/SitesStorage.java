@@ -1202,7 +1202,7 @@ public class SitesStorage {
                 null,
                 "11026159 - Edoooo",
                 "http://paypey.ru",
-                "6",
+                "7",
                 createSecondaryUrls(
 
                         "http://paypey.ru/2018/04/28/расшифровка-моторного-масла/",
@@ -1291,7 +1291,7 @@ public class SitesStorage {
                 null,
                 "11026159 - Edoooo",
                 "http://poxik.ru/",
-                "6",
+                "7",
                 createSecondaryUrls(
 
                         "http://poxik.ru/2017/12/11/4-вида-поп-какая-из-них-ваша-выберите-и-у/",
@@ -1746,7 +1746,7 @@ public class SitesStorage {
                 null,
                 "10199054 - Semir",
                 "https://nirlen.ru/",
-                "6",
+                "8",
                 createSecondaryUrls(
                         "https://nirlen.ru/жители-северных-стран-считаются-самы/",
                         "https://nirlen.ru/9-неожиданных-фактов-о-том-как-связаны/",
@@ -2851,6 +2851,7 @@ public class SitesStorage {
 //        http://gidpostroyki.ru/sitemap
 //        http://shtorylab.ru/karta
 //        http://zona-postroyki.ru/karta-sajta
+//        http://fit-fox.ru/
 
 //        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/ ++++
 
@@ -2904,3 +2905,6 @@ public class SitesStorage {
 //        11235471 - Olga Bulkina
 //        11346060 - Davo
 //        10624362 - Bronx
+
+
+//https://sintezal.prom.ua/
