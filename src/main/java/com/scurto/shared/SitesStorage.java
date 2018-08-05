@@ -2908,3 +2908,4 @@ public class SitesStorage {
 
 
 //https://sintezal.prom.ua/
+//https://svitroslyn.ua/
