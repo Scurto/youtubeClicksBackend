@@ -659,6 +659,40 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("sintezal.prom.ua", model(
+                "https://sintezal.prom.ua/news",
+                "sintezal.prom.ua",
+        ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g5751618-stykovochnye-porogi",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g6686690-plintus",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g6465336-karnizy-dlya-shtor",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g16642959-protivoskolzyaschie-nakladki",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g35864530-antiskolzyaschie-lenty",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g9714757-rozetty-dlya-trub",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g12240833-dvernoj-nalichnik",""),
+                        new SecondaryReklamaModel("https://sintezal.prom.ua/g5782393-spetsializirovannye-alyuminievye-profili","")
+                )
+        ));
+
+        reklamaModels.put("svitroslyn.ua", model(
+                "https://svitroslyn.ua/articles/",
+                "svitroslyn.ua",
+        ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/semena-i-rassada/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/lukovichnye-i-klubni/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/sazhentsy/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/apteka-dlya-rasteniy/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/udobreniya/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/sadovye-figury/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/dlya-komnatnykh-rasteniy/",""),
+                        new SecondaryReklamaModel("https://svitroslyn.ua/catalog/teplitsy-i-ukryvnoy-material/","")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",

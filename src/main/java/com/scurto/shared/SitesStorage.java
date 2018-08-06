@@ -2853,7 +2853,6 @@ public class SitesStorage {
 //        http://zona-postroyki.ru/karta-sajta
 //        http://fit-fox.ru/
 
-//        № 1870648: «Всего нескольких простых клыков» http://icanbbee.ru/ ++++
 
 
         return siteModels;
@@ -2905,7 +2904,3 @@ public class SitesStorage {
 //        11235471 - Olga Bulkina
 //        11346060 - Davo
 //        10624362 - Bronx
-
-
-//https://sintezal.prom.ua/
-//https://svitroslyn.ua/
