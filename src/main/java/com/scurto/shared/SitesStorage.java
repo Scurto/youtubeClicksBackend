@@ -1004,6 +1004,36 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1579284", model(
+                "1579284",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "https://postfb.ru/",
+                "8",
+                createSecondaryUrls(
+                        "https://postfb.ru/вкусный-коктейль-который-эффективно/",
+                        "https://postfb.ru/маска-для-лица-с-морковью-для-естестве/",
+                        "https://postfb.ru/вы-можете-заставить-ваши-волосы-восст/",
+                        "https://postfb.ru/десять-моментов-которые-каждый-мужчи/",
+                        "https://postfb.ru/6-граммов-этой-травы-в-день-может-лечить/",
+                        "https://postfb.ru/вы-просыпаетесь-с-болью-в-пятке-настал/",
+                        "https://postfb.ru/это-замечательное-средство-вернет-сл/",
+                        "https://postfb.ru/6-простых-упражнений-которые-быстро-об/",
+                        "https://postfb.ru/боль-в-колене-становится-одной-из-самы/",
+                        "https://postfb.ru/как-обнаружить-поддельный-мед-он-везд-2/",
+                        "https://postfb.ru/попробуйте-этот-бальзам-и-тонер-для-со/",
+                        "https://postfb.ru/этот-удивительный-напиток-топит-жир-к/",
+                        "https://postfb.ru/как-снизить-уровень-сахара-в-крови-с-по/",
+                        "https://postfb.ru/суп-из-брокколи-и-кале-который-содержи-2/",
+                        "https://postfb.ru/диета-с-которой-худеют-все-всего-за-6-дн/",
+                        "https://postfb.ru/10-продуктов-которых-следует-избегать/"
+                )
+        ));
+
         siteModels.put("1622174", model(
                 "1622174",
                 45,
@@ -1735,6 +1765,35 @@ public class SitesStorage {
                 "http://neoguru.ru/",
                 "6",
                 null
+        ));
+
+        siteModels.put("1795220", model(
+                "1795220",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "10199054 - Semir",
+                "http://egaio.ru/",
+                "8",
+                createSecondaryUrls(
+                        "https://egaio.ru/2018/06/17/эти-травы-могут-помочь-вам-справиться/",
+                        "https://egaio.ru/2018/06/18/это-убийца-ожирения-только-одна-столо/",
+                        "https://egaio.ru/2018/07/21/вот-почему-вы-должны-пить-имбирный-чай/",
+                        "https://egaio.ru/2018/05/03/нанесите-немного-этого-масла-на-шею-и-в/",
+                        "https://egaio.ru/2018/08/08/оливковое-масло-хорошо-для-моих-волос/",
+                        "https://egaio.ru/2018/06/26/эти-продукты-помогут-вам-состариться/",
+                        "https://egaio.ru/2018/07/15/только-с-3-столовыми-ложками-в-день-вы-п/",
+                        "https://egaio.ru/2018/04/13/7-аптечных-средств-которые-работают-лу/",
+                        "https://egaio.ru/2018/06/25/это-самый-здоровый-завтрак-очиститес/",
+                        "https://egaio.ru/2018/04/14/магическая-сила-женской-мысли/",
+                        "https://egaio.ru/2018/07/23/невероятный-жиросжигающий-напиток-д-2/",
+                        "https://egaio.ru/2018/08/04/пожалуйста-сделайте-паузу-на-2-минуты-и/",
+                        "https://egaio.ru/2018/02/27/в-италии-женщинам-теперь-дают-выходны/",
+                        "https://egaio.ru/2018/02/27/женщина-купила-кольцо-за-13-долларов-но/",
+                        "https://egaio.ru/2018/02/27/10-фильмов-с-сюжетом-скрученные-так-кла/"
+                )
         ));
 
         siteModels.put("1754686", model(
@@ -2584,6 +2643,36 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1901529", model(
+                "1901529",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11469965 - Евгений",
+                "http://imptecho.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://imptecho.ru/samovary/elektrosamovar-kelli-kl-1324.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-elis-el-4022.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-elis-el-4052.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-chudesnitsa-es-3503.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-rosinka-ros-1006.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-jarkoff-jk-1001.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-centek-ct-0092a.html",
+                        "http://imptecho.ru/samovary/elektrosamovar-dobrynya-do-418-chernyy-hohloma.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofe-kami-l-espresso-oro-1kg-v-zernah.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofe-segafredo-intermezzo-500gr.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofe-carraro-don-carlos-1kg-v-zernah.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofe-amado-brazilskiy-santos-arabika-05kg-.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofe-smart-coffee-club-roma-10sht-kofe-v-kapsulah.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofemolka-nivona-nicg-130.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofemolka-delonghi-kg79.html",
+                        "http://imptecho.ru/kofevarki-kofemashiny-kofemolki-kofe/kofemolka-gorenje-smk-150-w.html"
+                )
+        ));
+
         siteModels.put("1865800", model(
                 "1865800",
                 45,
@@ -2783,6 +2872,36 @@ public class SitesStorage {
                         "https://www.rebuttaloflies.com/annabel",
                         "https://www.rebuttaloflies.com/reik",
                         "https://www.rebuttaloflies.com/chupakabra"
+                )
+        ));
+
+        siteModels.put("1873231", model(
+                "1873231",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "9919386 - Sargis",
+                "http://qoogs.ru/",
+                "6",
+                createSecondaryUrls(
+                        "http://qoogs.ru/2018/06/06/кровь-от-ушей-бузова-убила-пением-бе/",
+                        "http://qoogs.ru/2018/06/06/рада-объявил-об-условии-по-умолчанию-в/",
+                        "http://qoogs.ru/2018/06/06/макрон-сравнил-переговоры-с-трампом-с/",
+                        "http://qoogs.ru/2018/06/06/путин-перед-поездкой-в-китай-подготов/",
+                        "http://qoogs.ru/2018/06/06/путин-признал-что-мог-работать-адвока/",
+                        "http://qoogs.ru/2018/06/02/как-выбрать-кроссовки-типы-подобной-о/",
+                        "http://qoogs.ru/2018/06/02/бывший-главный-редактор-форбса-акрэй/",
+                        "http://qoogs.ru/2018/06/02/коалиция-во-главе-с-сша-сделала-новый-у/",
+                        "http://qoogs.ru/2018/06/02/в-ростовской-области-пять-человек-уме/",
+                        "http://qoogs.ru/2018/06/02/камбербэтчу-удалось-спасти-курьера-о/",
+                        "http://qoogs.ru/2018/05/31/там-там-и-здесь/",
+                        "http://qoogs.ru/2018/05/31/высокая-цена/",
+                        "http://qoogs.ru/2018/05/31/зависть-tankina/",
+                        "http://qoogs.ru/2018/05/31/японцы-хитрость-но-мы-больше-хитрост/",
+                        "http://qoogs.ru/2018/05/31/задница-одноклассника/",
+                        "http://qoogs.ru/2018/05/29/кошки-на-кровати/"
                 )
         ));
 
