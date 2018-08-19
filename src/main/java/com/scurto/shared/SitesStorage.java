@@ -24,12 +24,12 @@ public class SitesStorage {
                 "0",
                 10,
                 10,
-                "3",
-                "3",
+                "1",
+                "1",
                 null,
                 "testTaskOwner",
                 "http://detskie-recepty.ru",
-                "7",
+                "1",
                 createSecondaryUrls(
                         "www.mainUrl.com/aaa",
                         "www.mainUrl.com/bbb",
@@ -2020,6 +2020,35 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("92378", model(
+                "92378",
+                45,
+                45,
+                "1",
+                "5",
+                null,
+                "1189508 - celmondd",
+                "http://lyashenkox.ru/",
+                "7",
+                createSecondaryUrls(
+                        "http://lyashenkox.ru/utes.html",
+                        "http://lyashenkox.ru/utes01.html",
+                        "http://lyashenkox.ru/utes02.html",
+                        "http://lyashenkox.ru/utes03.html",
+                        "http://lyashenkox.ru/utes04.html",
+                        "http://lyashenkox.ru/utes05.html",
+                        "http://lyashenkox.ru/utes06.html",
+                        "http://lyashenkox.ru/utes07.html",
+                        "http://lyashenkox.ru/utes08.html",
+                        "http://lyashenkox.ru/utes09.html",
+                        "http://lyashenkox.ru/utes10.html",
+                        "http://lyashenkox.ru/utes11.html",
+                        "http://lyashenkox.ru/usbm.html",
+                        "http://lyashenkox.ru/usbm01.html",
+                        "http://lyashenkox.ru/usbm03.html"
+                )
+        ));
+
         siteModels.put("1829911", model(
                 "1829911",
                 45,
@@ -2090,6 +2119,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1755586", model(
+                "1755586",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11110031 - Artsrun",
+                "http://www.qmedy.com/",
+                "6",
+                null
+        ));
+
         siteModels.put("1804232", model(
                 "1804232",
                 45,
@@ -2101,6 +2143,87 @@ public class SitesStorage {
                 "http://holyeconomy.com",
                 "6",
                 null
+        ));
+
+        siteModels.put("1864301", model(
+                "1864301",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11449638 - nastia88",
+                "https://nahodki.top/",
+                "4",
+                createSecondaryUrls(
+                        "https://nahodki.top/2018/08/18/nochnoi-kop-yama-s-otlichnymi-nahodkami/",
+                        "https://nahodki.top/2018/08/17/nedavnie-nahodki-oruzhiya-foto/",
+                        "https://nahodki.top/2018/08/17/znaki-na-dereve-ukazyvali-mesto-klada/",
+                        "https://nahodki.top/2018/08/16/7-samyh-bolshih-sokrovishch/",
+                        "https://nahodki.top/2018/08/11/kolco-ot-alyuminievoj-banki-sokrovishche/",
+                        "https://nahodki.top/2018/08/09/nashli-armejskuyu-kassu-polnuyu-deneg/",
+                        "https://nahodki.top/2018/08/01/rimskij-persten-cena-i-podrobnosti/",
+                        "https://nahodki.top/2018/07/30/zolotoj-rimskij-persten-2018/",
+                        "https://nahodki.top/2018/07/28/oruzhie-iz-zemli-nahodki/",
+                        "https://nahodki.top/2018/07/28/shtyk-nozhi-najdennye-s-metalloiskatelem/",
+                        "https://nahodki.top/2018/07/24/transport-kladoiskatelej/",
+                        "https://nahodki.top/2018/07/20/boevoj-pistolet-prodali-kak-igrushku/",
+                        "https://nahodki.top/2018/07/19/3000-letnij-bronzovyj-mech-najden-v-danii/",
+                        "https://nahodki.top/2018/07/11/5-kopeek-1956-goda-sssr-cena-monety/"
+                )
+        ));
+
+        siteModels.put("1826120", model(
+                "1826120",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11218187 - Goodkat",
+                "http://poctroyka.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://poctroyka.ru/krysha/59-myagkaya-krovlya-svoimi-rukami",
+                        "http://poctroyka.ru/otdelochnye-raboty/58-finishnaya-otdelka-sten",
+                        "http://poctroyka.ru/otdelochnye-raboty/57-uteplenie-doma-snaruzhi-svoimi-rukami",
+                        "http://poctroyka.ru/peregorodki-i-proemy/56-montazh-okon-svoimi-rukami",
+                        "http://poctroyka.ru/krysha/55-montazh-krovli-iz-profnastila",
+                        "http://poctroyka.ru/perekrytiya-lestnitsy/54-kak-sdelat-perekrytie-doma",
+                        "http://poctroyka.ru/inzhenernye-seti/53-gazifikatsiya-chastnogo-doma-pod-klyuch",
+                        "http://poctroyka.ru/proektirovanie/52-sdacha-v-ekspluatatsiyu-zhilogo-doma",
+                        "http://poctroyka.ru/otdelochnye-raboty/51-fasadnye-stroitelnye-raboty",
+                        "http://poctroyka.ru/otdelochnye-raboty/50-vnutrennyaya-otdelka-chastnogo-doma",
+                        "http://poctroyka.ru/inzhenernye-seti/49-ustrojstvo-gazosnabzheniya",
+                        "http://poctroyka.ru/inzhenernye-seti/48-kanalizatsiya-dlya-chastnogo-doma-kak-pravilno",
+                        "http://poctroyka.ru/inzhenernye-seti/47-vodoprovod-v-chastnom-dome-svoimi-rukami",
+                        "http://poctroyka.ru/inzhenernye-seti/46-konditsionirovanie-doma",
+                        "http://poctroyka.ru/inzhenernye-seti/45-sistema-ventilyatsii-v-chastnom-dome"
+                )
+        ));
+
+        siteModels.put("1849399", model(
+                "1849399",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11436585 - Александр",
+                "http://citynews-ru.ru/",
+                "5",
+                createSecondaryUrls(
+                        "http://citynews-ru.ru/chislo-bitkoin-bankomatov/",
+                        "http://citynews-ru.ru/portfel-kazhdogo-investora/",
+                        "http://citynews-ru.ru/plyusy-i-minusy-bankovskix-depozitov/",
+                        "http://citynews-ru.ru/centralnyj-bank-gonkonga/",
+                        "http://citynews-ru.ru/kriptovalyutnaya-birzha-binance/",
+                        "http://citynews-ru.ru/glava-mastercard-kriptovalyuty-eto-musor/",
+                        "http://citynews-ru.ru/chto-takoe-foreks/",
+                        "http://citynews-ru.ru/chto-takoe-binarnye-opciony/",
+                        "http://citynews-ru.ru/bankovskie-kredity-dlya-chego-nuzhny/",
+                        "http://citynews-ru.ru/finansy-kriptovalyuty/"
+                )
         ));
 
         siteModels.put("1478391", model(
@@ -2971,7 +3094,9 @@ public class SitesStorage {
 //        http://shtorylab.ru/karta
 //        http://zona-postroyki.ru/karta-sajta
 //        http://fit-fox.ru/
+//        http://motorfly.ru/
 
+//        https://tomocenter.com.ua/
 
 
         return siteModels;
