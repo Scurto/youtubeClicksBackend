@@ -3098,6 +3098,9 @@ public class SitesStorage {
 
 //        https://tomocenter.com.ua/
 
+//   № 1898189: «Время деньги»
+//  № 1898192: «Добыча рублей»
+//        9553676 - Дмитрий
 
         return siteModels;
     }
