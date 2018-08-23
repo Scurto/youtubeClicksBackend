@@ -2239,6 +2239,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1898189", model(
+                "1898189",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://hodizdorov.ru/site-map",
+                "6",
+                null
+        ));
+
         siteModels.put("1479122", model(
                 "1479122",
                 55,
@@ -3098,7 +3111,6 @@ public class SitesStorage {
 
 //        https://tomocenter.com.ua/
 
-//   № 1898189: «Время деньги»
 //  № 1898192: «Добыча рублей»
 //        9553676 - Дмитрий
 
