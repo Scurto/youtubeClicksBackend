@@ -1004,6 +1004,39 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1550675", model(
+                "1550675",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "7017738 - Vedun",
+                "http://scse.ru",
+                "8",
+                createSecondaryUrls(
+                        "https://scse.ru/20-болей-в-теле-причина-которых-в-эмоция/",
+                        "https://scse.ru/он-узнал-что-она-ему-изменяет-и-вот-что/",
+                        "https://scse.ru/30-великолепных-советов-для-вашей-красо/",
+                        "https://scse.ru/раскрыт-рецепт-долголетия-монахов/",
+                        "https://scse.ru/37-людей-которые-достигли-просветления/",
+                        "https://scse.ru/этот-сумасшедший-первый-кто-прыгнул-и/",
+                        "https://scse.ru/идеальные-куриные-пироги-5-супер-рецеп/",
+                        "https://scse.ru/всего-один-стакан-этого-волшебного-на/",
+                        "https://scse.ru/18-снимков-на-которых-ракурс-всё-решил/",
+                        "https://scse.ru/кто-то-увидел-двойника-настоящей-звез/",
+                        "https://scse.ru/как-кондиционер-заставляет-вас-болет/",
+                        "https://scse.ru/узнайте-какая-самая-грязная-часть-ваш/",
+                        "https://scse.ru/посетитель-музея-провалился-в-дырку-в/",
+                        "https://scse.ru/не-смог-скрыть-свою-ревность/",
+                        "https://scse.ru/5-способов-которые-помогут-улучшить-на/",
+                        "https://scse.ru/от-скачков-перепадов-высокого-дав/",
+                        "https://scse.ru/он-потратил-год-чтобы-собрать-42-000-спичек/",
+                        "https://scse.ru/чай-который-растворяет-камни-в-почках/",
+                        "https://scse.ru/5-причин-по-которым-ваше-тело-задержива/"
+                )
+        ));
+
         siteModels.put("1579284", model(
                 "1579284",
                 45,
@@ -1903,6 +1936,32 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1915916", model(
+                "1915916",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "7195882 - Дмитрий",
+                "http://sursutki.ru/",
+                "8",
+                null
+        ));
+
+        siteModels.put("1916307", model(
+                "1916307",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "7195882 - Дмитрий",
+                "http://sursutki.ru/",
+                "8",
+                null
+        ));
+
         siteModels.put("1802877", model(
                 "1802877",
                 40,
@@ -2223,6 +2282,29 @@ public class SitesStorage {
                         "http://citynews-ru.ru/chto-takoe-binarnye-opciony/",
                         "http://citynews-ru.ru/bankovskie-kredity-dlya-chego-nuzhny/",
                         "http://citynews-ru.ru/finansy-kriptovalyuty/"
+                )
+        ));
+
+        siteModels.put("1900967", model(
+                "1900967",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11436585 - Александр",
+                "http://ana-ana.ru/category/finans/",
+                "5",
+                createSecondaryUrls(
+                        "http://ana-ana.ru/kurs-bitkoina-rezko/",
+                        "http://ana-ana.ru/izucheniyu-blokchejna/",
+                        "http://ana-ana.ru/shvejcarskij-onlajn-bank/",
+                        "http://ana-ana.ru/s-kriptovalyutnoj-torgovli/",
+                        "http://ana-ana.ru/plyusy-i-minusy-bankovskix-depozitov/",
+                        "http://ana-ana.ru/centralnyj-bank-gonkonga/",
+                        "http://ana-ana.ru/kriptovalyutnaya-birzha-binance/",
+                        "http://ana-ana.ru/finansiruet-svoj-blokchejn-proekt/",
+                        "http://ana-ana.ru/12-luchshix-sposobov-investirovaniya-biznes-kredity-i-finansy/"
                 )
         ));
 
@@ -3041,6 +3123,19 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1871939", model(
+                "1871939",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "9919386 - Sargis",
+                "http://cofee-room.ru",
+                "6",
+                null
+        ));
+
         siteModels.put("1841011", model(
                 "1841011",
                 45,
@@ -3110,6 +3205,10 @@ public class SitesStorage {
 //        http://motorfly.ru/
 
 //        https://tomocenter.com.ua/
+//        http://chasovshik.ua
+//        https://fancy-marble.com
+
+//        № 1866717: «Простые клики по сайту.»
 
 //  № 1898192: «Добыча рублей»
 //        9553676 - Дмитрий
