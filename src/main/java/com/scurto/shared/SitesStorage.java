@@ -2321,6 +2321,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1898192", model(
+                "1898192",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://hodizdorov.ru/site-map",
+                "6",
+                null
+        ));
+
         siteModels.put("1898189", model(
                 "1898189",
                 55,
@@ -3204,14 +3217,7 @@ public class SitesStorage {
 //        http://fit-fox.ru/
 //        http://motorfly.ru/
 
-//        https://tomocenter.com.ua/
-//        http://chasovshik.ua
-//        https://fancy-marble.com
-
 //        № 1866717: «Простые клики по сайту.»
-
-//  № 1898192: «Добыча рублей»
-//        9553676 - Дмитрий
 
         return siteModels;
     }

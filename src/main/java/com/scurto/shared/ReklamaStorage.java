@@ -693,6 +693,55 @@ public class ReklamaStorage {
                 )
         ));
 
+        reklamaModels.put("tomocenter.com.ua", model(
+                "https://tomocenter.com.ua/otzyvy-pacientov/",
+                "tomocenter.com.ua",
+                ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/o-tsentre/rezultaty-lecheniya/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/vakansyy/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/o-tsentre/oborudovanie/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/lechenie/perviy-vizit/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/konsultatsii/podgotovka-k-konsultatsii/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/konsultatsii/dystantsionnaya-konsul-tatsiya/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/lechenie/lechenie-boli/",""),
+                        new SecondaryReklamaModel("https://tomocenter.com.ua/chitat/my-boremsya-s-rakom/","")
+                )
+        ));
+
+        reklamaModels.put("chasovshik.ua", model(
+                "http://chasovshik.ua/ru/buyout/",
+                "chasovshik.ua",
+        ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("http://chasovshik.ua/garanties/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/recomended/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/ru/service/1/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/price/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/ru/service/portfolio/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/ru/career/",""),
+                        new SecondaryReklamaModel("http://chasovshik.ua/quest-answer.html","")
+                )
+        ));
+
+        reklamaModels.put("fancy-marble.com", model(
+                "https://fancy-marble.com/production-of-individual-orders.html",
+                "fancy-marble.com",
+        ReklamaModel.Location.UA.getKey(),
+                ReklamaModel.Type.REKLAMA.getKey(),
+                createSecondaryReklama(
+                        new SecondaryReklamaModel("https://fancy-marble.com/rakoviny-umyval-niki.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/tumba-s-umyval-nikom.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/penal-dlja-vannoj.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/zerkalo-dlja-vannoj.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/kuhonnye-mojki.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/dushevye-poddony.html",""),
+                        new SecondaryReklamaModel("https://fancy-marble.com/vanny.html","")
+                )
+        ));
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
