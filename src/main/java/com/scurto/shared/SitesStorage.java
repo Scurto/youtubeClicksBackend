@@ -3218,6 +3218,7 @@ public class SitesStorage {
 //        http://motorfly.ru/
 
 //        № 1866717: «Простые клики по сайту.»
+//        https://nasos.net.ua/
 
         return siteModels;
     }
