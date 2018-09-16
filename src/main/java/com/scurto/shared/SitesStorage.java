@@ -2001,6 +2001,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1932084", model(
+                "1932084",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://cocoblog.ru",
+                "5",
+                null
+        ));
+
 
         siteModels.put("1794908", model(
                 "1794908",
@@ -3251,6 +3264,7 @@ public class SitesStorage {
 //        http://zona-postroyki.ru/karta-sajta
 //        http://fit-fox.ru/
 //        http://motorfly.ru/
+//        http://zonaidey.ru/sitemap
 
 //        № 1866717: «Простые клики по сайту.»
 //        https://nasos.net.ua/
