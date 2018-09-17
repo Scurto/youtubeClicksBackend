@@ -99,7 +99,7 @@ public class YoutubeService {
         String stringDate = today.format(formatter);
         Session session = sessionFactory.openSession();
         Transaction tx = null;
-        try{
+        try {
             tx = session.beginTransaction();
 
             if (task == null) {
@@ -107,10 +107,12 @@ public class YoutubeService {
                 task.setTaskId(taskId);
                 task.setLastAdvertise(lastAdvertise);
                 task.setLastDate(stringDate);
+                task.setExecutionCount(1);
                 session.save(task);
             } else {
                 task.setLastDate(stringDate);
                 task.setLastAdvertise(lastAdvertise);
+                task.setExecutionCount(task.getExecutionCount() == null ? 1 : task.getExecutionCount() + 1);
                 session.update(task);
             }
 

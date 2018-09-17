@@ -16,6 +16,8 @@ public class Website {
     private String lastDate;
     @Column(name = "last_advertise")
     private String lastAdvertise;
+    @Column(name = "executionCount")
+    private Integer executionCount;
 
     public Website() {
     }
@@ -43,4 +45,15 @@ public class Website {
     public void setLastAdvertise(String lastAdvertise) {
         this.lastAdvertise = lastAdvertise;
     }
+
+    public Integer getExecutionCount() {
+        return executionCount;
+    }
+
+    public void setExecutionCount(Integer executionCount) {
+        this.executionCount = executionCount;
+    }
 }
+
+//    ALTER TABLE seosprint.website
+//        ADD executionCount int;
