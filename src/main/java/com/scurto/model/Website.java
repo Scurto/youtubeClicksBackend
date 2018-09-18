@@ -54,6 +54,3 @@ public class Website {
         this.executionCount = executionCount;
     }
 }
-
-//    ALTER TABLE seosprint.website
-//        ADD executionCount int;
