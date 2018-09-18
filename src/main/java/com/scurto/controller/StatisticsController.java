@@ -24,25 +24,29 @@ public class StatisticsController {
         try {
             ArrayList<Website> baseList = (ArrayList<Website>) service.getWebsites();
             System.out.println(topStrategy.getTopStrategy());
-            List<Website> sortedList = new ArrayList<>();
+
             switch (topStrategy.getTopStrategy()) {
                 case "top5":
-                    sortedList = baseList.stream()
-                            .filter(elem -> elem.getExecutionCount() != null)
-                            .sorted((f1, f2) ->  Integer.compare(f2.getExecutionCount(), f1.getExecutionCount()))
-                            .limit(2)
-                            .collect(Collectors.toList());
-                    return sortedList;
+                    return getSortedList(baseList, 5);
                 case "top10":
-
-                    break;
+                    return getSortedList(baseList, 10);
                 default:
-                    return sortedList;
+                    return baseList;
             }
 
         } catch (Exception ex) {
             System.out.println(ex);
         }
         return null;
+    }
+
+    private List<Website> getSortedList(ArrayList<Website> baseList, int limit) {
+        List<Website> sortedList = new ArrayList<>();
+        sortedList = baseList.stream()
+                .filter(elem -> elem.getExecutionCount() != null)
+                .sorted((f1, f2) ->  Integer.compare(f2.getExecutionCount(), f1.getExecutionCount()))
+                .limit(limit)
+                .collect(Collectors.toList());
+        return sortedList;
     }
 }
