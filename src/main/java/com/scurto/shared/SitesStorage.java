@@ -323,7 +323,28 @@ public class SitesStorage {
                 "9950949 - Artyom",
                 "http://sunsang.ru/",
                 "6",
-                null
+                createSecondaryUrls(
+                        "http://sunsang.ru/нут-отличный-источник-витаминов-и-мин/",
+                        "http://sunsang.ru/причины-которые-вызывают-мигрень-и-3-пр/",
+                        "http://sunsang.ru/5-мощных-рецептов-для-лечения-геморроя/",
+                        "http://sunsang.ru/добавьте-в-шампунь-эти-3-ингредиента-и/",
+                        "http://sunsang.ru/прочитайте-это-и-вы-начнете-есть-огуре/",
+                        "http://sunsang.ru/9-продуктов-из-за-которых-у-нашего-тела/",
+                        "http://sunsang.ru/глубокие-и-проникновенные-цитаты-рем/",
+                        "http://sunsang.ru/говорят-какие-туфли-такая-и-жизнь/",
+                        "http://sunsang.ru/диетическое-куриное-филе-в-сметане-с-л/",
+                        "http://sunsang.ru/это-самая-эффективная-диета-за-послед/",
+                        "http://sunsang.ru/всего-один-вопрос-который-сразу-улучш/",
+                        "http://sunsang.ru/прежде-чем-ты-снова-отдашь-кому-то-свое/",
+                        "http://sunsang.ru/у-меня-до-сих-пор-мурашки-каждый-раз-ка/",
+                        "http://sunsang.ru/чеснок-убивает-14-видов-рака-и-13-видов-инф/",
+                        "http://sunsang.ru/лечение-головной-боли-солью/",
+                        "http://sunsang.ru/10-советов-от-разведенной-женщины-тем-к/",
+                        "http://sunsang.ru/поставьте-стакан-воды-с-солью-в-доме-и/",
+                        "http://sunsang.ru/две-токсичные-мысли-которые-портят-на/",
+                        "http://sunsang.ru/всего-4-стакана-воды-после-сна-японск/",
+                        "http://sunsang.ru/билл-мюррей-на-концерт-кантри-группы-the-stee/"
+                )
         ));
         siteModels.put("1751091", model(
                 "1751091",
@@ -1152,6 +1173,35 @@ public class SitesStorage {
                 "3",
                 null
         ));
+
+        siteModels.put("1938468", model(
+                "1938468",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11318806 - Marina",
+                "http://freda.am/",
+                "3",
+                createSecondaryUrls(
+
+                        "http://freda.am/meeting-with-the-senior-management-representatives-of-the-trade-fair-and-congress-center-ptak-warsaw-expo/",
+                        "http://freda.am/working-meeting-discussion-factoring-as-a-promotion-model-for-effective-sales/",
+                        "http://freda.am/meeting-with-entrepreneurs-operating-in-tavush-region/",
+                        "http://freda.am/meeting-with-entrepreneurs-operating-in-armavir-region/",
+                        "http://freda.am/meeting-with-the-entrepreneurs-operating-in-lori-region/",
+                        "http://freda.am/the-official-opening-of-the-agrolog-organic-educational-production-center/",
+                        "http://freda.am/cooperation-agreement-signed-between-the-fund-for-rural-economic-development-in-armenia-shtigen-llc-and-acba-leasing-credit-organization-cjsc/",
+                        "http://freda.am/participation-at-the-training-named-growth-difficulties-management-in-small-and-medium-enterprises/",
+                        "http://freda.am/participation-of-freda-and-its-client-companies-at-the-armenian-food-and-beverage-exhibition-held-in-armenian-embassy-to-austria/",
+                        "http://freda.am/the-fund-for-rural-economic-development-in-armenia-freda-participated-in-panarmenian-expo-seventh-international-universal-exhibition/",
+                        "http://freda.am/participation-of-fredas-representatives-in-presentation-of-oasi-new-program/",
+                        "http://freda.am/an-international-economic-forum-entitled-took-place-in-yerevan/"
+                )
+        ));
+
+
         siteModels.put("1807005", model(
                 "1807005",
                 45,
@@ -1163,6 +1213,35 @@ public class SitesStorage {
                 "http://awhhe.am/",
                 "3",
                 null
+        ));
+
+        siteModels.put("1939371", model(
+                "1939371",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11764349 - igorek311289",
+                "https://fashion-rus.ru/",
+                "8",
+                createSecondaryUrls(
+                        "https://fashion-rus.ru/2018/09/17/kurti-39-s-fashion-statement/",
+                        "https://fashion-rus.ru/2018/09/17/7-знаков-женатого-женщины-обмана/",
+                        "https://fashion-rus.ru/2018/09/17/японский-genkouyoushi-и-эссе-советы/",
+                        "https://fashion-rus.ru/2018/09/17/как-создать-boho-fashion-look/",
+                        "https://fashion-rus.ru/2018/09/17/почему-женщины-никогда-не-станут-хор/",
+                        "https://fashion-rus.ru/2018/09/17/5-из-лучших-способов-убить-девушку/",
+                        "https://fashion-rus.ru/2018/09/17/советы-по-отношениям-для-мужчин-как-де/",
+                        "https://fashion-rus.ru/2018/09/17/сигналы-используемые-женщинами/",
+                        "https://fashion-rus.ru/2018/09/17/как-привлечь-женщин-да-те-знакомые-гу/",
+                        "https://fashion-rus.ru/2018/09/17/три-основных-стиля-отцовства/",
+                        "https://fashion-rus.ru/2018/09/17/выбор-лучших-часов-нфл-за-прекрасный-п/",
+                        "https://fashion-rus.ru/2018/09/17/покупайте-лучшие-сумки-boho/",
+                        "https://fashion-rus.ru/2018/09/17/эмо-символы-как-создать-их/",
+                        "https://fashion-rus.ru/2018/09/17/советы-по-стилю-boho/",
+                        "https://fashion-rus.ru/2018/09/17/как-оставаться-модным-гораздо-меньше/"
+                )
         ));
 
         siteModels.put("1719387", model(
@@ -2001,6 +2080,19 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1938392", model(
+                "1938392",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://citativelikix.ru/",
+                "5",
+                null
+        ));
+
         siteModels.put("1932084", model(
                 "1932084",
                 45,
@@ -2025,6 +2117,19 @@ public class SitesStorage {
                 "11235471 - Olga Bulkina",
                 "http://pozitivonst.ru/",
                 "5",
+                null
+        ));
+
+        siteModels.put("504922", model(
+                "504922",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "sergey1982 (789958)",
+                "http://xiaominews.ru/",
+                "6",
                 null
         ));
 
@@ -2473,7 +2578,7 @@ public class SitesStorage {
                 "3",
                 null,
                 "11194517 - Gor",
-                "http://big-zemlya.ru/",
+                "http://www.big-zemlia.ru",
                 "5",
                 null
         ));
@@ -3249,6 +3354,19 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1926882", model(
+                "1926882",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "3376646 - Рустам",
+                "http://efiok.ru",
+                "6",
+                null
+        ));
+
 //        http://vector-remonta.ru/karta-sajta
 //        http://vash-center.ru/karta
 //        http://nauka-mastera.ru/karta
@@ -3269,7 +3387,7 @@ public class SitesStorage {
 //        № 1866717: «Простые клики по сайту.»
 //        https://nasos.net.ua/
 
-//        № 1866924: «Всего нескольких простых клыков»
+//№ 1939371: «Простое задание»
 
         return siteModels;
     }
