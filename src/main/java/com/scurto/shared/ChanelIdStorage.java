@@ -246,6 +246,18 @@ public class ChanelIdStorage {
                 null,
                 "7276490 - giorgi"
         ));
+        allTaskModel.put("2023447", model(
+                "2023447",
+                "3",
+                "2",
+                "2",
+                50,
+                40,
+                "channel/UCSEvVPacsHMlKs8gUKTIbRA",
+                null,
+                "7276490 - giorgi"
+        ));
+
         allTaskModel.put("1666434", model(
                 "1666434",
                 "5",
@@ -276,6 +288,17 @@ public class ChanelIdStorage {
                 40,
                 40,
                 "channel/UCFK6TD22LyG21h7buxX4O3g",
+                null,
+                "7276490 - giorgi"
+        ));
+        allTaskModel.put("2093430", model(
+                "2093430",
+                "3",
+                "2",
+                "2",
+                40,
+                40,
+                "channel/UCTEPTla6tSoW8SeSzv79Ybw",
                 null,
                 "7276490 - giorgi"
         ));
@@ -395,8 +418,8 @@ public class ChanelIdStorage {
 
         allTaskModel.put("1438352", model(
                 "1438352",
-                "2",
-                "2",
+                "3",
+                "1",
                 "2",
                 40,
                 40,
@@ -842,6 +865,30 @@ public class ChanelIdStorage {
                 "10479925 - Владимир"
         ));
 
+        allTaskModel.put("1920464", model(
+                "1920464",
+                "3",
+                "0",
+                "0",
+                40,
+                59,
+                "channel/UCSG6Hyf22sndqn_8Y7UdS7g",
+                null,
+                "10479925 - Владимир"
+        ));
+
+        allTaskModel.put("1998179", model(
+                "1998179",
+                "3",
+                "2",
+                "2",
+                40,
+                59,
+                "channel/UC20GEQ2-0ew0a4pwvYDtajA",
+                null,
+                "3595603 - Виталий"
+        ));
+
         allTaskModel.put("1798360", model(
                 "1798360",
                 "1",
@@ -852,6 +899,270 @@ public class ChanelIdStorage {
                 "channel/UCSf9GXVyAMtaH5C0MUk4dBA",
                 null,
                 "1843108 - Александр"
+        ));
+
+        allTaskModel.put("1850118", model(
+                "1850118",
+                "8",
+                "1",
+                "3",
+                50,
+                50,
+                "user/vietpro107",
+                null,
+                "11452479 - Viet"
+        ));
+
+        allTaskModel.put("1957261", model(
+                "1957261",
+                "8",
+                "0",
+                "3",
+                50,
+                50,
+                "channel/UCE_TxpYG15ywWxtbIVgMMfw",
+                null,
+                "11908963 - Роман"
+        ));
+
+        allTaskModel.put("2233384", model(
+                "2233384",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCtjVt2gg2a9ux9VpaqsgU1Q",
+                null,
+                "12737640 - Денис"
+        ));
+
+        allTaskModel.put("2149241", model(
+                "2149241",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCZ4HpE01pjMM7_NGRxxuf7A",
+                null,
+                "12737640 - Денис"
+        ));
+
+        allTaskModel.put("2259286", model(
+                "2259286",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCy2Wks9wESs0l2Ew1X0XZ0g",
+                null,
+                "12737640 - Денис"
+        ));
+
+        allTaskModel.put("2249261", model(
+                "2249261",
+                "3",
+                "3",
+                "0",
+                55,
+                55,
+                "channel/UCOIZ4CUeVLeDl021PYt7WXQ",
+                null,
+                "12737640 - Денис"
+        ));
+
+        allTaskModel.put("2176038", model(
+                "2176038",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCmqEbKWYrFnTChKukC8FMZA",
+                null,
+                "11812117 - Карина"
+        ));
+
+        allTaskModel.put("2199357", model(
+                "2199357",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCTpFR4Y5T9ElJEHWyPyuUNg",
+                null,
+                "11812117 - Карина"
+        ));
+
+        allTaskModel.put("1934042", model(
+                "1934042",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UC3CQBZjU-AN6VXL4Itr5uWg",
+                null,
+                "11812117 - Карина"
+        ));
+
+        allTaskModel.put("2129007", model(
+                "2129007",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UC2VHtWFgU-5e3N49idxdrMA",
+                null,
+                "11812117 - Карина"
+        ));
+
+        allTaskModel.put("2217057", model(
+                "2217057",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCgLo8DDOY1XuRc7D_xBTzUw",
+                null,
+                "12719205 - саша"
+        ));
+
+        allTaskModel.put("2250190", model(
+                "2250190",
+                "3",
+                "0",
+                "0",
+                50,
+                50,
+                "channel/UCz0t73tAZlrp3cYE75LYiOg",
+                null,
+                "12719205 - саша"
+        ));
+
+        allTaskModel.put("2225777", model(
+                "2225777",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UC22bS-BnDDxPYUrXZF3pUdA",
+                null,
+                "12719205 - саша"
+        ));
+
+        allTaskModel.put("2176188", model(
+                "2176188",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UC1nWfCAdU6C33SH3lW4v00w",
+                null,
+                "12719205 - саша"
+        ));
+
+        allTaskModel.put("2255976", model(
+                "2255976",
+                "3",
+                "3",
+                "0",
+                50,
+                50,
+                "channel/UCsSjOWKxB-T9vpt7mUNw-fw",
+                null,
+                "12694129 - Лерон"
+        ));
+
+        allTaskModel.put("1989404", model(
+                "1989404",
+                "3",
+                "2",
+                "2",
+                50,
+                50,
+                "channel/UC_QMwN0isisxRfa82MnfLLA",
+                null,
+                "11862838 - Вячеслав"
+        ));
+
+        allTaskModel.put("1386051", model(
+                "1386051",
+                "3",
+                "9",
+                "0",
+                50,
+                50,
+                "channel/UCT0vk_JVN0supBjGpoKOjdg",
+                null,
+                "8340468 - Игорь"
+        ));
+
+        allTaskModel.put("2226186", model(
+                "2226186",
+                "3",
+                "1",
+                "2",
+                50,
+                50,
+                "channel/UCG1J1K_xpyflQx3kb1l2vCQ",
+                null,
+                "13016913 - Vlad"
+        ));
+
+        allTaskModel.put("2253038", model(
+                "2253038",
+                "3",
+                "2",
+                "3",
+                50,
+                50,
+                "user/MultiGamewave",
+                null,
+                "7607850 - Андрей"
+        ));
+
+        allTaskModel.put("2260642", model(
+                "2260642",
+                "3",
+                "3",
+                "0",
+                55,
+                55,
+                "channel/UCjhkTq63x7RjScGLDiFua9Q",
+                null,
+                "13064231 - Валентин"
+        ));
+
+        allTaskModel.put("2277962", model(
+                "2277962",
+                "3",
+                "3",
+                "0",
+                55,
+                55,
+                "channel/UC4nVhD6KyNVJAOaAtrR3V2g",
+                null,
+                "13129229 - юрий"
+        ));
+
+        allTaskModel.put("2271474", model(
+                "2271474",
+                "3",
+                "3",
+                "2",
+                55,
+                55,
+                "channel/UC3U3k23RgQetlMTRfeq52_A",
+                null,
+                "13158309 - James"
         ));
 
 

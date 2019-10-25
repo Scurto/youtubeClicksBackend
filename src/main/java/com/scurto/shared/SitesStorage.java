@@ -379,6 +379,20 @@ public class SitesStorage {
                         "http://virnag.ru/2017/09/21/этот-необычный-диван-3-в-1-поразил-всех-п/"
                 )
         ));
+
+        siteModels.put("1975036", model(
+                "1975036",
+                45,
+                45,
+                "1",
+                "0",
+                null,
+                "9950949 - Artyom",
+                "http://esyan.ru/",
+                "5",
+                createSecondaryUrls(
+                )
+        ));
         siteModels.put("1806770", model(
                 "1806770",
                 45,
@@ -1012,6 +1026,91 @@ public class SitesStorage {
                 "6",
                 null
         ));
+
+        siteModels.put("2051978", model(
+                "2051978",
+                40,
+                40,
+                "1",
+                "2",
+                null,
+                "7017738 - Vedun",
+                "http://lisgo.ru/",
+                "5",
+                createSecondaryUrls(
+
+                        "https://lisgo.ru/тест-попробуй-отгадать-что-изобрели-р/",
+                        "https://lisgo.ru/пройдите-тест-и-узнайте-какова-ваша-ге/",
+                        "https://lisgo.ru/ученые-утверждают-что-имеют-возможно/",
+                        "https://lisgo.ru/сырой-чеснок-для-профилактики-холода-7/",
+                        "https://lisgo.ru/секреты-красоты-в-холодный-сезон/",
+                        "https://lisgo.ru/как-сделать-сделку-и-не-попасться-на-тр/",
+                        "https://lisgo.ru/7-простых-рецептов-которые-стоит-приго/",
+                        "https://lisgo.ru/8-способов-использования-приправы-кот/",
+                        "https://lisgo.ru/что-делать-и-как-уснуть/",
+                        "https://lisgo.ru/преимущества-лимонной-красоты-7-секре/",
+                        "https://lisgo.ru/5-лучших-способов-научить-вашего-ребен/",
+                        "https://lisgo.ru/10-простых-способов-улучшить-вашу-жизнь/",
+                        "https://lisgo.ru/как-удалить-усталость-ног-7-простых-сов/"
+                )
+        ));
+
+        siteModels.put("2021546", model(
+                "2021546",
+                40,
+                40,
+                "1",
+                "2",
+                null,
+                "7017738 - Vedun",
+                "https://notrus.ru/",
+                "3",
+                createSecondaryUrls(
+                        "https://notrus.ru/оптическая-иллюзия-какое-животное-вы/",
+                        "https://notrus.ru/картины-собаки-стоимостью-5000-долларов/",
+                        "https://notrus.ru/платье-показывает-сколько-раз-женщин/",
+                        "https://notrus.ru/несколько-удивительных-фактов-о-живо/",
+                        "https://notrus.ru/25-величайших-морских-катастроф/",
+                        "https://notrus.ru/прорыв-в-лечении-рака-кожи-вакцина-100-эф/",
+                        "https://notrus.ru/интересные-сравнительные-фото-котор/",
+                        "https://notrus.ru/13-знаменитостей-объясняют-как-они-прид/",
+                        "https://notrus.ru/в-этом-французском-парке-мусор-собира/",
+                        "https://notrus.ru/причудливые-рождественские-традиции/",
+                        "https://notrus.ru/причудливая-статья-1959-года-психология/",
+                        "https://notrus.ru/только-4-людей-способны-пройти-этот-тес/",
+                        "https://notrus.ru/как-отрастить-волосы-за-неделю/",
+                        "https://notrus.ru/7-типов-друзей-которых-никогда-не-следу/"
+                )
+        ));
+
+        siteModels.put("2021543", model(
+                "2021543",
+                40,
+                40,
+                "0",
+                "2",
+                null,
+                "7017738 - Vedun",
+                "https://notrus.ru/",
+                "5",
+                createSecondaryUrls(
+                        "https://notrus.ru/оптическая-иллюзия-какое-животное-вы/",
+                        "https://notrus.ru/картины-собаки-стоимостью-5000-долларов/",
+                        "https://notrus.ru/платье-показывает-сколько-раз-женщин/",
+                        "https://notrus.ru/несколько-удивительных-фактов-о-живо/",
+                        "https://notrus.ru/25-величайших-морских-катастроф/",
+                        "https://notrus.ru/прорыв-в-лечении-рака-кожи-вакцина-100-эф/",
+                        "https://notrus.ru/интересные-сравнительные-фото-котор/",
+                        "https://notrus.ru/13-знаменитостей-объясняют-как-они-прид/",
+                        "https://notrus.ru/в-этом-французском-парке-мусор-собира/",
+                        "https://notrus.ru/причудливые-рождественские-традиции/",
+                        "https://notrus.ru/причудливая-статья-1959-года-психология/",
+                        "https://notrus.ru/только-4-людей-способны-пройти-этот-тес/",
+                        "https://notrus.ru/как-отрастить-волосы-за-неделю/",
+                        "https://notrus.ru/7-типов-друзей-которых-никогда-не-следу/"
+                )
+        ));
+
         siteModels.put("1724783", model(
                 "1724783",
                 45,
@@ -1149,6 +1248,34 @@ public class SitesStorage {
                 "8",
                 null
         ));
+        siteModels.put("2046644", model(
+                "2046644",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "7017738 - Vedun",
+                "http://livlif.ru/",
+                "5",
+                createSecondaryUrls(
+
+                        "https://livlif.ru/насколько-на-самом-деле-вы-умны/",
+                        "https://livlif.ru/7-признаков-того-что-ты-настоящий-волк/",
+                        "https://livlif.ru/тест-на-определение-характера-очень-н/",
+                        "https://livlif.ru/лавровый-лист-естественное-средство/",
+                        "https://livlif.ru/этот-уникальный-цветовой-тест-покаже/",
+                        "https://livlif.ru/познакомьтесь-с-самым-старым-человек/",
+                        "https://livlif.ru/тест-что-для-вас-означает-слово-любовь/",
+                        "https://livlif.ru/12-растений-для-вашей-спальни-которые-у/",
+                        "https://livlif.ru/если-пройдете-этот-тест-то-вы-умнее-70-на/",
+                        "https://livlif.ru/30-точек-наблюдения-от-гениев-камуфляжа/",
+                        "https://livlif.ru/печати-которые-считают-что-их-никто-не/",
+                        "https://livlif.ru/вот-некоторые-матери-выходят-из-женщи/",
+                        "https://livlif.ru/невероятные-балконы-которые-поражаю/",
+                        "https://livlif.ru/18-доказательств-того-что-творчество-вс/"
+                )
+        ));
         siteModels.put("1724786", model(
                 "1724786",
                 45,
@@ -1172,6 +1299,31 @@ public class SitesStorage {
                 "http://howmuchprice.info/",
                 "3",
                 null
+        ));
+
+        siteModels.put("1940012", model(
+                "1940012",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11318806 - Marina",
+                "http://www.henrikhovhannissyan.com/",
+                "3",
+                createSecondaryUrls(
+                        "http://www.henrikhovhannissyan.com/the-origins-of-the-medival-armenian-theatre/",
+                        "http://www.henrikhovhannissyan.com/theatre-old-and-new-values/",
+                        "http://www.henrikhovhannissyan.com/ancient-armenian-drama-and-its-modifications-2/",
+                        "http://www.henrikhovhannissyan.com/alexander-pushkin/",
+                        "http://www.henrikhovhannissyan.com/the-nature-of-acting-2/",
+                        "http://www.henrikhovhannissyan.com/on-the-medieval-outlook-of-the-inner-form-of-art/",
+                        "http://www.henrikhovhannissyan.com/paragrapf-13-0f-theons-rhetoric/",
+                        "http://www.henrikhovhannissyan.com/the-stanislavski-system-and-paradox-of-acting/",
+                        "http://www.henrikhovhannissyan.com/the-nature-of-acting/",
+                        "http://www.henrikhovhannissyan.com/david-the-invincible/",
+                        "http://www.henrikhovhannissyan.com/the-ancient-drama-in-armenia/"
+                )
         ));
 
         siteModels.put("1938468", model(
@@ -1558,6 +1710,123 @@ public class SitesStorage {
                 "8",
                 null
         ));
+
+        siteModels.put("1903519", model(
+                "1903519",
+                40,
+                40,
+                "0",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "https://lilysa.ru/",
+                "8",
+                createSecondaryUrls(
+                        "https://lilysa.ru/ошибки-о-которых-жалеют-многие-родите/",
+                        "https://lilysa.ru/5-знаков-зодиака-которые-пытаются-конт/",
+                        "https://lilysa.ru/как-оставаться-мотивированным-остав/",
+                        "https://lilysa.ru/6-самых-красивых-церквей-в-армении-кото/",
+                        "https://lilysa.ru/любопытные-факты-о-поцелуях/",
+                        "https://lilysa.ru/утечки-энергии/",
+                        "https://lilysa.ru/почему-не-стоит-реагировать-на-все-что/",
+                        "https://lilysa.ru/как-спать-лучше-и-просыпаться-в-хороше/",
+                        "https://lilysa.ru/чем-больше-мы-даем-детям-тем-меньше-они/",
+                        "https://lilysa.ru/5-связанных-с-едой-привычек-которых-сто/",
+                        "https://lilysa.ru/как-избавится-от-стресса-и-жизненного/",
+                        "https://lilysa.ru/как-перестать-нервничать/",
+                        "https://lilysa.ru/знаете-ли-свой-цвет/",
+                        "https://lilysa.ru/ошибки-в-обращении-с-деньгами/",
+                        "https://lilysa.ru/вещи-которые-делают-нарциссы-чтобы-ма/"
+                )
+        ));
+
+        siteModels.put("2028916", model(
+                "2028916",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "https://magictrav.ru/",
+                "4",
+                createSecondaryUrls(
+                        "https://magictrav.ru/plitvice-lakes-national-park/",
+                        "https://magictrav.ru/death-valley/",
+                        "https://magictrav.ru/singaporesentosa-resort/",
+                        "https://magictrav.ru/sanur-resort/",
+                        "https://magictrav.ru/japanhakone/",
+                        "https://magictrav.ru/kopaonik-resort/",
+                        "https://magictrav.ru/bukovel-resort/",
+                        "https://magictrav.ru/tibet/",
+                        "https://magictrav.ru/korea/",
+                        "https://magictrav.ru/indonesia/",
+                        "https://magictrav.ru/guatemala/",
+                        "https://magictrav.ru/vaticano/",
+                        "https://magictrav.ru/burkina-faso/",
+                        "https://magictrav.ru/belize/",
+                        "https://magictrav.ru/bahamas/"
+                )
+        ));
+
+        siteModels.put("1997458", model(
+                "1997458",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "http://hadavai.ru/",
+                "4",
+                createSecondaryUrls(
+                        "https://hadavai.ru/2018/12/21/внутреннее-море/",
+                        "https://hadavai.ru/2018/12/14/бэйт-бауз/",
+                        "https://hadavai.ru/2018/12/14/тора-хорошо/",
+                        "https://hadavai.ru/2018/10/17/причины-помогут-полюбить-себя/",
+                        "https://hadavai.ru/2018/10/16/5-привычек-которые-сохранят-мозг-молод/",
+                        "https://hadavai.ru/2018/10/16/6-приемов-для-сохранения-спокойствия-в/",
+                        "https://hadavai.ru/2018/10/16/самые-любопытные-факты-о-цирке/",
+                        "https://hadavai.ru/2018/10/16/будь-там-где-хочешь-быть/",
+                        "https://hadavai.ru/2018/10/15/намафьялл-исландия/",
+                        "https://hadavai.ru/2018/10/13/простые-истины-родителям-на-заметку/",
+                        "https://hadavai.ru/2018/10/13/интуитивное-питание-и-10-его-принципов/",
+                        "https://hadavai.ru/2018/10/13/5-способов-справиться-с-одиночеством-и/",
+                        "https://hadavai.ru/2018/10/12/образование-в-школах-финландии/",
+                        "https://hadavai.ru/2018/10/11/что-делать-людьми-нас-истощают/",
+                        "https://hadavai.ru/2018/10/11/почему-тишина-гораздо-важнее-чем-мы-ду/"
+                )
+        ));
+
+        siteModels.put("1980380", model(
+                "1980380",
+                40,
+                40,
+                "1",
+                "4",
+                null,
+                "6615828 - Ivan",
+                "https://vetlany.ru/",
+                "4",
+                createSecondaryUrls(
+                        "https://vetlany.ru/повышает-ручной-труд-счастье/",
+                        "https://vetlany.ru/пиратское-кладбище/",
+                        "https://vetlany.ru/затонувшие-кресты-malpique/",
+                        "https://vetlany.ru/канкойллот/",
+                        "https://vetlany.ru/5-советов-о-том-как-вести-здоровый-обра/",
+                        "https://vetlany.ru/озеро-сёрвогсватн/",
+                        "https://vetlany.ru/гигант-паэлья/",
+                        "https://vetlany.ru/деревня-гасадалур/",
+                        "https://vetlany.ru/масляные-резервуары/",
+                        "https://vetlany.ru/пусть-будет-прочен-супружеский-союз/",
+                        "https://vetlany.ru/какие-красивые-волосы/",
+                        "https://vetlany.ru/чеснок-приправа-и-лекарство/",
+                        "https://vetlany.ru/шарманка/",
+                        "https://vetlany.ru/зонтик-требует-внимание/",
+                        "https://vetlany.ru/туфли-промокли/"
+                )
+        ));
+
         siteModels.put("1494653", model(
                 "1494653",
                 45,
@@ -2007,10 +2276,10 @@ public class SitesStorage {
                 40,
                 40,
                 "1",
-                "4",
+                "3",
                 null,
                 "7195882 - Дмитрий",
-                "http://palata09.ru/",
+                "http://nyc90.site/",
                 "8",
                 null
         ));
@@ -2062,8 +2331,8 @@ public class SitesStorage {
                 "4",
                 null,
                 "7195882 - Дмитрий",
-                "http://palata09.ru/",
-                "8",
+                "http://nyc90.site/",
+                "7",
                 null
         ));
 
@@ -2076,6 +2345,58 @@ public class SitesStorage {
                 null,
                 "11235471 - Olga Bulkina",
                 "http://handygrow.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1942884", model(
+                "1942884",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://russlady.ru/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1945880", model(
+                "1945880",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://helthybaby.com/",
+                "5",
+                null
+        ));
+
+        siteModels.put("1949250", model(
+                "1949250",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://jenskiworld.ru",
+                "5",
+                null
+        ));
+
+        siteModels.put("1955361", model(
+                "1955361",
+                45,
+                45,
+                "1",
+                "4",
+                null,
+                "11235471 - Olga Bulkina",
+                "http://megamor.ru",
                 "5",
                 null
         ));
@@ -2570,6 +2891,233 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1987535", model(
+                "1987535",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "https://setroom.ru/karta-sajta",
+                "6",
+                createSecondaryUrls(
+
+                        "https://setroom.ru/balkon-i-lodzhiya/v-chem-raznica-mezhdu-balkonom-i-lodzhiej.html",
+                        "https://setroom.ru/balkon-i-lodzhiya/vnutrennyaya-otdelka-balkona-svoimi-rukami.html",
+                        "https://setroom.ru/balkon-i-lodzhiya/vnutrennyaya-otdelka-lodzhii-svoimi-rukami.html",
+                        "https://setroom.ru/balkon-i-lodzhiya/vse-chto-nuzhno-znat-ob-osteklenii-balkona.html",
+                        "https://setroom.ru/vannaya-i-tualet/vidy-plintusov-dlya-vanny-i-ix-ustanovka.html",
+                        "https://setroom.ru/vannaya-i-tualet/vybor-planirovki-i-dizajna-sovmeshhennogo-sanuzla.html",
+                        "https://setroom.ru/vannaya-i-tualet/kak-vybrat-napolnyj-i-potolochnyj-plintus-dlya-vannoj-komnaty.html",
+                        "https://setroom.ru/vannaya-i-tualet/kakie-byvayut-standartnye-razmery-sanuzlov-i-minimalnye-soglasno-snip.html",
+                        "https://setroom.ru/dveri/alyuminievye-dveri-vxodnye-razdvizhnye-i-raspashnye-mayatnikovye-i-teplye-a-takzhe-mezhkomnatnye-preimushhestva-konstrukciya-i-montazh.html",
+                        "https://setroom.ru/dveri/dveri-zvukoizolyacionnye-mezhkomnatnye-i-vxodnye-kak-vypolnyaetsya-shumoizolyaciya-dverej-svoimi-rukami-i-chto-dlya-etogo-nuzhno.html"
+                )
+        ));
+
+        siteModels.put("1974605", model(
+                "1974605",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "https://zdorovot.ru/site-map",
+                "6",
+                createSecondaryUrls(
+                        "https://zdorovot.ru/koleno/anatomiya-kolennogo-sustava.html",
+                        "https://zdorovot.ru/koleno/anatomiya-svyazok-kolena.html",
+                        "https://zdorovot.ru/koleno/bol-v-kolennoj-chashechke.html",
+                        "https://zdorovot.ru/koleno/vidy-zabolevanij-kolena.html",
+                        "https://zdorovot.ru/koleno/xryashh-v-kolennom-sustave.html",
+                        "https://zdorovot.ru/koleno/lechit-kistu-bekkera-pod-klenom.html",
+                        "https://zdorovot.ru/koleno/kompress-na-koleno.html",
+                        "https://zdorovot.ru/koleno/sdelat-povyazku-na-koleno.html",
+                        "https://zdorovot.ru/koleno/artroskopicheskaya-operaciya-na-kolene.html"
+                )
+        ));
+
+        siteModels.put("1987547", model(
+                "1987547",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://roomgood.ru/sitemap/",
+                "6",
+                createSecondaryUrls(
+                        "https://roomgood.ru/vxodnye-dveri-na-chto-obratit-vnimanie-pri-pokupke/",
+                        "https://roomgood.ru/vxodnye-dveri-kakie-kuda-i-pochemu/",
+                        "https://roomgood.ru/vybiraem-dver-dlya-vannoj-komnaty/",
+                        "https://roomgood.ru/vybor-i-izgotovlenie-pvx-shtor-dlya-besedki-svoimi-rukami/",
+                        "https://roomgood.ru/vybor-krasivogo-interera-sovmeshhennogo-sanuzla/",
+                        "https://roomgood.ru/vybor-materiala-i-dizajna-shtor-dlya-spalni-s-foto-primerami/",
+                        "https://roomgood.ru/krasivye-besedki-dachnye-foto-originalnyx-konstrukcij/",
+                        "https://roomgood.ru/krasivyj-dizajn-spalni-v-fioletovyx-tonax-i-sirenevyx-foto-primery/",
+                        "https://roomgood.ru/vidy-krylechek-chastnogo-doma-foto-primery/",
+                        "https://roomgood.ru/domik-bytovka-idealnyj-variant-dopolnitelnoj-ploshhadi/",
+                        "https://roomgood.ru/kak-dostat-iz-skvazhiny-zastryavshij-nasos/",
+                        "https://roomgood.ru/kak-i-chem-uteplit-mansardnuyu-kryshu-iznutri-foto-primery/"
+                )
+        ));
+
+        siteModels.put("1974601", model(
+                "1974601",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "http://pomasteru.ru/karta",
+                "6",
+                createSecondaryUrls(
+                        "https://pomasteru.ru/balkony/vneshnyaya-otdelka-balkona-svoimi-rukami.html",
+                        "https://pomasteru.ru/balkony/vnutrennyaya-otdelka-balkona-svoimi-rukami.html",
+                        "https://pomasteru.ru/balkony/vybiraem-ekonomichnyj-obogrev-balkona.html",
+                        "https://pomasteru.ru/balkony/vybor-i-sravnenie-mebeli-dlya-balkona.html",
+                        "https://pomasteru.ru/dizajn-i-interer/vybor-interera-mansardnogo-etazha-foto-idei.html",
+                        "https://pomasteru.ru/dizajn-i-interer/dizajn-mansardnogo-etazha-svoimi-rukami.html",
+                        "https://pomasteru.ru/dizajn-i-interer/zhilye-mansardy-v-foto-primerax-kabinet-gostinaya-kuxnya-komnata-otdyxa.html",
+                        "https://pomasteru.ru/dizajn-i-interer/kak-oformit-spalnyu-v-skandinavskom-stile-yaponskom-kantri-sredizemnomorskom.html",
+                        "https://pomasteru.ru/konstrukcii/kak-rasschitat-i-sdelat-mansardnuyu-kryshu-svoimi-rukami.html",
+                        "https://pomasteru.ru/konstrukcii/raschet-kreplenie-i-ustanovka-stropilnoj-sistemy-mansardnoj-kryshi.html",
+                        "https://pomasteru.ru/otdelka/vidy-derevyannyx-plintusov-i-sposoby-ix-ustanovki.html",
+                        "https://pomasteru.ru/otdelka/kak-vybrat-polovoj-plintus-dlya-komnaty.html",
+                        "https://pomasteru.ru/stroitelstvo/instrukcii-s-foto-primerami-po-utepleniyu-mansardnoj-kryshi.html",
+                        "https://pomasteru.ru/stroitelstvo/proekt-mansardy-sxemy-i-formuly-rascheta-foto-konstrukcij-krovli.html",
+
+
+                        "https://domikday.ru/bez-rubriki/vannaya-komnata-kakoj-cvet-vybrat.html",
+                        "https://domikday.ru/krovlya/paroizolyaciya-krovli-instrukciya-i-montazh-otzyvy-i-vybor-paroizolyacionnogo-materiala-zachem-nuzhna-krovelnaya-paroizolyaciya.html",
+                        "https://domikday.ru/krovlya/krovlya-iz-myagkoj-cherepicy-svoimi-rukami-foto-i-video-konstrukciya-i-sostav-ustrojstvo-i-montazh-krovli-iz-myagkoj-cherepicy.html",
+                        "https://domikday.ru/krovlya/krovlya-krysh-video-foto-sovremennye-vidy-pokrytij-kakoj-krovelnyj-material-dlya-kryshi-luchshe-vybrat.html",
+                        "https://domikday.ru/krovlya/krovlya-skatnaya-minimalnyj-uklon-konstrukciya-ustrojstvo-i-raschet-krovli-dvuxskatnoj-kryshi-odnoskatnoj-i-chetyrexskatnoj.html",
+                        "https://domikday.ru/krovlya/kak-rasschitat-ploshhad-krovli-raschet-krovli-dvuxskatnoj-kryshi-myagkoj-i-chetyrexskatnoj-snegovoj-nagruzki-i-livnevyx-stokov.html",
+                        "https://domikday.ru/krovlya/kak-rasschitat-uklon-krovli-v-procentax-minimalnyj-uklon-krovli-iz-proflista-profnastila-sendvich-panelej-i-metallocherepicy.html",
+                        "https://domikday.ru/krovlya/krovlya-iz-ondulina-foto-otzyvy-i-texnologiya-ustrojstva-svoimi-rukami-kak-sdelat-montazh-krovli-iz-ondulina.html",
+                        "https://domikday.ru/krovlya/myagkaya-rulonnaya-krovlya-texnologiya-montazha-i-demontazha-samokleyushhiesya-rulonnye-krovelnye-materialy-i-ix-ustrojstvo.html",
+                        "https://domikday.ru/krovlya/krovlya-iz-sendvich-panelej-kreplenie-i-uklon-kak-sdelat-montazh-krovelnyx-sendvich-panelej-video-instrukciya.html",
+                        "https://domikday.ru/krovlya/gidroizolyacionnaya-membrannaya-krovlya-texnologiya-video-montazh-i-remont-kak-proizvoditsya-ustrojstvo-krovli-iz-pvx-membrany.html",
+                        "https://domikday.ru/krovlya/krovelnaya-stal-s-polimernym-pokrytiem-i-krovelnoe-zhelezo-ocinkovannoe-ustrojstvo-i-montazh-metallicheskoj-krovli.html",
+                        "https://domikday.ru/krovlya/uplotnitel-krovelnyj-universalnyj-i-germetik-dlya-krovli-iz-profnastila-i-metallocherepicy-materialy-dlya-germetizacii-shvov.html",
+
+
+                        "https://maxdomik.ru/dizajn-i-interer/vybiraem-krasivye-shtory-na-dvernoj-proem-foto-i-dizajn-derevyannye-bambukovye-i-nityanye-dekorativnye-mezhkomnatnye-shtory-v-interere.html",
+                        "https://maxdomik.ru/dizajn-i-interer/kak-povesit-shtory-na-okna-pravilno-i-krasivo-vidy-krepleniya-dlya-shtor-kryuchki-lyuversy-i-sposoby-krasivogo-oformleniya-okon.html",
+                        "https://maxdomik.ru/dizajn-i-interer/modnye-oboi-dlya-gostinoj-foto-dizajn-podbor-cveta-i-kombinirovanie-kakie-oboi-vybrat-dlya-gostinoj-i-kak-ix-krasivo-sochetat.html",
+                        "https://maxdomik.ru/dizajn-i-interer/stilnyj-dizajn-malenkoj-prixozhej-foto-intererov-i-poleznye-idei-dlya-tex-u-kogo-prixozhaya-malenkaya-no-xochetsya-krasivo-ee-obustroit.html",
+                        "https://maxdomik.ru/dizajn-i-interer/dizajn-prixozhej-foto-krasivyx-intererov-koridora-v-chastnom-dome-i-kvartire-i-kak-razrabotat-dizajn-malenkoj-prixozhej.html",
+                        "https://maxdomik.ru/zagorodnyj-dom/tixaya-gavan-kak-zashhitit-svoj-dom-ot-shuma.html",
+                        "https://maxdomik.ru/zagorodnyj-dom/betonnye-zabory-foto-dizajn-postrojka-i-ustanovka-kak-proizvoditsya-stroitelstvo-zabora-iz-betona-ili-dekorativnogo-ograzhdeniya-iz-betonnyx-plit.html",
+                        "https://maxdomik.ru/zagorodnyj-dom/krasivye-zabory-iz-kirpicha-foto-dizajn-i-stroitelstvo-svoimi-rukami-kak-postroit-zabor-iz-kirpicha-dlya-doma-ili-kottedzha.html",
+                        "https://maxdomik.ru/zagorodnyj-dom/derevyannye-zabory-dlya-dachi-foto-krasivyj-dizajn-vidy-ustrojstvo-i-ustanovka-svoimi-rukami-kak-postroit-zabor-iz-dereva.html",
+                        "https://maxdomik.ru/zagorodnyj-dom/krasivye-besedki-iz-dereva-foto-chertezhi-i-izgotovlenie-svoimi-rukami-kak-stroyat-derevyannye-besedki-iz-ocilindrovannogo-brevna-i-kleenogo-brusa.html",
+                        "https://maxdomik.ru/okna/krasivye-oformlenie-okon-shtorami-foto-vidy-i-dizajn-shtory-plisse-na-plastikovye-okna-kassetnye-rolikovye-rulonnye-i-rimskie-okonnye-zanavesi.html",
+                        "https://maxdomik.ru/okna/derevyannye-nalichniki-na-okna-reznye-iz-mdf-a-takzhe-plastikovye-i-poliuretanovye-vybor-proizvodstvo-i-ustanovka-nalichnikov-svoimi-rukami.html",
+                        "https://maxdomik.ru/okna/kak-povesit-karniz-dlya-shtor-potolochnyj-ili-nastennyj-ustanovka-karnizov-dlya-shtor-svoimi-rukami-vybor-vysoty-i-sposoba-krepleniya.html",
+                        "https://maxdomik.ru/dveri/domashnie-strazhi-vse-o-zamkax-dlya-vxodnyx-i-mezhkomnatnyx-dverej.html",
+                        "https://maxdomik.ru/dveri/kak-otregulirovat-plastikovuyu-balkonnuyu-dver-i-vxodnuyu-metallicheskuyu-regulirovka-vxodnyx-mezhkomnatnyx-i-balkonnyx-dverej-svoimi-rukami.html"
+
+                        )
+        ));
+
+        siteModels.put("1987565", model(
+                "1987565",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "https://shtorymax.ru/karta",
+                "6",
+                createSecondaryUrls(
+
+                        "https://shtorymax.ru/jaluzi/avtomaticheskie-zhalyuzi.html",
+                        "https://shtorymax.ru/jaluzi/bumazhnye-zhalyuzi-iz-oboev.html",
+                        "https://shtorymax.ru/jaluzi/zhalyuzi-na-okna-bez-sverleniya.html",
+                        "https://shtorymax.ru/jaluzi/vidy-ustanovki-zhalyuzi.html",
+                        "https://shtorymax.ru/karnizi/karniz-dlya-natyazhnyx-potolkov.html",
+                        "https://shtorymax.ru/karnizi/kronshtejn-dlya-karniza.html",
+                        "https://shtorymax.ru/karnizi/strunnyj-karniz.html",
+                        "https://shtorymax.ru/karnizi/karniz-dlya-vannoj-komnaty.html",
+                        "https://shtorymax.ru/raznoe/testirovanie-galerej.html",
+                        "https://shtorymax.ru/shtori/avtomaticheskie-shtory.html",
+                        "https://shtorymax.ru/shtori/avtomobilnye-shtorki-na-stekla.html",
+                        "https://shtorymax.ru/shtori/aksessuary-dlya-shtor.html",
+                        "https://shtorymax.ru/shtori/anglijskie-shtory.html",
+                        "https://shtorymax.ru/shtori/shtory-k-bezhevym-oboyam.html",
+                        "https://shtorymax.ru/shtori/shtori-dlya-kvartiry-xrushhevki.html",
+                        "https://shtorymax.ru/shtori/shtory-dlya-malenkoj-komnaty.html",
+                        "https://shtorymax.ru/shtori/podxvat-dlya-shtor.html"
+                )
+        ));
+
+        siteModels.put("1974613", model(
+                "1974613",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "https://toolbuild.ru/",
+                "6",
+                createSecondaryUrls(
+                        "https://toolbuild.ru/dizajn-i-interer/xudozhestvennaya-rospis-sten-v-interere-svoimi-rukami-foto-rospisi-sten-i-potokov-v-kvartire-kraski-dlya-rospisi.html",
+                        "https://toolbuild.ru/dizajn-i-interer/interer-zala-v-kvartire-foto-dizajn-malenkogo-zala-v-xrushhevke-kak-oformit-interer-zala-16-18-i-20-kv-m.html",
+                        "https://toolbuild.ru/kuxnya/oboi-dlya-kuxni-foto-kakie-vybrat-oboi-dlya-kuxni-moyushhiesya-i-vinilovye-dizajn-i-cvet-kuxonnyx-oboev-primery-kombinirovaniya-i-sochetanij.html",
+                        "https://toolbuild.ru/potolki/vyravnivanie-potolka-svoimi-rukami-pri-pomoshhi-shtukaturki-gipsokartona-i-shpaklevki-video-o-tom-kak-vyrovnyat-potolok-i-shtukaturit-potolok.html",
+                        "https://toolbuild.ru/konstrukcii/peregorodki-v-komnate-foto-zonirovanie-odnokomnatnoj-kvartiry-peregorodkami-dizajn-dekorativnyx-peregorodok.html",
+                        "https://toolbuild.ru/vannaya-i-tualet/ustanovka-unitaza-svoimi-rukami-video-kak-pravilno-ustanovit-unitaz-kreplenie-k-polu-zamena-i-montazh-podklyuchenie-k-kanalizacii.html",
+                        "https://toolbuild.ru/pol-i-pokrytiya/kak-vybrat-linoleum-vidy-linoleuma-dlya-doma-kakoj-bytovoj-linoleum-luchshe-chto-luchshe-linoleum-ili-laminat.html",
+                        "https://toolbuild.ru/kuxnya/fartuk-dlya-kuxni-svoimi-rukami-delaem-fartuk-dlya-kuxni-iz-plitki-plastika-i-mozaiki-foto-kuxonnyx-fartukov.html",
+                        "https://toolbuild.ru/dizajn-i-interer/lodzhii-dizajn-foto-oformlenie-interera-lodzhii-svoimi-rukami-sovety-po-obustrojstvu-i-idei-dlya-krasivoj-lodzhii.html",
+                        "https://toolbuild.ru/konstrukcii/vintovye-lestnicy-foto-derevyannaya-i-metallicheskaya-vintovaya-lestnica-svoimi-rukami-proektirovanie-raschet-i-izgotovlenie.html",
+                        "https://toolbuild.ru/pol-i-pokrytiya/nalivnye-3d-poly-foto-zalivnye-3d-poly-svoimi-rukami-video-texnologiya-dekorativnyx-polimernyx-3d-polov.html",
+                        "https://toolbuild.ru/stroitelstvo/kak-postroit-barbekyu-svoimi-rukami-iz-kirpicha-dlya-dachi-proektirovanie-i-chertezhi-ulichnogo-kirpichnogo-barbekyu-poshagovoe-stroitelstvo-foto.html",
+                        "https://toolbuild.ru/balkon/kak-sdelat-shkaf.html",
+                        "https://toolbuild.ru/balkon/dizajna-interera.html",
+                        "https://toolbuild.ru/balkon/vnutrennyaya-otdelka.html",
+                        "https://toolbuild.ru/balkon/kapitalnyj-remont.html"
+                )
+        ));
+
+        siteModels.put("1987561", model(
+                "1987561",
+                55,
+                55,
+                "1",
+                "5",
+                null,
+                "9553676 - Дмитрий",
+                "https://remonttool.ru/",
+                "6",
+                createSecondaryUrls(
+
+                        "https://remonttool.ru/dizajn-i-interer/obzor-fotooboev-na-stenu-v-spalnyu-foto-poloten-v-interere.html",
+                        "https://remonttool.ru/dizajn-i-interer/uyutnaya-spalnya-provans-pragmatika-kantri-francuzskij-stil.html",
+                        "https://remonttool.ru/dizajn-i-interer/sovremennyj-i-klassicheskij-dizajn-zanavesok-v-spalnyu-foto-primery.html",
+                        "https://remonttool.ru/dizajn-i-interer/obustrojstvo-malenkoj-spalni-v-xrushhevke-foto-uyutnyx-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/obzor-blagopriyatnyx-cvetov-dlya-spalni-foto-oboev-v-interere.html",
+                        "https://remonttool.ru/dizajn-i-interer/sovety-kak-obstavit-uzkuyu-spalnyu-foto-udachnyx-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/kak-krasivo-oformit-rozovuyu-spalnyu-ili-krasnuyu-foto-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/dizajn-zheltoj-spalni-i-v-persikovyx-tonax-foto-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/dizajn-spalni-v-sinix-tonax-i-golubyx-foto-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/krasivyj-interer-malogabaritnoj-spalni-foto-dizajna-komnat.html",
+                        "https://remonttool.ru/dizajn-i-interer/idei-s-foto-primerami-dlya-dizajna-spalni-v-sovremennom-stile-i-klassicheskom.html",
+                        "https://remonttool.ru/dizajn-i-interer/udachnaya-planirovka-spalni-foto-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/etapy-remonta-spalni-foto-krasivyx-intererov.html",
+                        "https://remonttool.ru/dizajn-i-interer/primery-zonirovaniya-spalni-gostinoj-v-odnoj-komnate-foto-intererov.html",
+                        "https://remonttool.ru/potolok/navesnye-i-natyazhnye-potolki-foto-dlya-spalni.html"
+                )
+        ));
+
         siteModels.put("1761603", model(
                 "1761603",
                 45,
@@ -2952,6 +3500,20 @@ public class SitesStorage {
                 )
         ));
 
+        siteModels.put("1862247", model(
+                "1862247",
+                45,
+                45,
+                "0",
+                "0",
+                null,
+                "11359136 - Катя",
+                "http://kraxi.ru",
+                "7",
+                createSecondaryUrls(
+                )
+        ));
+
         siteModels.put("1871076", model(
                 "1871076",
                 45,
@@ -3205,6 +3767,79 @@ public class SitesStorage {
                 createSecondaryUrls()
         ));
 
+        siteModels.put("1888787", model(
+                "1888787",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11610991 - Dmitri",
+                "https://styleru22.blogspot.com/",
+                "3",
+                createSecondaryUrls(
+                        "https://styleru22.blogspot.com/2018/08/zombie-boy.html",
+                        "https://styleru22.blogspot.com/2018/07/benetton.html",
+                        "https://styleru22.blogspot.com/2018/07/blog-post_19.html",
+                        "https://styleru22.blogspot.com/2018/07/blog-post_13.html",
+                        "https://styleru22.blogspot.com/2018/07/blog-post.html",
+                        "https://styleru22.blogspot.com/2018/07/12.html"
+                )
+        ));
+
+        siteModels.put("1909189", model(
+                "1909189",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11610991 - Dmitri",
+                "https://culureruse.blogspot.com/",
+                "3",
+                createSecondaryUrls(
+                )
+        ));
+
+        siteModels.put("1889142", model(
+                "1889142",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11610991 - Dmitri",
+                "https://bussinessru.blogspot.com",
+                "3",
+                createSecondaryUrls(
+                        "https://bussinessru.blogspot.com/2018/08/blog-post.html",
+                        "https://bussinessru.blogspot.com/2018/07/blog-post_78.html",
+                        "https://bussinessru.blogspot.com/2018/07/blog-post_93.html",
+                        "https://bussinessru.blogspot.com/2018/07/blog-post_84.html",
+                        "https://bussinessru.blogspot.com/2018/07/blog-post_13.html"
+                )
+        ));
+
+        siteModels.put("1889143", model(
+                "1889143",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11610991 - Dmitri",
+                "https://avtoru22.blogspot.com/",
+                "3",
+                createSecondaryUrls(
+                        "https://avtoru22.blogspot.com/2018/08/renault-logan.html",
+                        "https://avtoru22.blogspot.com/2018/07/blog-post_65.html",
+                        "https://avtoru22.blogspot.com/2018/07/blog-post_47.html",
+                        "https://avtoru22.blogspot.com/2018/07/blog-post_71.html",
+                        "https://avtoru22.blogspot.com/2018/07/blog-post_13.html",
+                        "https://avtoru22.blogspot.com/2018/07/blog-post.html"
+                )
+        ));
+
         siteModels.put("1865939", model(
                 "1865939",
                 45,
@@ -3367,6 +4002,149 @@ public class SitesStorage {
                 null
         ));
 
+        siteModels.put("1840447", model(
+                "1840447",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11452479 - Viet",
+                "http://hocpianoonline.com",
+                "7",
+                null
+        ));
+
+        siteModels.put("2032010", model(
+                "2032010",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11452479 - Viet",
+                "http://chandikhongmoi.com/",
+                "7",
+                null
+        ));
+
+        siteModels.put("1995922", model(
+                "1995922",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11452479 - Viet",
+                "http://hproducertoys.com/",
+                "7",
+                null
+        ));
+
+        siteModels.put("1999127", model(
+                "1999127",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11452479 - Viet",
+                "http://sheetnhacfree.com/",
+                "8",
+                null
+        ));
+
+        siteModels.put("1850229", model(
+                "1850229",
+                45,
+                45,
+                "0",
+                "3",
+                null,
+                "11452479 - Viet",
+                "http://hocpianoonline.com",
+                "9",
+                null
+        ));
+
+        siteModels.put("2030144", model(
+                "2030144",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11930824 - Банкир",
+                "http://yioy.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("2019266", model(
+                "2019266",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11930824 - Банкир",
+                "http://ukonik.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("2011896", model(
+                "2011896",
+                45,
+                45,
+                "1",
+                "3",
+                null,
+                "11930824 - Банкир",
+                "http://sikolil.ru/",
+                "6",
+                null
+        ));
+
+        siteModels.put("1978894", model(
+                "1978894",
+                45,
+                45,
+                "2",
+                "3",
+                null,
+                "11986296 - Михаил",
+                "http://kinorad.info/",
+                "4",
+                null
+        ));
+
+        siteModels.put("1979635", model(
+                "1979635",
+                45,
+                45,
+                "2",
+                "6",
+                null,
+                "11986296 - Михаил",
+                "http://uareads.club/",
+                "4",
+                null
+        ));
+
+        siteModels.put("2004073", model(
+                "2004073",
+                45,
+                45,
+                "1",
+                "5",
+                null,
+                "11611470 - dina02",
+                "http://stroy-kashira.info",
+                "6",
+                null
+        ));
+
 //        http://vector-remonta.ru/karta-sajta
 //        http://vash-center.ru/karta
 //        http://nauka-mastera.ru/karta
@@ -3383,6 +4161,10 @@ public class SitesStorage {
 //        http://fit-fox.ru/
 //        http://motorfly.ru/
 //        http://zonaidey.ru/sitemap
+
+//        https://setroom.ru/karta-sajta
+
+
 
 //        № 1866717: «Простые клики по сайту.»
 //        https://nasos.net.ua/

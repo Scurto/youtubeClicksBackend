@@ -742,6 +742,8 @@ public class ReklamaStorage {
                 )
         ));
 
+//        https://www.airbaltic.com/ru-UA/index
+
 
 //        reklamaModels.put("kobzov.ua", model(
 //                "http://kobzov.ua/shows/cirk-recordiv/",
