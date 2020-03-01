@@ -743,6 +743,7 @@ public class ReklamaStorage {
         ));
 
 //        https://www.airbaltic.com/ru-UA/index
+//        https://www.merx.ua
 
 
 //        reklamaModels.put("kobzov.ua", model(
